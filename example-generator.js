@@ -3,6 +3,31 @@
 
 // 导入角色数据库（如果在浏览器环境中，需要先加载 character-database.js）
 
+// 清理和提取主要释义
+function cleanMeaning(meaning) {
+    if (!meaning) return '';
+    
+    // 移除多余空格
+    let cleaned = meaning.trim();
+    
+    // 如果有分号，只取第一个释义
+    if (cleaned.includes(';')) {
+        cleaned = cleaned.split(';')[0].trim();
+    }
+    
+    // 如果有顿号，只取第一个释义
+    if (cleaned.includes('、')) {
+        cleaned = cleaned.split('、')[0].trim();
+    }
+    
+    // 如果有逗号且不是动词短语形式（如"爱，喜欢"），取第一个
+    if (cleaned.includes(',') && !cleaned.match(/^[^\s]+,\s*[^\s]+$/)) {
+        cleaned = cleaned.split(',')[0].trim();
+    }
+    
+    return cleaned;
+}
+
 // 生成肖战主题例句 - 优化版
 function generateXZExampleOptimized(word, meaning, partOfSpeech) {
     // 1. 优先使用预定义例句
@@ -10,21 +35,24 @@ function generateXZExampleOptimized(word, meaning, partOfSpeech) {
         return xzExamples[word.toLowerCase()];
     }
     
-    // 2. 判断是否为褒义词
-    const isPositive = isPositiveWord(word, meaning, partOfSpeech);
+    // 2. 清理释义，提取主要含义
+    const cleanedMeaning = cleanMeaning(meaning);
     
-    // 3. 如果是褒义词，围绕肖战本人；否则选择合适的角色
+    // 3. 判断是否为褒义词
+    const isPositive = isPositiveWord(word, cleanedMeaning, partOfSpeech);
+    
+    // 4. 如果是褒义词，围绕肖战本人；否则选择合适的角色
     let useXiaoZhan = isPositive;
     let character = null;
     
     if (!useXiaoZhan) {
-        character = findBestCharacterForWord(word, meaning, partOfSpeech);
+        character = findBestCharacterForWord(word, cleanedMeaning, partOfSpeech);
     }
     
-    // 4. 根据词性生成例句
+    // 5. 根据词性生成例句
     const pos = (partOfSpeech || '').toLowerCase();
     
-    return generateSentenceByPOS(word, meaning, pos, useXiaoZhan, character);
+    return generateSentenceByPOS(word, cleanedMeaning, pos, useXiaoZhan, character);
 }
 
 // 根据词性生成例句

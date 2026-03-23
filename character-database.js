@@ -216,7 +216,7 @@ function findBestCharacterForWord(word, meaning, partOfSpeech) {
         'detective': ['moDeXian'],
         'investigate': ['moDeXian'],
         'clue': ['moDeXian'],
-        'mystery': ['moDeXian', 'zangHai'],
+        'mystery': ['zangHai', 'moDeXian'],  // 神秘优先藏海
         
         // 间谍相关 → 任少白
         'spy': ['renShaoBai'],
