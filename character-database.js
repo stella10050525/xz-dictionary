@@ -1,5 +1,5 @@
-// 肖战角色与剧集数据库 - 基于真实剧情
-// 2026-03-23 更新:基于百度百科实际内容整理
+// 肖战角色与剧集数据库 - 基于真实剧情和人设
+// 2026-03-23 更新: 基于用户提供的准确剧情和角色信息整理
 
 const xzCharacterDatabase = {
     // 1. 《超星星学院》- 科幻校园星座
@@ -9,8 +9,9 @@ const xzCharacterDatabase = {
         drama: 'Super Star Academy',
         dramaZh: '超星星学院',
         type: 'sci-fi-school',
-        traits: ['leader', 'calm', 'loyal', 'strategic'],
-        keywords: ['society', 'president', 'leader', 'power', 'zodiac', 'academy', 'inherit', 'organization', 'secret', 'identity']
+        identity: '学生、社团会长',
+        traits: ['leader', 'cold', 'responsible', 'brave', 'loyal'],
+        keywords: ['student', 'society', 'president', 'leader', 'zodiac', 'academy', 'power', 'identity', 'secret', 'protect', 'family', 'conspiracy']
     },
     
     // 2. 《狼殿下》- 古装言情战争
@@ -20,8 +21,9 @@ const xzCharacterDatabase = {
         drama: 'The Wolf',
         dramaZh: '狼殿下',
         type: 'costume-war',
-        traits: ['rough', 'heroic', 'righteous', 'sacrificial'],
-        keywords: ['warrior', 'soldier', 'mercenary', 'bounty', 'hunter', 'justice', 'battlefield', 'honor', 'noble', 'sacrifice']
+        identity: '溍国少帅、赏金猎人',
+        traits: ['heroic', 'righteous', 'skilled', 'noble', 'sacrificial', 'independent'],
+        keywords: ['warrior', 'commander', 'mercenary', 'bounty', 'hunter', 'arrow', 'eagle', 'army', 'justice', 'honor', 'sacrifice', 'respect', 'noble', 'protect']
     },
     
     // 3. 《哦,我的皇帝陛下》- 古装奇幻喜剧
@@ -31,8 +33,9 @@ const xzCharacterDatabase = {
         drama: 'Oh! My Emperor',
         dramaZh: '哦,我的皇帝陛下',
         type: 'fantasy-comedy',
-        traits: ['cold', 'mysterious', 'elegant', 'gentle'],
-        keywords: ['prophet', 'prediction', 'foresee', 'mysterious', 'elegant', 'zodiac', 'guardian']
+        identity: '王爷、水瓶星主',
+        traits: ['gentle', 'strategic', 'devoted', 'protective'],
+        keywords: ['prince', 'guardian', 'zodiac', 'protect', 'gentle', 'strategic', 'devoted', 'loyal']
     },
     
     // 4. 《陈情令》- 古装仙侠(代表作)
@@ -42,8 +45,9 @@ const xzCharacterDatabase = {
         drama: 'The Untamed',
         dramaZh: '陈情令',
         type: 'xianxia',
-        traits: ['free-spirited', 'righteous', 'clever', 'loyal'],
-        keywords: ['cultivation', 'sword', 'justice', 'friendship', 'sacrifice', 'rebirth', 'demonic', 'martial', 'righteous', 'misunderstood']
+        identity: '修仙者、夷陵老祖',
+        traits: ['free-spirited', 'righteous', 'loyal', 'brave', 'misunderstood'],
+        keywords: ['cultivation', 'immortal', 'sword', 'flute', 'justice', 'friendship', 'sacrifice', 'rebirth', 'misunderstood', 'righteous', 'principle', 'protect']
     },
     
     // 5. 《斗罗大陆》- 动画配音
@@ -53,19 +57,21 @@ const xzCharacterDatabase = {
         drama: 'Douluo Continent',
         dramaZh: '斗罗大陆',
         type: 'animation',
-        traits: ['talented', 'diligent', 'strategic', 'determined'],
-        keywords: ['soul', 'spirit', 'power', 'train', 'practice', 'technique', 'master', 'growth', 'breakthrough', 'battle']
+        identity: '魂师',
+        traits: ['resilient', 'clever', 'loyal', 'determined', 'talented'],
+        keywords: ['soul', 'spirit', 'power', 'train', 'practice', 'technique', 'battle', 'growth', 'martial', 'family', 'promise', 'justice']
     },
     
-    // 6. 《余生请多指教》- 现代都市医疗爱情
+    // 6. 《余生,请多指教》- 现代都市医疗爱情
     guWei: {
         name: 'Gu Wei',
         zh: '顾魏',
         drama: 'The Oath of Love',
-        dramaZh: '余生请多指教',
+        dramaZh: '余生,请多指教',
         type: 'modern-medical',
-        traits: ['gentle', 'professional', 'caring', 'dedicated'],
-        keywords: ['doctor', 'surgeon', 'hospital', 'patient', 'heal', 'medical', 'care', 'surgery', 'treatment', 'diagnosis', 'compassion']
+        identity: '外科医生',
+        traits: ['cold', 'professional', 'gentle', 'dedicated', 'caring'],
+        keywords: ['doctor', 'surgeon', 'hospital', 'patient', 'heal', 'medical', 'surgery', 'operation', 'treatment', 'diagnosis', 'care', 'professional', 'cold', 'gentle']
     },
     
     // 7. 《王牌部队》- 现代军旅
@@ -75,8 +81,9 @@ const xzCharacterDatabase = {
         drama: 'Ace Troops',
         dramaZh: '王牌部队',
         type: 'military',
-        traits: ['disciplined', 'strong', 'brave', 'patriotic'],
-        keywords: ['soldier', 'army', 'military', 'troop', 'training', 'mission', 'combat', 'duty', 'sacrifice', 'command', 'battle']
+        identity: '军人',
+        traits: ['proud', 'ambitious', 'skilled', 'loyal', 'responsible'],
+        keywords: ['soldier', 'army', 'military', 'training', 'battle', 'combat', 'mission', 'duty', 'honor', 'discipline', 'comrade', 'proud', 'noble']
     },
     
     // 8. 《玉骨遥》- 古装仙侠虐恋
@@ -86,8 +93,9 @@ const xzCharacterDatabase = {
         drama: 'The Longest Promise',
         dramaZh: '玉骨遥',
         type: 'xianxia-tragic',
-        traits: ['powerful', 'mysterious', 'tragic', 'complex'],
-        keywords: ['prince', 'demon', 'immortal', 'fate', 'curse', 'tragic', 'destiny', 'sacrifice', 'magic', 'dark']
+        identity: '空桑皇太子',
+        traits: ['cold', 'restrained', 'responsible', 'devoted', 'tragic'],
+        keywords: ['prince', 'cold', 'lonely', 'duty', 'sacrifice', 'fate', 'curse', 'tragic', 'protect', 'nation', 'restrain', 'magic']
     },
     
     // 9. 《如梦之梦》- 话剧
@@ -97,8 +105,9 @@ const xzCharacterDatabase = {
         drama: 'A Dream Like A Dream',
         dramaZh: '如梦之梦',
         type: 'stage-play',
-        traits: ['philosophical', 'reflective', 'complex', 'mysterious'],
-        keywords: ['patient', 'dream', 'memory', 'life', 'death', 'meaning', 'identity', 'search', 'past', 'story']
+        identity: '病人',
+        traits: ['lonely', 'sensitive', 'searching', 'gentle', 'suffering'],
+        keywords: ['patient', 'disease', 'lonely', 'search', 'travel', 'pain', 'loss', 'memory', 'truth', 'meaning', 'life', 'death']
     },
     
     // 10. 《梦中的那片海》- 年代励志
@@ -108,8 +117,9 @@ const xzCharacterDatabase = {
         drama: 'The Ocean of Dreams',
         dramaZh: '梦中的那片海',
         type: 'period-inspirational',
-        traits: ['passionate', 'ambitious', 'brave', 'loyal'],
-        keywords: ['entrepreneur', 'business', 'dream', 'struggle', 'era', 'reform', 'opportunity', 'challenge', 'growth', 'success']
+        identity: '大院子弟、军人、企业家',
+        traits: ['clever', 'brave', 'loyal', 'responsible', 'charismatic'],
+        keywords: ['soldier', 'entrepreneur', 'business', 'loyalty', 'brotherhood', 'era', 'reform', 'dream', 'struggle', 'integrity', 'responsibility']
     },
     
     // 11. 《骄阳伴我》- 现代都市职场
@@ -119,8 +129,9 @@ const xzCharacterDatabase = {
         drama: 'The Sun Accompanies Me',
         dramaZh: '骄阳伴我',
         type: 'modern-urban',
-        traits: ['talented', 'creative', 'warm', 'professional'],
-        keywords: ['architect', 'designer', 'design', 'building', 'create', 'project', 'aesthetic', 'vision', 'art', 'blueprint', 'plan']
+        identity: '设计师',
+        traits: ['sunny', 'positive', 'hardworking', 'sincere', 'warm'],
+        keywords: ['designer', 'design', 'architecture', 'building', 'create', 'project', 'rookie', 'growth', 'dream', 'sincere', 'warm', 'heal']
     },
     
     // 12. 《射雕英雄传》- 武侠经典
@@ -130,30 +141,33 @@ const xzCharacterDatabase = {
         drama: 'The Legend of the Condor Heroes',
         dramaZh: '射雕英雄传',
         type: 'wuxia',
-        traits: ['honest', 'loyal', 'diligent', 'righteous'],
-        keywords: ['hero', 'martial', 'arts', 'practice', 'kungfu', 'training', 'master', 'honor', 'justice', 'righteous', 'perseverance', 'diligent']
+        identity: '大侠',
+        traits: ['honest', 'loyal', 'diligent', 'righteous', 'patriotic'],
+        keywords: ['hero', 'martial', 'arts', 'practice', 'diligent', 'honest', 'loyal', 'righteous', 'nation', 'protect', 'kungfu', 'perseverance', 'simple']
     },
     
-    // 13. 《藏海传》- 悬疑探险
+    // 13. 《藏海传》- 古装权谋悬疑
     zangHai: {
         name: 'Zang Hai',
         zh: '藏海',
         drama: 'The Hidden Sea',
         dramaZh: '藏海传',
-        type: 'mystery-adventure',
-        traits: ['clever', 'brave', 'mysterious', 'resourceful'],
-        keywords: ['adventurer', 'explorer', 'mystery', 'secret', 'treasure', 'ancient', 'puzzle', 'discover', 'danger', 'expedition', 'riddle', 'tomb']
+        type: 'intrigue-suspense',
+        identity: '钦天监监正、幕僚',
+        traits: ['clever', 'strategic', 'patient', 'loyal', 'cute'],
+        keywords: ['adviser', 'strategist', 'revenge', 'intrigue', 'clever', 'patient', 'hidden', 'secret', 'tunnel', 'plan', 'justice', 'protect']
     },
     
-    // 14. 《得闲谨制》- 古装美食治愈
+    // 14. 《得闲谨制》- 抗战历史
     moDeXian: {
         name: 'Mo Dexian',
         zh: '莫得闲',
-        drama: 'Chef Mo',
+        drama: 'Defend the Town',
         dramaZh: '得闲谨制',
-        type: 'costume-food', // 不是侦探!是厨师!
-        traits: ['skillful', 'creative', 'dedicated', 'meticulous'],
-        keywords: ['chef', 'cook', 'cuisine', 'food', 'dish', 'recipe', 'ingredient', 'palace', 'imperial', 'culinary', 'delicacy', 'taste', 'nutrition']
+        type: 'war-history',
+        identity: '钳工、普通百姓',
+        traits: ['honest', 'brave', 'responsible', 'simple', 'heroic'],
+        keywords: ['worker', 'ordinary', 'brave', 'protect', 'family', 'town', 'war', 'resist', 'hero', 'simple', 'wisdom', 'courage']
     },
     
     // 15. 《谍报上不封顶》- 谍战悬疑
@@ -163,19 +177,21 @@ const xzCharacterDatabase = {
         drama: 'Spy No Limit',
         dramaZh: '谍报上不封顶',
         type: 'spy',
-        traits: ['intelligent', 'cautious', 'brave', 'loyal'],
-        keywords: ['spy', 'agent', 'secret', 'undercover', 'mission', 'intelligence', 'code', 'infiltrate', 'enemy', 'war', 'danger', 'disguise']
+        identity: '地下党员、情报人员',
+        traits: ['calm', 'clever', 'patient', 'loyal', 'brave'],
+        keywords: ['spy', 'agent', 'undercover', 'secret', 'intelligence', 'mission', 'danger', 'disguise', 'faith', 'loyal', 'clever', 'patient']
     },
     
-    // 16. 《小城良方》- 现代医疗温情
+    // 16. 《小城良方》- 现代医疗
     liuZhengLiang: {
         name: 'Liu Zhengliang',
         zh: '刘铮亮',
         drama: 'Small City Remedy',
         dramaZh: '小城良方',
         type: 'modern-medical',
-        traits: ['compassionate', 'skilled', 'humble', 'dedicated'],
-        keywords: ['doctor', 'physician', 'clinic', 'community', 'patient', 'treatment', 'diagnose', 'heal', 'medicine', 'care', 'grassroots', 'local']
+        identity: '基层医生',
+        traits: ['talented', 'resilient', 'warm', 'dedicated', 'humorous'],
+        keywords: ['doctor', 'physician', 'genius', 'grassroots', 'community', 'clinic', 'patient', 'heal', 'treatment', 'warm', 'humor', 'life', 'death']
     }
 };
 
@@ -184,97 +200,108 @@ function findBestCharacterForWord(word, meaning, partOfSpeech) {
     const wordLower = word.toLowerCase();
     const meaningLower = meaning.toLowerCase();
     
-    // 特殊匹配规则 - 基于真实剧情
+    // 特殊匹配规则 - 基于真实人设和剧情
     const specialMatches = {
-        // 医疗相关 → 顾魏(外科医生)或刘铮亮(基层医生)
+        // 医疗相关
         'doctor': ['guWei', 'liuZhengLiang'],
         'surgeon': ['guWei'],
+        'physician': ['liuZhengLiang'],
         'hospital': ['guWei'],
-        'patient': ['guWei', 'liuZhengLiang'],
-        'heal': ['guWei', 'liuZhengLiang'],
-        'medical': ['guWei'],
         'clinic': ['liuZhengLiang'],
+        'patient': ['guWei', 'liuZhengLiang', 'patient5'],
+        'heal': ['guWei', 'liuZhengLiang'],
         'surgery': ['guWei'],
         'treatment': ['guWei', 'liuZhengLiang'],
+        'medical': ['guWei', 'liuZhengLiang'],
+        'genius': ['liuZhengLiang'],
+        'grassroots': ['liuZhengLiang'],
         
-        // 设计/建筑相关 → 盛阳(建筑设计师)
+        // 设计/建筑相关
         'design': ['shengYang'],
         'designer': ['shengYang'],
         'architect': ['shengYang'],
         'building': ['shengYang'],
-        'aesthetic': ['shengYang'],
-        'blueprint': ['shengYang'],
+        'create': ['shengYang'],
+        'rookie': ['shengYang'],
         
-        // 武术/练习相关 → 郭靖(勤学苦练)、魏无羡(剑术)
+        // 武术/练习相关
         'practice': ['guoJing', 'tangSan'],
         'martial': ['guoJing'],
         'kungfu': ['guoJing'],
-        'sword': ['weiWuxian', 'guoJing'],
-        'training': ['guoJing', 'guYiye'],
         'diligent': ['guoJing'],
+        'perseverance': ['guoJing'],
+        'honest': ['guoJing', 'moDeXian'],
         
-        // 军事相关 → 顾一野(军人)、疾冲(战士)
-        'soldier': ['guYiye', 'jiChong'],
-        'army': ['guYiye'],
+        // 军事/战斗相关
+        'soldier': ['guYiye', 'xiaoChunSheng', 'jiChong'],
+        'army': ['guYiye', 'jiChong'],
         'military': ['guYiye'],
-        'troop': ['guYiye'],
-        'battle': ['guYiye', 'jiChong'],
         'combat': ['guYiye'],
-        'warrior': ['jiChong'],
+        'commander': ['jiChong'],
+        'arrow': ['jiChong'],
+        'eagle': ['jiChong'],
         
-        // 美食/烹饪相关 → 莫得闲(御膳总管/厨师)
-        'chef': ['moDeXian'],
-        'cook': ['moDeXian'],
-        'cuisine': ['moDeXian'],
-        'food': ['moDeXian'],
-        'dish': ['moDeXian'],
-        'recipe': ['moDeXian'],
-        'culinary': ['moDeXian'],
-        
-        // 间谍相关 → 任少白(地下工作者)
+        // 间谍/情报相关
         'spy': ['renShaoBai'],
         'agent': ['renShaoBai'],
         'undercover': ['renShaoBai'],
         'intelligence': ['renShaoBai'],
-        'infiltrate': ['renShaoBai'],
+        'secret': ['renShaoBai', 'zangHai'],
         
-        // 探险/神秘相关 → 藏海(探险家)优先
-        'adventure': ['zangHai'],
-        'explorer': ['zangHai'],
-        'treasure': ['zangHai'],
-        'mystery': ['zangHai'],  // 修正:优先藏海而非莫得闲
-        'secret': ['zangHai', 'renShaoBai'],
-        'tomb': ['zangHai'],
-        'ancient': ['zangHai'],
+        // 权谋/策略相关
+        'strategist': ['zangHai', 'beiTangMoRan'],
+        'adviser': ['zangHai'],
+        'clever': ['zangHai', 'renShaoBai', 'weiWuxian'],
+        'intrigue': ['zangHai'],
+        'revenge': ['zangHai'],
+        'tunnel': ['zangHai'], // 藏海爱挖地道!
         
-        // 商业/创业相关 → 肖春生(创业者)
+        // 商业/创业相关
         'business': ['xiaoChunSheng'],
         'entrepreneur': ['xiaoChunSheng'],
-        'opportunity': ['xiaoChunSheng'],
-        'success': ['xiaoChunSheng'],
+        'integrity': ['xiaoChunSheng'],
+        'brotherhood': ['xiaoChunSheng'],
         
-        // 魂力/修炼相关 → 唐三、魏无羡
+        // 修仙/仙侠相关
+        'cultivation': ['weiWuxian'],
+        'immortal': ['weiWuxian', 'shiYing'],
+        'sword': ['weiWuxian', 'guoJing'],
+        'flute': ['weiWuxian'],
+        
+        // 魂力/修炼相关
         'soul': ['tangSan'],
         'spirit': ['tangSan'],
-        'cultivation': ['weiWuxian'],
-        'immortal': ['shiYing', 'weiWuxian'],
         
-        // 领导/组织相关 → 方天择(会长)
-        'leader': ['fangTianZe'],
-        'president': ['fangTianZe'],
-        'organization': ['fangTianZe'],
+        // 学生/校园相关
+        'student': ['fangTianZe'],
+        'academy': ['fangTianZe'],
         'society': ['fangTianZe'],
+        'president': ['fangTianZe'],
+        'zodiac': ['fangTianZe', 'beiTangMoRan'],
         
-        // 命运/悲剧相关 → 时影(魔神)
-        'fate': ['shiYing'],
-        'curse': ['shiYing'],
-        'tragic': ['shiYing'],
-        'destiny': ['shiYing'],
+        // 王子/贵族相关
+        'prince': ['shiYing', 'beiTangMoRan'],
+        'noble': ['guYiye', 'jiChong'],
         
-        // 哲学/梦境相关 → 五号病人
-        'dream': ['patient5', 'xiaoChunSheng'],
-        'memory': ['patient5'],
-        'philosophical': ['patient5']
+        // 战争/抗战相关
+        'war': ['moDeXian', 'jiChong'],
+        'resist': ['moDeXian'],
+        'protect': ['moDeXian', 'shiYing', 'weiWuxian'],
+        
+        // 普通人/英雄相关
+        'ordinary': ['moDeXian'],
+        'worker': ['moDeXian'],
+        'hero': ['guoJing', 'moDeXian'],
+        
+        // 病人/疾病相关
+        'disease': ['patient5'],
+        'lonely': ['patient5', 'shiYing'],
+        'search': ['patient5'],
+        
+        // 成长/梦想相关
+        'growth': ['shengYang', 'tangSan'],
+        'dream': ['shengYang', 'xiaoChunSheng'],
+        'warm': ['shengYang', 'liuZhengLiang']
     };
     
     // 检查特殊匹配
@@ -319,12 +346,11 @@ function isPositiveWord(word, meaning, partOfSpeech) {
         // 成就
         'successful', 'remarkable', 'impressive', 'amazing', 'incredible', 'wonderful',
         'perfect', 'popular', 'famous', 'influential',
-        // 中文褒义词标记
+        // 中文褒义词
         '优秀', '出色', '杰出', '卓越', '完美', '精彩', '美好', '善良', '真诚', '勤奋',
         '努力', '帅气', '英俊', '迷人', '优雅', '才华', '天赋', '专业', '敬业'
     ];
     
-    // 检查单词或释义是否包含褒义词
     return positiveKeywords.some(keyword => 
         wordLower.includes(keyword) || 
         meaningLower.includes(keyword) ||
@@ -332,7 +358,7 @@ function isPositiveWord(word, meaning, partOfSpeech) {
     );
 }
 
-// 导出供其他文件使用
+// 导出
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
         xzCharacterDatabase,
