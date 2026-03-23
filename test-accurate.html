@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>例句生成测试 - 真实剧情版</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 1400px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 4px solid #e60026;
+            border-radius: 4px;
+        }
+        .word-info {
+            font-weight: bold;
+            color: #e60026;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .sentence {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        .en {
+            color: #333;
+            font-style: italic;
+        }
+        .zh {
+            color: #666;
+        }
+        .meta {
+            font-size: 0.85em;
+            color: #999;
+            margin-top: 5px;
+        }
+        .character-tag {
+            display: inline-block;
+            background: #e60026;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            margin-left: 5px;
+        }
+        button {
+            background: #e60026;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            margin: 5px;
+        }
+        button:hover {
+            background: #cc0022;
+        }
+        h1, h2 {
+            color: #e60026;
+        }
+        .pass {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .fail {
+            color: #dc3545;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 例句生成逻辑测试 - 真实剧情版</h1>
+    
+    <div class="test-section">
+        <h2>📊 关键测试用例</h2>
+        <button onclick="testKeyWords()">测试关键词匹配</button>
+        <button onclick="testAllWords()">运行全部测试</button>
+        <button onclick="clearResults()">清空结果</button>
+    </div>
+    
+    <div class="test-section" id="results">
+        <h2>📝 测试结果</h2>
+        <div id="resultsContainer">点击上方按钮开始测试...</div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="character-database.js"></script>
+    <script src="example-generator.js"></script>
+    
+    <script>
+        // 关键测试用例
+        const keyTestWords = [
+            // 医疗相关
+            { word: 'doctor', meaning: '医生', pos: 'n.', expected: ['顾魏', '刘铮亮'] },
+            { word: 'hospital', meaning: '医院', pos: 'n.', expected: ['顾魏'] },
+            { word: 'surgery', meaning: '手术', pos: 'n.', expected: ['顾魏'] },
+            { word: 'genius', meaning: '天才', pos: 'n.', expected: ['刘铮亮'] },
+            
+            // 设计相关
+            { word: 'design', meaning: '设计', pos: 'v.', expected: ['盛阳'] },
+            { word: 'architect', meaning: '建筑师', pos: 'n.', expected: ['盛阳'] },
+            
+            // 武术/练习
+            { word: 'practice', meaning: '练习', pos: 'v.', expected: ['郭靖', '唐三'] },
+            { word: 'martial', meaning: '武术的', pos: 'adj.', expected: ['郭靖'] },
+            { word: 'diligent', meaning: '勤奋的', pos: 'adj.', expected: ['郭靖'] },
+            
+            // 军事相关
+            { word: 'soldier', meaning: '士兵', pos: 'n.', expected: ['顾一野', '肖春生', '疾冲'] },
+            { word: 'arrow', meaning: '箭', pos: 'n.', expected: ['疾冲'] },
+            
+            // 特殊关键词
+            { word: 'tunnel', meaning: '地道;隧道', pos: 'n.', expected: ['藏海'] },
+            { word: 'clever', meaning: '聪明的', pos: 'adj.', expected: ['藏海', '任少白', '魏无羡'] },
+            { word: 'spy', meaning: '间谍', pos: 'n.', expected: ['任少白'] },
+            
+            // 抗战相关
+            { word: 'resist', meaning: '抵抗', pos: 'v.', expected: ['莫得闲'] },
+            { word: 'ordinary', meaning: '普通的', pos: 'adj.', expected: ['莫得闲'] },
+            
+            // 修仙相关
+            { word: 'cultivation', meaning: '修炼', pos: 'n.', expected: ['魏无羡'] },
+            { word: 'sword', meaning: '剑', pos: 'n.', expected: ['魏无羡', '郭靖'] },
+            
+            // 褒义词(应该用肖战本人)
+            { word: 'handsome', meaning: '英俊的', pos: 'adj.', expected: ['肖战'] },
+            { word: 'talented', meaning: '有才华的', pos: 'adj.', expected: ['肖战'] }
+        ];
+        
+        function clearResults() {
+            document.getElementById('resultsContainer').innerHTML = '点击上方按钮开始测试...';
+        }
+        
+        function testKeyWords() {
+            let html = '<h3>🔑 关键词匹配测试</h3>';
+            let passCount = 0;
+            let failCount = 0;
+            
+            keyTestWords.forEach(item => {
+                const isPos = isPositiveWord(item.word, item.meaning, item.pos);
+                let character = null;
+                let actualName = '';
+                
+                if (isPos) {
+                    actualName = '肖战';
+                } else {
+                    character = findBestCharacterForWord(item.word, item.meaning, item.pos);
+                    actualName = character.zh;
+                }
+                
+                const example = generateXZExample(item.word, item.meaning, item.pos);
+                const isExpected = item.expected.includes(actualName);
+                
+                if (isExpected) {
+                    passCount++;
+                } else {
+                    failCount++;
+                }
+                
+                html += `
+                    <div class="test-item">
+                        <div class="word-info">
+                            ${item.word} (${item.meaning}) - ${item.pos}
+                            <span class="character-tag">${actualName}</span>
+                            <span class="${isExpected ? 'pass' : 'fail'}">${isExpected ? '✓ 通过' : '✗ 失败'}</span>
+                        </div>
+                        <div class="sentence en">🇬🇧 ${example.en}</div>
+                        <div class="sentence zh">🇨🇳 ${example.zh}</div>
+                        <div class="meta">
+                            期望角色: ${item.expected.join(' 或 ')} | 
+                            实际角色: ${actualName} |
+                            难度: ${estimateDifficulty(item.word, item.meaning)}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html = `
+                <div style="background: #e8f5e9; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <strong>测试统计:</strong> 
+                    <span class="pass">通过 ${passCount}</span> / 
+                    <span class="fail">失败 ${failCount}</span> / 
+                    总计 ${passCount + failCount}
+                </div>
+            ` + html;
+            
+            document.getElementById('resultsContainer').innerHTML = html;
+        }
+        
+        function testAllWords() {
+            let html = '<h3>🔬 完整测试</h3>';
+            
+            // 分类测试
+            const categories = {
+                '褒义词(应围绕肖战本人)': [
+                    { word: 'handsome', meaning: '英俊的', pos: 'adj.' },
+                    { word: 'talented', meaning: '有才华的', pos: 'adj.' },
+                    { word: 'dedicated', meaning: '专注的', pos: 'adj.' }
+                ],
+                '医疗词汇': [
+                    { word: 'doctor', meaning: '医生', pos: 'n.' },
+                    { word: 'surgery', meaning: '手术', pos: 'n.' },
+                    { word: 'patient', meaning: '病人', pos: 'n.' }
+                ],
+                '特殊关键词': [
+                    { word: 'tunnel', meaning: '地道', pos: 'n.' },
+                    { word: 'arrow', meaning: '箭', pos: 'n.' },
+                    { word: 'eagle', meaning: '鹰', pos: 'n.' }
+                ]
+            };
+            
+            for (const [category, words] of Object.entries(categories)) {
+                html += `<h4 style="color: #e60026; margin-top: 30px;">${category}</h4>`;
+                
+                words.forEach(item => {
+                    const isPos = isPositiveWord(item.word, item.meaning, item.pos);
+                    let character = null;
+                    let actualName = '';
+                    
+                    if (isPos) {
+                        actualName = '肖战本人';
+                    } else {
+                        character = findBestCharacterForWord(item.word, item.meaning, item.pos);
+                        actualName = `${character.zh}(《${character.dramaZh}》)`;
+                    }
+                    
+                    const example = generateXZExample(item.word, item.meaning, item.pos);
+                    
+                    html += `
+                        <div class="test-item">
+                            <div class="word-info">
+                                ${item.word} (${item.meaning}) - ${item.pos}
+                                <span class="character-tag">${actualName}</span>
+                            </div>
+                            <div class="sentence en">🇬🇧 ${example.en}</div>
+                            <div class="sentence zh">🇨🇳 ${example.zh}</div>
+                            <div class="meta">难度: ${estimateDifficulty(item.word, item.meaning)}</div>
+                        </div>
+                    `;
+                });
+            }
+            
+            document.getElementById('resultsContainer').innerHTML = html;
+        }
+        
+        // 页面加载时显示说明
+        window.onload = function() {
+            document.getElementById('resultsContainer').innerHTML = `
+                <div style="padding: 20px; text-align: center; color: #666;">
+                    <p>👆 点击上方按钮开始测试</p>
+                    <p style="margin-top: 15px; font-size: 0.9em;">
+                        <strong>本次测试重点:</strong><br>
+                        ✅ 关键词是否匹配到正确角色<br>
+                        ✅ 释义清理是否正常(无分号)<br>
+                        ✅ 特殊关键词(tunnel→藏海, arrow→疾冲)<br>
+                        ✅ 褒义词是否围绕肖战本人
+                    </p>
+                </div>
+            `;
+        };
+    </script>
+</body>
+</html>
