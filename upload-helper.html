@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片上传助手 - Ambassador</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #E63946;
+            margin-top: 0;
+        }
+        .file-input-area {
+            border: 3px dashed #E63946;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 20px 0;
+            cursor: pointer;
+            background: #FFF5F6;
+        }
+        .file-input-area:hover {
+            background: #FFE5E8;
+        }
+        input[type="file"] {
+            display: none;
+        }
+        button {
+            background: #E63946;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #C1121F;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .preview {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .preview img {
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .info {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📷 图片上传助手</h1>
+        <p>自动将图片转换为 JPG 并上传到 ambassador 单词</p>
+
+        <div class="file-input-area" onclick="document.getElementById('fileInput').click()">
+            <p style="font-size: 48px; margin: 0;">📁</p>
+            <p>点击选择图片文件</p>
+            <p style="font-size: 12px; color: #666;">支持 JPG, PNG, HEIF, WEBP 等格式</p>
+        </div>
+
+        <input type="file" id="fileInput" accept="image/*">
+
+        <div id="preview" class="preview" style="display: none;">
+            <h3>预览:</h3>
+            <img id="previewImage" src="">
+            <div id="fileInfo" class="info"></div>
+        </div>
+
+        <button id="uploadBtn" style="display: none;" onclick="uploadToAmbassador()">
+            ✅ 上传到 ambassador
+        </button>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        let convertedImageData = null;
+
+        document.getElementById('fileInput').onchange = function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                // 创建临时图片来读取原始图片
+                const img = new Image();
+                img.onload = function() {
+                    // 计算压缩尺寸（最大800px）
+                    let width = img.width;
+                    let height = img.height;
+                    const maxSize = 800;
+
+                    if (width > maxSize || height > maxSize) {
+                        if (width > height) {
+                            height = (height / width) * maxSize;
+                            width = maxSize;
+                        } else {
+                            width = (width / height) * maxSize;
+                            height = maxSize;
+                        }
+                    }
+
+                    // 创建canvas转换为JPG
+                    const canvas = document.createElement('canvas');
+                    canvas.width = width;
+                    canvas.height = height;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0, width, height);
+
+                    // 转换为JPG (质量85%)
+                    convertedImageData = canvas.toDataURL('image/jpeg', 0.85);
+
+                    // 显示预览
+                    document.getElementById('previewImage').src = convertedImageData;
+                    document.getElementById('preview').style.display = 'block';
+                    document.getElementById('uploadBtn').style.display = 'block';
+
+                    // 显示文件信息
+                    const originalSize = (file.size / 1024).toFixed(2);
+                    const convertedSize = (convertedImageData.length / 1024).toFixed(2);
+                    document.getElementById('fileInfo').innerHTML = `
+                        <strong>原始文件:</strong> ${file.name} (${originalSize} KB)<br>
+                        <strong>转换后:</strong> JPG 格式, ${width}x${height}px (${convertedSize} KB)
+                    `;
+                };
+                img.src = event.target.result;
+            };
+            reader.readAsDataURL(file);
+        };
+
+        function uploadToAmbassador() {
+            if (!convertedImageData) {
+                alert('请先选择图片！');
+                return;
+            }
+
+            const resultDiv = document.getElementById('result');
+            const uploadBtn = document.getElementById('uploadBtn');
+
+            uploadBtn.disabled = true;
+            uploadBtn.textContent = '正在上传...';
+
+            try {
+                // 获取现有的图片数据
+                const customImages = JSON.parse(localStorage.getItem('xz_word_images') || '{}');
+
+                // 保存到 ambassador
+                customImages.ambassador = [{
+                    data: convertedImageData,
+                    name: 'ambassador.jpg',
+                    uploadTime: Date.now()
+                }];
+
+                // 检查存储大小
+                const dataStr = JSON.stringify(customImages);
+                const estimatedSize = new Blob([dataStr]).size;
+                const sizeMB = (estimatedSize / (1024 * 1024)).toFixed(2);
+
+                if (estimatedSize > 4.5 * 1024 * 1024) {
+                    resultDiv.innerHTML = `<div class="error">
+                        ⚠️ localStorage 容量不足！<br>
+                        当前需要: ${sizeMB} MB / 5 MB<br><br>
+                        建议删除一些旧图片后再试
+                    </div>`;
+                    uploadBtn.disabled = false;
+                    uploadBtn.textContent = '✅ 上传到 ambassador';
+                    return;
+                }
+
+                // 保存到 localStorage
+                localStorage.setItem('xz_word_images', dataStr);
+
+                resultDiv.innerHTML = `<div class="success">
+                    ✅ 图片上传成功！<br>
+                    存储使用: ${sizeMB} MB / 5 MB<br><br>
+                    现在可以在词典中查询 <strong>ambassador</strong> 查看图片了！
+                </div>`;
+
+                uploadBtn.disabled = false;
+                uploadBtn.textContent = '✅ 重新上传';
+
+            } catch (error) {
+                console.error('上传失败:', error);
+                resultDiv.innerHTML = `<div class="error">
+                    ❌ 上传失败！<br>
+                    错误: ${error.message}<br><br>
+                    可能是 localStorage 已满，请尝试删除一些旧图片
+                </div>`;
+                uploadBtn.disabled = false;
+                uploadBtn.textContent = '✅ 上传到 ambassador';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XZ dictionary🦐小飞侠专属词典✨Lobster AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <div class="logo">
+                <span class="logo-icon">🐰</span>
+                <h1>XZ Dictionary 小飞侠专属词典</h1>
+            </div>
+            <div class="mascots">
+                <span class="mascot">🦐</span>
+                <span class="mascot">🐕</span>
+                <span class="mascot">🐱</span>
+            </div>
+        </header>
+
+        <!-- 搜索栏 -->
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="输入英文单词或中文词汇查询..." />
+                <button id="searchBtn" class="btn-primary">
+                    🔍 查询
+                </button>
+            </div>
+        </div>
+
+        <!-- 导航标签 -->
+        <nav class="tabs">
+            <button class="tab active" data-tab="search">📖 查词</button>
+            <button class="tab" data-tab="hotwords">🔥 热词推送</button>
+            <button class="tab" data-tab="wordbook">📚 备考词书</button>
+            <button class="tab" data-tab="vocabulary">⭐ 生词本</button>
+            <button class="tab" data-tab="custom">➕ 自定义</button>
+        </nav>
+
+        <!-- 内容区域 -->
+        <main class="content">
+            <!-- 查词页面 -->
+            <div id="searchTab" class="tab-content active">
+                <div id="resultArea" class="result-area">
+                    <div class="welcome-message">
+                        <h2>👋 欢迎使用 XZ Dictionary</h2>
+                        <p class="subtitle">🦐 小飞侠专属词典 ✨ Powered by Lobster AI</p>
+                        <p>支持英译汉、汉译英双向查询</p>
+                        <p>输入单词或中文开始查询，为你定制的肖战主题例句等你来发现～</p>
+                        <div class="welcome-icons">
+                            <span class="large-icon">🦐</span>
+                            <span class="large-icon">📚</span>
+                            <span class="large-icon">✨</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 热词推送页面 -->
+            <div id="hotwordsTab" class="tab-content">
+                <div class="hotwords-section">
+                    <h2>🔥 本周热词推送</h2>
+                    <div id="hotwordsList" class="hotwords-list">
+                        <!-- 动态加载 -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- 备考词书页面 -->
+            <div id="wordbookTab" class="tab-content">
+                <div class="wordbook-section">
+                    <h2>📚 备考词书管理</h2>
+                    
+                    <!-- 词书列表 -->
+                    <div class="wordbook-list-section">
+                        <div class="wordbook-header">
+                            <h3>我的词书</h3>
+                            <div class="wordbook-header-actions">
+                                <button id="downloadTemplateBtn" class="btn-secondary">
+                                    📥 下载Excel模板
+                                </button>
+                                <button id="uploadWordbookBtn" class="btn-primary">
+                                    📤 上传词书
+                                </button>
+                            </div>
+                        </div>
+                        <div id="wordbookList" class="wordbook-list">
+                            <!-- 动态加载 -->
+                        </div>
+                    </div>
+
+                    <!-- 词书详情 -->
+                    <div id="wordbookDetail" class="wordbook-detail" style="display: none;">
+                        <div class="wordbook-detail-header">
+                            <button id="backToListBtn" class="btn-secondary">← 返回词书列表</button>
+                            <h3 id="wordbookTitle"></h3>
+                            <div class="wordbook-progress">
+                                <span>学习进度: <strong id="learnedCount">0</strong> / <strong id="totalCount">0</strong></span>
+                            </div>
+                        </div>
+                        <div id="wordbookWords" class="wordbook-words">
+                            <!-- 动态加载单词列表 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 生词本页面 -->
+            <div id="vocabularyTab" class="tab-content">
+                <div class="vocabulary-section">
+                    <h2>⭐ 我的生词本</h2>
+                    <div class="vocabulary-stats">
+                        <span>已收藏: <strong id="vocabCount">0</strong> 个单词</span>
+                        <button id="clearVocabBtn" class="btn-secondary">清空生词本</button>
+                    </div>
+                    <div id="vocabularyList" class="vocabulary-list">
+                        <!-- 动态加载 -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- 自定义页面 -->
+            <div id="customTab" class="tab-content">
+                <div class="custom-section">
+                    <h2>➕ 添加自定义词汇</h2>
+                    <form id="customWordForm" class="custom-form">
+                        <div class="form-group">
+                            <label>英文单词 *</label>
+                            <input type="text" id="customWord" placeholder="例如：handsome" required />
+                        </div>
+                        <div class="form-group">
+                            <label>中文释义 *</label>
+                            <input type="text" id="customMeaning" placeholder="例如：英俊的" required />
+                        </div>
+                        <div class="form-group">
+                            <label>音标（可选）</label>
+                            <input type="text" id="customPhonetic" placeholder="例如：/ˈhænsəm/" />
+                        </div>
+                        <div class="form-group">
+                            <label>自定义例句（英文）*</label>
+                            <textarea id="customExampleEn" placeholder="Xiao Zhan is the most handsome actor." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>例句翻译（中文）*</label>
+                            <textarea id="customExampleZh" placeholder="肖战是最帅的演员。" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>图片链接（可选）</label>
+                            <input type="text" id="customImage" placeholder="https://..." />
+                        </div>
+                        <button type="submit" class="btn-primary">💾 保存自定义词汇</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>Made with ❤️ for 小飞侠 | 🦐 XZ Dictionary ✨ Lobster AI</p>
+        </footer>
+    </div>
+
+    <script src="db.js"></script>
+    <script src="data.js"></script>
+    <script src="wordbook.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
