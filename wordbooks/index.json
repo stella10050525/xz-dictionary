@@ -2,28 +2,16 @@
   "version": "1.0.0",
   "wordbooks": [
     {
-      "id": "kaoyan-core",
-      "name": "考研核心词汇",
-      "version": "1.0.0",
-      "cover": "🎓",
-      "description": "考研英语核心高频词汇，精选必考词汇",
-      "wordCount": 500,
-      "category": "考研",
-      "builtin": true,
-      "updateDate": "2026-03-24",
-      "dataFile": "wordbooks/kaoyan-core.json"
-    },
-    {
-      "id": "cet4-basic",
-      "name": "四级核心词汇",
+      "id": "primary-school",
+      "name": "小学单词",
       "version": "1.0.0",
       "cover": "📘",
-      "description": "大学英语四级核心词汇，助你轻松过级",
-      "wordCount": 800,
-      "category": "四六级",
+      "description": "小学英语核心词汇，含专属例句",
+      "wordCount": 518,
+      "category": "小学",
       "builtin": true,
       "updateDate": "2026-03-24",
-      "dataFile": "wordbooks/cet4-basic.json"
+      "dataFile": "wordbooks/primary-school.json"
     }
   ]
 }
