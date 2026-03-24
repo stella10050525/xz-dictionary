@@ -140,7 +140,7 @@ displayWordbookList = async function() {
         
         // 内置词书区域
         if (builtinWordbooks.length > 0) {
-            html += '<div class="wordbook-section"><h3 style="color: var(--primary-red); margin-bottom: 15px;">📚 官方词书</h3>';
+            html += '<div class="wordbook-section"><h3 style="color: var(--primary-red); margin-bottom: 15px;">📚 推荐词书（更新中）</h3>';
             
             builtinWordbooks.forEach(wb => {
                 const installed = userWordbooks.find(uwb => uwb.id === wb.id);
@@ -207,6 +207,7 @@ displayWordbookList = async function() {
         // 用户词书区域
         if (userOnlyWordbooks.length > 0) {
             html += '<div class="wordbook-section" style="margin-top: 30px;"><h3 style="color: var(--primary-red); margin-bottom: 15px;">📂 我的词书</h3>';
+            html += '<p style="font-size: 0.85rem; color: var(--text-light); margin: -10px 0 15px 0;">可以自己按照模板上传添加词书哦~</p>';
             
             userOnlyWordbooks.forEach(wb => {
                 const learnedCount = progress[wb.id]?.learned?.length || 0;
