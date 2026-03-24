@@ -1,0 +1,88 @@
+/* 词书相关样式扩展 */
+
+/* 词书区块 */
+.wordbook-section {
+    margin-bottom: 30px;
+}
+
+/* 未安装的词书卡片 */
+.wordbook-card.uninstalled {
+    border: 2px dashed var(--border);
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    cursor: default;
+}
+
+.wordbook-card.uninstalled:hover {
+    transform: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* 已安装标识 */
+.installed-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+/* 更新标识 */
+.update-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-left: 8px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+/* 加载遮罩 */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.loading {
+    background: white;
+    padding: 30px 50px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-red);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* 词书来源标识 */
+.wordbook-source-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--light-red) 0%, #FFE5E8 100%);
+    color: var(--primary-red);
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-left: 10px;
+}

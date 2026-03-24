@@ -1,0 +1,71 @@
+{
+  "id": "kaoyan-core",
+  "name": "考研核心词汇",
+  "version": "1.0.0",
+  "cover": "🎓",
+  "description": "考研英语核心高频词汇，精选必考词汇",
+  "category": "考研",
+  "updateDate": "2026-03-24",
+  "words": [
+    {
+      "word": "abandon",
+      "partOfSpeech": "v.",
+      "meaning": "放弃；抛弃",
+      "note": "考研高频"
+    },
+    {
+      "word": "ability",
+      "partOfSpeech": "n.",
+      "meaning": "能力；才能",
+      "note": "基础词汇"
+    },
+    {
+      "word": "abroad",
+      "partOfSpeech": "adv.",
+      "meaning": "在国外；到国外",
+      "note": "常考词"
+    },
+    {
+      "word": "absolute",
+      "partOfSpeech": "adj.",
+      "meaning": "绝对的；完全的",
+      "note": "高频形容词"
+    },
+    {
+      "word": "absorb",
+      "partOfSpeech": "v.",
+      "meaning": "吸收；吸引",
+      "note": "重点动词"
+    },
+    {
+      "word": "academic",
+      "partOfSpeech": "adj.",
+      "meaning": "学术的；理论的",
+      "note": "学术词汇"
+    },
+    {
+      "word": "accelerate",
+      "partOfSpeech": "v.",
+      "meaning": "加速；促进",
+      "note": "考研重点"
+    },
+    {
+      "word": "accept",
+      "partOfSpeech": "v.",
+      "meaning": "接受；承认",
+      "note": "基础动词"
+    },
+    {
+      "word": "access",
+      "partOfSpeech": "n./v.",
+      "meaning": "接近；通道；访问",
+      "note": "多词性高频词"
+    },
+    {
+      "word": "accomplish",
+      "partOfSpeech": "v.",
+      "meaning": "完成；实现",
+      "note": "完成类词汇"
+    }
+  ]
+}
