@@ -1734,6 +1734,12 @@ const chineseMeanings = {
     lucky: '幸运的',
     grateful: '感激的；感谢的',
     
+    // 测试专用词（仅释义，无预定义例句）
+    magnificent: '壮丽的；宏伟的',
+    fabulous: '极好的；绝妙的',
+    splendid: '辉煌的；极好的',
+    superb: '极好的；上乘的',
+    
     // 表演与演技相关
     scene: '场景；场面',
     role: '角色；作用',
