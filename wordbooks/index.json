@@ -1,16 +1,16 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "wordbooks": [
     {
       "id": "primary-school",
       "name": "小学单词",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "cover": "📘",
-      "description": "小学英语核心词汇，含专属例句",
+      "description": "小学英语核心词汇，含专属例句（已更新）",
       "wordCount": 518,
       "category": "小学",
       "builtin": true,
-      "updateDate": "2026-03-24",
+      "updateDate": "2026-03-25",
       "dataFile": "wordbooks/primary-school.json"
     }
   ]
