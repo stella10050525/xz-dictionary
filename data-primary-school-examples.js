@@ -2,6 +2,8 @@
 // 来源：primary-school.json
 // 生成时间：2026-03-25T01:53:04.388Z
 
+console.log('📖 开始加载小学词库例句...（518个单词）');
+
 xzExamples['a'] = {
     en: "Xiao Zhan is a good actor.",
     zh: "肖战是一个好演员。"
@@ -2593,3 +2595,4 @@ xzExamples['zoo'] = {
 };
 
 // 共添加 518 个单词的例句（其中 93 个多词性单词）
+console.log(`✅ 小学词库例句加载完成！共 ${Object.keys(xzExamples).length} 个单词`);
