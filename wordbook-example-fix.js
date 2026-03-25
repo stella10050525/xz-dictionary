@@ -1,6 +1,7 @@
-// ========== 词书例句修复补丁 v2 ==========
+// ========== 词书例句修复补丁 v3 ==========
 // 此文件修复词书中例句不显示的问题
 // 优先使用 JSON 中保存的例句，而不是动态生成
+// v3: 添加上一词/下一词导航按钮
 
 (function() {
     'use strict';
@@ -83,7 +84,7 @@
         getWordImage(word).then(wordImage => {
             const resultArea = document.getElementById('resultArea');
             
-            // 构建多词性释义HTML
+            // 构建多词性释义 HTML
             let meaningsHtml = '';
             
             if (wordData.isMultiPos && wordData.meanings && wordData.meanings.length > 1) {
@@ -112,6 +113,93 @@
                 `;
             }
             
+            // **添加导航按钮**
+            const hasPrev = wordIndex > 0;
+            const hasNext = wordIndex < wordbook.words.length - 1;
+            const totalWords = wordbook.words.length;
+            const progress = wordIndex + 1;
+            
+            const navigationHtml = `
+                <div class="wordbook-navigation" style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 30px;
+                    padding-top: 20px;
+                    border-top: 2px solid var(--border);
+                    gap: 15px;
+                ">
+                    ${hasPrev ? `
+                        <button class="btn btn-secondary" onclick="showWordbookWord('${wordbookId}', ${wordIndex - 1}); return false;" style="
+                            flex: 1;
+                            padding: 12px 20px;
+                            font-size: 1rem;
+                            border-radius: 8px;
+                            border: 2px solid var(--border);
+                            background: var(--white);
+                            color: var(--text-dark);
+                            cursor: pointer;
+                            transition: all 0.2s;
+                        " onmouseover="this.style.borderColor='var(--primary-red)'; this.style.color='var(--primary-red)'" onmouseout="this.style.borderColor='var(--border)'; this.style.color='var(--text-dark)'">
+                            ⏮️ 上一词
+                        </button>
+                    ` : `
+                        <button class="btn btn-secondary" disabled style="
+                            flex: 1;
+                            padding: 12px 20px;
+                            font-size: 1rem;
+                            border-radius: 8px;
+                            border: 2px solid var(--border);
+                            background: var(--bg-light);
+                            color: var(--text-light);
+                            cursor: not-allowed;
+                            opacity: 0.5;
+                        ">
+                            ⏮️ 上一词
+                        </button>
+                    `}
+                    
+                    <div style="
+                        text-align: center;
+                        color: var(--text-light);
+                        font-size: 0.9rem;
+                        min-width: 120px;
+                    ">
+                        📊 ${progress} / ${totalWords}
+                    </div>
+                    
+                    ${hasNext ? `
+                        <button class="btn btn-primary" onclick="showWordbookWord('${wordbookId}', ${wordIndex + 1}); return false;" style="
+                            flex: 1;
+                            padding: 12px 20px;
+                            font-size: 1rem;
+                            border-radius: 8px;
+                            border: 2px solid var(--primary-red);
+                            background: var(--primary-red);
+                            color: white;
+                            cursor: pointer;
+                            transition: all 0.2s;
+                        " onmouseover="this.style.background='var(--dark-red)'; this.style.borderColor='var(--dark-red)'" onmouseout="this.style.background='var(--primary-red)'; this.style.borderColor='var(--primary-red)'">
+                            下一词 ⏭️
+                        </button>
+                    ` : `
+                        <button class="btn btn-primary" disabled style="
+                            flex: 1;
+                            padding: 12px 20px;
+                            font-size: 1rem;
+                            border-radius: 8px;
+                            border: 2px solid var(--border);
+                            background: var(--bg-light);
+                            color: var(--text-light);
+                            cursor: not-allowed;
+                            opacity: 0.5;
+                        ">
+                            下一词 ⏭️
+                        </button>
+                    `}
+                </div>
+            `;
+            
             resultArea.innerHTML = `
                 <div class="word-card">
                     <div class="word-content-wrapper">
@@ -119,7 +207,7 @@
                             <div class="word-header">
                                 <div class="word-title">
                                     <h2>${wordData.word}</h2>
-                                    <span class="wordbook-source-badge">📚 来自: ${wordbook.name}</span>
+                                    <span class="wordbook-source-badge">📚 来自：${wordbook.name}</span>
                                 </div>
                                 <div class="word-actions">
                                     <button class="btn-icon" onclick="speakWord('${word}')" title="发音">
@@ -147,6 +235,8 @@
                             <div class="examples">
                                 ${examplesHtml}
                             </div>
+                            
+                            ${navigationHtml}
                         </div>
                         
                         ${wordImage ? `
@@ -194,5 +284,5 @@
     
     // 标记补丁已应用
     window._wordbookExampleFixApplied = true;
-    console.log('✅ 词书例句显示已修复 v2 - 将优先使用 JSON 中保存的例句');
+    console.log('✅ 词书例句显示已修复 v3 - 添加上一词/下一词导航');
 })();
