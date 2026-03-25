@@ -1,11 +1,11 @@
 {
   "id": "primary-school",
   "name": "小学单词",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "cover": "📘",
   "description": "小学英语核心词汇，含专属例句",
   "category": "小学",
-  "updateDate": "2026-03-24",
+  "updateDate": "2026-03-25",
   "words": [
     {
       "word": "a",
@@ -16,23 +16,6 @@
           "example": {
             "en": "Xiao Zhan is a good actor.",
             "zh": "肖战是一个好演员。"
-          }
-        }
-      ],
-      "partOfSpeech": "art.",
-      "meaning": "一个；一件",
-      "isMultiPos": false,
-      "note": ""
-    },
-    {
-      "word": "an",
-      "meanings": [
-        {
-          "pos": "art.",
-          "def": "一个；一件",
-          "example": {
-            "en": "Xiao Zhan is an excellent actor and singer.",
-            "zh": "肖战是一名优秀的演员和歌手。"
           }
         }
       ],
@@ -232,6 +215,23 @@
       ],
       "partOfSpeech": "adv.",
       "meaning": "总是",
+      "isMultiPos": false,
+      "note": ""
+    },
+    {
+      "word": "an",
+      "meanings": [
+        {
+          "pos": "art.",
+          "def": "一个；一件",
+          "example": {
+            "en": "Xiao Zhan is an excellent actor and singer.",
+            "zh": "肖战是一名优秀的演员和歌手。"
+          }
+        }
+      ],
+      "partOfSpeech": "art.",
+      "meaning": "一个；一件",
       "isMultiPos": false,
       "note": ""
     },
@@ -861,6 +861,23 @@
       "note": ""
     },
     {
+      "word": "bicycle",
+      "meanings": [
+        {
+          "pos": "n.",
+          "def": "自行车",
+          "example": {
+            "en": "Xiao Chunsheng rides a bicycle to meet his friends.",
+            "zh": "肖春生骑着自行车去见朋友。"
+          }
+        }
+      ],
+      "partOfSpeech": "n.",
+      "meaning": "自行车",
+      "isMultiPos": false,
+      "note": ""
+    },
+    {
       "word": "big",
       "meanings": [
         {
@@ -886,23 +903,6 @@
           "example": {
             "en": "Sheng Yang rides a bike to work every morning.",
             "zh": "盛阳每天早上骑自行上班。"
-          }
-        }
-      ],
-      "partOfSpeech": "n.",
-      "meaning": "自行车",
-      "isMultiPos": false,
-      "note": ""
-    },
-    {
-      "word": "bicycle",
-      "meanings": [
-        {
-          "pos": "n.",
-          "def": "自行车",
-          "example": {
-            "en": "Xiao Chunsheng rides a bicycle to meet his friends.",
-            "zh": "肖春生骑着自行车去见朋友。"
           }
         }
       ],
@@ -1284,6 +1284,23 @@
       "note": ""
     },
     {
+      "word": "bye",
+      "meanings": [
+        {
+          "pos": "n.",
+          "def": "再见",
+          "example": {
+            "en": "Xiao Zhan waves his hand and says bye to fans.",
+            "zh": "肖战挥手和粉丝说再见。"
+          }
+        }
+      ],
+      "partOfSpeech": "n.",
+      "meaning": "再见",
+      "isMultiPos": false,
+      "note": ""
+    },
+    {
       "word": "call",
       "meanings": [
         {
@@ -1521,7 +1538,7 @@
       "note": ""
     },
     {
-      "word": "China",
+      "word": "china",
       "meanings": [
         {
           "pos": "n.",
@@ -1538,7 +1555,7 @@
       "note": ""
     },
     {
-      "word": "Chinese",
+      "word": "chinese",
       "meanings": [
         {
           "pos": "adj.",
@@ -1800,31 +1817,6 @@
       "note": ""
     },
     {
-      "word": "colour",
-      "meanings": [
-        {
-          "pos": "n.",
-          "def": "颜色",
-          "example": {
-            "en": "Xiao Zhan's favourite colour is red.",
-            "zh": "红色是肖战最爱的颜色。"
-          }
-        },
-        {
-          "pos": "v.",
-          "def": "给…… 着色",
-          "example": {
-            "en": "Xiao Zhan colours a picture.",
-            "zh": "肖战给画上色。"
-          }
-        }
-      ],
-      "partOfSpeech": "n./v.",
-      "meaning": "颜色；给…… 着色",
-      "isMultiPos": true,
-      "note": ""
-    },
-    {
       "word": "color",
       "meanings": [
         {
@@ -1840,6 +1832,31 @@
           "def": "给…… 着色",
           "example": {
             "en": "Xiao Zhan colors a picture.",
+            "zh": "肖战给画上色。"
+          }
+        }
+      ],
+      "partOfSpeech": "n./v.",
+      "meaning": "颜色；给…… 着色",
+      "isMultiPos": true,
+      "note": ""
+    },
+    {
+      "word": "colour",
+      "meanings": [
+        {
+          "pos": "n.",
+          "def": "颜色",
+          "example": {
+            "en": "Xiao Zhan's favourite colour is red.",
+            "zh": "红色是肖战最爱的颜色。"
+          }
+        },
+        {
+          "pos": "v.",
+          "def": "给…… 着色",
+          "example": {
+            "en": "Xiao Zhan colours a picture.",
             "zh": "肖战给画上色。"
           }
         }
@@ -2024,6 +2041,23 @@
       ],
       "partOfSpeech": "adj.",
       "meaning": "可爱的",
+      "isMultiPos": false,
+      "note": ""
+    },
+    {
+      "word": "dad",
+      "meanings": [
+        {
+          "pos": "n.",
+          "def": "爸爸",
+          "example": {
+            "en": "Tang San misses his dad very much.",
+            "zh": "唐三十分想念自己的爸爸。"
+          }
+        }
+      ],
+      "partOfSpeech": "n.",
+      "meaning": "爸爸",
       "isMultiPos": false,
       "note": ""
     },
@@ -2510,7 +2544,7 @@
       "note": ""
     },
     {
-      "word": "English",
+      "word": "english",
       "meanings": [
         {
           "pos": "n.",
@@ -2797,40 +2831,6 @@
       "note": ""
     },
     {
-      "word": "dad",
-      "meanings": [
-        {
-          "pos": "n.",
-          "def": "爸爸",
-          "example": {
-            "en": "Tang San misses his dad very much.",
-            "zh": "唐三十分想念自己的爸爸。"
-          }
-        }
-      ],
-      "partOfSpeech": "n.",
-      "meaning": "爸爸",
-      "isMultiPos": false,
-      "note": ""
-    },
-    {
-      "word": "favourite",
-      "meanings": [
-        {
-          "pos": "adj.",
-          "def": "最喜爱的",
-          "example": {
-            "en": "Acting is Xiao Zhan's favourite thing to do.",
-            "zh": "表演是肖战最喜爱做的事。"
-          }
-        }
-      ],
-      "partOfSpeech": "adj.",
-      "meaning": "最喜爱的",
-      "isMultiPos": false,
-      "note": ""
-    },
-    {
       "word": "favorite",
       "meanings": [
         {
@@ -2853,6 +2853,23 @@
       "partOfSpeech": "adj./n.",
       "meaning": "最喜爱的；特别喜爱的人或物",
       "isMultiPos": true,
+      "note": ""
+    },
+    {
+      "word": "favourite",
+      "meanings": [
+        {
+          "pos": "adj.",
+          "def": "最喜爱的",
+          "example": {
+            "en": "Acting is Xiao Zhan's favourite thing to do.",
+            "zh": "表演是肖战最喜爱做的事。"
+          }
+        }
+      ],
+      "partOfSpeech": "adj.",
+      "meaning": "最喜爱的",
+      "isMultiPos": false,
       "note": ""
     },
     {
@@ -3364,23 +3381,6 @@
       "note": ""
     },
     {
-      "word": "bye",
-      "meanings": [
-        {
-          "pos": "n.",
-          "def": "再见",
-          "example": {
-            "en": "Xiao Zhan waves his hand and says bye to fans.",
-            "zh": "肖战挥手和粉丝说再见。"
-          }
-        }
-      ],
-      "partOfSpeech": "n.",
-      "meaning": "再见",
-      "isMultiPos": false,
-      "note": ""
-    },
-    {
       "word": "grandfather",
       "meanings": [
         {
@@ -3398,19 +3398,19 @@
       "note": ""
     },
     {
-      "word": "grandpa",
+      "word": "grandma",
       "meanings": [
         {
           "pos": "n.",
-          "def": "祖父",
+          "def": "祖母",
           "example": {
-            "en": "Sheng Yang visited his grandpa.",
-            "zh": "盛阳去看望了祖父。"
+            "en": "Sheng Yang's grandma cooks nice food for him.",
+            "zh": "盛阳的祖母为他做可口的饭菜。"
           }
         }
       ],
       "partOfSpeech": "n.",
-      "meaning": "祖父",
+      "meaning": "祖母",
       "isMultiPos": false,
       "note": ""
     },
@@ -3432,19 +3432,19 @@
       "note": ""
     },
     {
-      "word": "grandma",
+      "word": "grandpa",
       "meanings": [
         {
           "pos": "n.",
-          "def": "祖母",
+          "def": "祖父",
           "example": {
-            "en": "Sheng Yang's grandma cooks nice food for him.",
-            "zh": "盛阳的祖母为他做可口的饭菜。"
+            "en": "Sheng Yang visited his grandpa.",
+            "zh": "盛阳去看望了祖父。"
           }
         }
       ],
       "partOfSpeech": "n.",
-      "meaning": "祖母",
+      "meaning": "祖父",
       "isMultiPos": false,
       "note": ""
     },
@@ -3626,14 +3626,14 @@
       "note": ""
     },
     {
-      "word": "have",
+      "word": "has",
       "meanings": [
         {
           "pos": "v.",
           "def": "有",
           "example": {
-            "en": "Xiao Zhan has a warm heart full of kindness.",
-            "zh": "肖战有一颗充满善良的温暖的心。"
+            "en": "Shi Ying has a strong power to protect the world.",
+            "zh": "时影有守护天下的强大力量。"
           }
         }
       ],
@@ -3643,14 +3643,14 @@
       "note": ""
     },
     {
-      "word": "has",
+      "word": "have",
       "meanings": [
         {
           "pos": "v.",
           "def": "有",
           "example": {
-            "en": "Shi Ying has a strong power to protect the world.",
-            "zh": "时影有守护天下的强大力量。"
+            "en": "Xiao Zhan has a warm heart full of kindness.",
+            "zh": "肖战有一颗充满善良的温暖的心。"
           }
         }
       ],
@@ -4118,7 +4118,7 @@
       "note": ""
     },
     {
-      "word": "I",
+      "word": "i",
       "meanings": [
         {
           "pos": "pron.",
@@ -4237,7 +4237,7 @@
       "note": ""
     },
     {
-      "word": "Internet",
+      "word": "internet",
       "meanings": [
         {
           "pos": "n.",
@@ -4963,13 +4963,13 @@
       "note": ""
     },
     {
-      "word": "maths",
+      "word": "mathematics",
       "meanings": [
         {
           "pos": "n.",
           "def": "数学",
           "example": {
-            "en": "Xiao Zhan didn't like maths well when he was a student.",
+            "en": "Xiao Zhan didn't like mathematics well when he was a student.",
             "zh": "肖战上学时不喜欢数学。"
           }
         }
@@ -4980,13 +4980,13 @@
       "note": ""
     },
     {
-      "word": "mathematics",
+      "word": "maths",
       "meanings": [
         {
           "pos": "n.",
           "def": "数学",
           "example": {
-            "en": "Xiao Zhan didn't like mathematics well when he was a student.",
+            "en": "Xiao Zhan didn't like maths well when he was a student.",
             "zh": "肖战上学时不喜欢数学。"
           }
         }
@@ -5124,7 +5124,7 @@
       "note": ""
     },
     {
-      "word": "Miss",
+      "word": "miss",
       "meanings": [
         {
           "pos": "n.",
@@ -5137,6 +5137,23 @@
       ],
       "partOfSpeech": "n.",
       "meaning": "小姐",
+      "isMultiPos": false,
+      "note": ""
+    },
+    {
+      "word": "mom",
+      "meanings": [
+        {
+          "pos": "n.",
+          "def": "母亲",
+          "example": {
+            "en": "Sheng Yang buys a gift for his mom on her birthday.",
+            "zh": "盛阳在妈妈生日时给她买礼物。"
+          }
+        }
+      ],
+      "partOfSpeech": "n.",
+      "meaning": "母亲",
       "isMultiPos": false,
       "note": ""
     },
@@ -5243,40 +5260,6 @@
       "note": ""
     },
     {
-      "word": "mum",
-      "meanings": [
-        {
-          "pos": "n.",
-          "def": "母亲",
-          "example": {
-            "en": "Xiao Zhan calls mum softly when he is at home.",
-            "zh": "肖战在家时温柔地喊妈妈。"
-          }
-        }
-      ],
-      "partOfSpeech": "n.",
-      "meaning": "母亲",
-      "isMultiPos": false,
-      "note": ""
-    },
-    {
-      "word": "mom",
-      "meanings": [
-        {
-          "pos": "n.",
-          "def": "母亲",
-          "example": {
-            "en": "Sheng Yang buys a gift for his mom on her birthday.",
-            "zh": "盛阳在妈妈生日时给她买礼物。"
-          }
-        }
-      ],
-      "partOfSpeech": "n.",
-      "meaning": "母亲",
-      "isMultiPos": false,
-      "note": ""
-    },
-    {
       "word": "mouse",
       "meanings": [
         {
@@ -5328,7 +5311,7 @@
       "note": ""
     },
     {
-      "word": "Mr",
+      "word": "mr",
       "meanings": [
         {
           "pos": "n.",
@@ -5345,7 +5328,7 @@
       "note": ""
     },
     {
-      "word": "Mrs",
+      "word": "mrs",
       "meanings": [
         {
           "pos": "n.",
@@ -5362,7 +5345,7 @@
       "note": ""
     },
     {
-      "word": "Ms",
+      "word": "ms",
       "meanings": [
         {
           "pos": "n.",
@@ -5401,6 +5384,23 @@
       "partOfSpeech": "adj./adv.",
       "meaning": "多的；非常",
       "isMultiPos": true,
+      "note": ""
+    },
+    {
+      "word": "mum",
+      "meanings": [
+        {
+          "pos": "n.",
+          "def": "母亲",
+          "example": {
+            "en": "Xiao Zhan calls mum softly when he is at home.",
+            "zh": "肖战在家时温柔地喊妈妈。"
+          }
+        }
+      ],
+      "partOfSpeech": "n.",
+      "meaning": "母亲",
+      "isMultiPos": false,
       "note": ""
     },
     {
@@ -5784,7 +5784,7 @@
       "note": ""
     },
     {
-      "word": "OK",
+      "word": "ok",
       "meanings": [
         {
           "pos": "adj.",
@@ -6063,7 +6063,7 @@
       "note": ""
     },
     {
-      "word": "PE",
+      "word": "pe",
       "meanings": [
         {
           "pos": "n.",
@@ -7850,6 +7850,23 @@
       "note": ""
     },
     {
+      "word": "television",
+      "meanings": [
+        {
+          "pos": "n.",
+          "def": "电视",
+          "example": {
+            "en": "Xiao Zhan appears on television for an interview.",
+            "zh": "肖战上电视接受采访。"
+          }
+        }
+      ],
+      "partOfSpeech": "n.",
+      "meaning": "电视",
+      "isMultiPos": false,
+      "note": ""
+    },
+    {
       "word": "tell",
       "meanings": [
         {
@@ -8442,7 +8459,7 @@
       "note": ""
     },
     {
-      "word": "TV",
+      "word": "tv",
       "meanings": [
         {
           "pos": "n.",
@@ -8450,23 +8467,6 @@
           "example": {
             "en": "Xiao Zhan's new drama is on TV tonight.",
             "zh": "肖战的新剧今晚在电视上播出。"
-          }
-        }
-      ],
-      "partOfSpeech": "n.",
-      "meaning": "电视",
-      "isMultiPos": false,
-      "note": ""
-    },
-    {
-      "word": "television",
-      "meanings": [
-        {
-          "pos": "n.",
-          "def": "电视",
-          "example": {
-            "en": "Xiao Zhan appears on television for an interview.",
-            "zh": "肖战上电视接受采访。"
           }
         }
       ],
