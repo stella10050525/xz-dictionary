@@ -595,7 +595,7 @@ xzExamples['do'] = {
 };
 
 xzExamples['doctor'] = {
-    en: "Gu Wei and Liu Zhengliang both are doctors.",
+    en: "Gu Wei and Liu Zhengliang are both doctors.",
     zh: "顾魏和刘铮亮都是医生。"
 };
 
