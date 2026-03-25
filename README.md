@@ -1,172 +1,108 @@
-# XZ Dictionary 🦐 小飞侠专属词典 ✨
+# 🦐 XZ Dictionary - 小飞侠专属词典
 
-> Powered by Lobster AI
+一个为肖战粉丝打造的英语学习词典工具，让背单词变得更有趣！
 
-## 📚 词库统计
+## ✨ 功能特色
 
-**总词汇量：500+ 词**
+- 📚 **内置词书** - 小学、初中、高中英语核心词汇
+- 🔥 **热词推荐** - 精选高频单词
+- ⭐ **生词本** - 收藏难词，随时复习
+- 📝 **专属例句** - 肖战主题例句，让学习更有趣
+- 🎯 **连续学习** - 上一词/下一词快速切换
+- 📊 **学习进度** - 实时追踪学习情况
 
-所有单词都包含：
-- 📖 详细中文释义（分词性）
-- 🎤 音标
-- 📝 肖战主题专属例句（中英双语）
-- ⭐ 可收藏到生词本
+## 🎓 词书内容
 
-## 🗂️ 词汇分类
+### 小学词库（518 词）
+- 小学英语核心词汇
+- 每个单词配有专属例句
+- 支持多词性显示
 
-### 1. 外貌相关 (10词)
-handsome, beautiful, charming, elegant, gorgeous, attractive, stylish, radiant, graceful, dashing
+### 例句特色
+所有例句都以肖战及其角色为主题，例如：
 
-**外表细节 (10词)**
-eyes, hair, face, skin, height, posture, figure, appearance, look, outfit
+> **after** (prep.)  
+> Xiao Zhan greets fans after the performance.  
+> 肖战演出之后和粉丝打招呼。
 
-### 2. 才华相关 (8词)
-talented, brilliant, professional, creative, skillful, versatile, artistic, gifted
+> **doctor** (n.)  
+> Gu Wei and Liu Zhengliang are both doctors.  
+> 顾魏和刘铮亮都是医生。
 
-### 3. 品质相关 (20词)
-kind, humble, dedicated, sincere, gentle, generous, honest, reliable, respectful, thoughtful, modest, polite, patient, caring, responsible, mature, calm, positive, optimistic, gracious
+## 🚀 在线访问
 
-### 4. 工作态度 (8词)
-hardworking, focused, passionate, diligent, committed, determined, ambitious, persistent
+- **Gitee（国内推荐）**: https://你的用户名.gitee.io/xz-dictionary
+- **GitHub（国际）**: https://stella10050525.github.io/xz-dictionary/
 
-### 5. 身体健康 (7词)
-strong, fit, muscle, athletic, healthy, energetic, agile
+## 💡 使用方式
 
-### 6. 表演与演技 (20词)
-act, perform, dance, sing, portray, express, interpret, embody, scene, role, character, script, rehearsal, audition, director, producer, actor, actress, cast, crew
+1. **查词** - 输入英文或中文查询
+2. **浏览词书** - 按分类学习单词
+3. **收藏生词** - 点击⭐添加到生词本
+4. **连续学习** - 使用上一词/下一词按钮
 
-### 7. 影视作品 (8词)
-screen, stage, drama, movie, film, series, episode, premiere
+## 📦 本地部署
 
-### 8. 音乐相关 (9词)
-song, music, voice, melody, album, lyrics, rhythm, microphone, concert
+```bash
+# 克隆仓库
+git clone https://gitee.com/你的用户名/xz-dictionary.git
 
-### 9. 粉丝互动 (11词)
-fan, follower, audience, admirer, devotion, community, meet, autograph, photo, poster, support
+# 直接在浏览器打开 index.html 即可
+```
 
-### 10. 情感相关 (18词)
-smile, laugh, inspire, encourage, comfort, touch, move, cheer, love, respect, trust, friendship, loyalty, bond, connection, emotion, feeling, passion, enthusiasm
+## 🛠️ 技术栈
 
-### 11. 成就荣誉 (16词)
-amazing, wonderful, perfect, popular, famous, outstanding, excellent, incredible, remarkable, special, unique, idol, hero, star, award, achievement, success, victory, triumph, accomplishment, milestone, breakthrough, reputation, influence, impact, legacy
+- HTML5 + CSS3 + JavaScript
+- 纯静态网站，无需后端
+- 支持 GitHub Pages / Gitee Pages 部署
+- 使用 Google Analytics 统计访问数据
 
-### 12. 时尚造型 (15词)
-fashion, ambassador, runway, style, trend, designer, brand, luxury, magazine, photoshoot, model, catwalk, haute, cosmetics
+## 📊 词书格式
 
-### 13. 媒体传播 (10词)
-interview, press, media, news, headline, report, social, post, trending, viral
+支持 Excel (.xlsx) 和 CSV 格式导入：
 
-### 14. 训练提升 (10词)
-practice, training, exercise, workout, gym, diet, nutrition, wellness, balance, rest
+| 单词 | 词性 | 释义 | 例句 | 例句翻译 |
+|------|------|------|------|----------|
+| love | v. | 爱 | Xiao Zhan loves acting. | 肖战热爱表演。 |
 
-### 15. 创作艺术 (10词)
-create, craft, design, aesthetic, vision, imagination, innovation, originality, authentic, genuine
+## 🎨 设计说明
 
-### 16. 活动场合 (10词)
-event, ceremony, gala, party, conference, exhibition, festival, show, presentation, opening
+- 🐰  Logo：兔子（肖战属相）
+- 🦐  吉祥物：小飞侠粉丝元素
+- 🔴  主题色：应援红色
 
-### 17. 交流互动 (10词)
-communicate, conversation, speak, listen, respond, share, discuss, explain, tell, message
+## 📝 更新日志
 
-### 18. 成长发展 (10词)
-grow, develop, improve, progress, evolve, advance, transform, change, adapt, learn
+### v2.0.0 (2026-03-25)
+- ✅ 更新小学词库至 518 词
+- ✅ 添加专属例句
+- ✅ 优化词书显示逻辑
+- ✅ 添加上一词/下一词导航
+- ✅ 添加 Google Analytics 统计
+- ✅ 优化首页反馈入口
 
-### 19. 精神品质 (10词)
-courage, strength, perseverance, determination, willpower, discipline, integrity, principle, value, moral
+### v1.0.0
+- ✅ 基础查词功能
+- ✅ 词书管理
+- ✅ 生词本功能
 
-### 20. 时间经历 (10词)
-moment, memory, experience, journey, path, future, hope, wish, promise, goal
+## 🙌 反馈与建议
 
-### 21. 自然描述 (10词)
-light, sun, moon, ocean, sky, flower, diamond, treasure, jewel, gem
+有任何问题或建议，欢迎联系：
 
-### 22. 声音表达 (10词)
-tone, accent, speech, whisper, shout, echo, sound, noise, silence, quiet
+- **小红书**: [@虾爬炒米炒面英译汉](https://xhslink.com/m/4RcQxOMSWIr)
+- **GitHub Issues**: https://github.com/stella10050525/xz-dictionary/issues
 
-### 23. 动作行为 (10词)
-walk, run, jump, stand, sit, turn, wave, gesture, bow, reach
+## ⚠️ 声明
 
-### 24. 特质特点 (10词)
-natural, spontaneous, flexible, sharp, keen, quick, slow, steady, consistent, reliable
+- 本项目为粉丝自制的背单词工具
+- 例句由 AI 辅助生成，如有不当之处可自行调整
+- 更严谨的学习请使用专业词典
 
-### 25. 色彩视觉 (10词)
-color, red, black, white, blue, gold, silver, rainbow, shadow, reflection
+## 📄 许可证
 
-### 26. 数量程度 (10词)
-many, few, all, every, some, most, more, less, much, little
-
-### 27. 位置方向 (10词)
-top, high, low, front, back, center, side, up, down, forward
-
-### 28. 时间相关 (10词)
-today, tomorrow, yesterday, now, then, always, never, sometimes, often, rarely
-
-### 29. 抽象概念 (10词)
-idea, thought, mind, soul, heart, spirit, essence, nature, quality, standard
-
-### 30. 其他常用 (20+词)
-favorite, bright, warm, cool, sweet, adorable, funny, witty, intelligent, wise, brave, confident, proud, happy, lucky, grateful, celebrate, wrap, filming, recognition 等
-
-## 🔥 热词推送
-
-实时更新的6个热词（基于肖战最新动态）：
-
-1. **award** - 🏆 荣获SMG影视剧品质盛典影帝
-2. **wrap** - 🎬 电视剧《小城良方》杀青
-3. **ambassador** - 💄 全球品牌代言人
-4. **fashion** - ✨ 时装周惊喜
-5. **recognition** - 🌟 业界认可
-6. **celebrate** - 🎉 粉丝庆祝
-
-## ✨ 特色功能
-
-- 🔄 **双向查询**：支持英译汉、汉译英
-- 🎯 **精准释义**：所有释义来源于牛津/柯林斯词典标准
-- 🦐 **专属例句**：每个词都有肖战主题的原创例句
-- 📚 **生词本**：可收藏单词，随时复习
-- ➕ **自定义**：可以添加自己的词汇和例句
-- 🔊 **发音功能**：点击即可听单词发音
-- 📱 **响应式设计**：手机、平板、电脑都能完美使用
-
-## 🎨 设计理念
-
-- **主题色**：红色（代表热情和活力）
-- **吉祥物**：🦐 虾、🐰 兔、🐕 狗、🐱 猫
-- **风格**：现代、优雅、高级感
-
-## 🚀 使用方法
-
-1. 双击 `index.html` 打开词典
-2. 输入英文单词或中文词汇
-3. 点击查询，查看详细释义和例句
-4. 点击 ⭐ 收藏到生词本
-5. 点击 🔊 听发音
-
-## 📖 例句原则
-
-所有例句遵循以下原则：
-- ✅ 使用 "Xiao Zhan" 或 "肖战" 作为主语
-- ✅ 内容积极正面
-- ✅ 符合实际情况
-- ❌ 不包含负面评价
-- ❌ 不散播未证实的传闻
-
-## 🔄 更新日志
-
-**2026-03-20**
-- ✨ 初始版本发布
-- 📚 词库：500+ 词
-- 🎯 功能：英汉互译、生词本、自定义、热词推送
-- 🎨 主题：红色 + 卡通元素
-
-## 💡 未来计划
-
-- [ ] 添加更多词汇（目标1000词）
-- [ ] 增加图片辅助记忆
-- [ ] 开发每日一词推送
-- [ ] 添加词汇量测试
-- [ ] 支持导出生词本
+MIT License
 
 ---
 
-Made with ❤️ for 小飞侠 | 🦐 XZ Dictionary ✨ Lobster AI
+**Made with ❤️ for 小飞侠 | 🦐 虾爬炒米炒面英译汉 | ✨ Lobster AI**
