@@ -1,4 +1,4 @@
-// 肖战主题例句数据库（100词）
+﻿// 肖战主题例句数据库（100词）
 const xzExamples = {
     // 外貌相关
     handsome: {
@@ -1230,8 +1230,8 @@ const xzExamples = {
         zh: "当肖战呐喊时，充满激情。"
     },
     echo: {
-        en: "Xiao Zhan's message echoes in hearts.",
-        zh: "肖战的信息在人心中回响。"
+        en: "I hear the echo of \"Sempiternal Genesis Loop\".",
+        zh: "我听到了\u201c生生不息\u201d的回响。"
     },
     sound: {
         en: "The sound of Xiao Zhan's laughter is delightful.",
@@ -1542,80 +1542,106 @@ const xzExamples = {
     standard: {
         en: "Xiao Zhan sets the standard for excellence.",
         zh: "肖战树立了卓越的标准。"
+    },
+    
+    // 十日终焉热词（2026年4月）
+    liar: {
+        en: "My name is Qi Xia. I'm a liar. You can only believe half of what I say.",
+        zh: "我叫齐夏，是个骗子，我的话你只能信一半。"
+    },
+    genius: {
+        en: "Qi Xia is a genius who leads his companions through deadly challenges with his brilliant mind.",
+        zh: "齐夏是一位凭借超凡智慧带领伙伴闯过生死挑战的天才。"
+    },
+    goat: {
+        en: "Qi Xia is deeply associated with the symbol of goat / sheep.",
+        zh: "齐夏与羊的象征深度关联。"
+    },
+    sheep: {
+        en: "Qi Xia is deeply associated with the symbol of goat / sheep.",
+        zh: "齐夏与羊的象征深度关联。"
+    },
+    loop: {
+        en: "They are trapped in a ten-day loop that erases their memories after each cycle.",
+        zh: "他们被困在一个每次循环结束都会抹去记忆的十日循环里。"
+    },
+    infinite: {
+        en: "10 DAYS TILL THE END is a typical infinite stream novel.",
+        zh: "《十日终焉》是一本典型的无限流小说。"
     }
 };
 
 // 热词推送数据（定期更新）
 const hotWords = [
     {
-        word: "award",
-        meaning: "奖；奖项",
-        phonetic: "/əˈwɔːd/",
-        topic: "🏆 荣获SMG影视剧品质盛典影帝",
-        date: "2026-03",
+        word: "liar",
+        meaning: "说谎者；撒谎者",
+        phonetic: "/ˈlaɪə(r)/",
+        topic: "😏 我叫齐夏，是个骗子",
+        date: "2026-04",
         example: {
-            en: "Xiao Zhan won the Best Actor award at SMG TV Drama Quality Awards!",
-            zh: "肖战在SMG影视剧品质盛典荣获最佳男演员奖！"
+            en: "My name is Qi Xia. I'm a liar. You can only believe half of what I say.",
+            zh: "我叫齐夏，是个骗子，我的话你只能信一半。"
         },
         image: ""
     },
     {
-        word: "wrap",
-        meaning: "杀青；完成拍摄",
-        phonetic: "/ræp/",
-        topic: "🎬 电视剧《小城良方》杀青",
-        date: "2026-03",
+        word: "genius",
+        meaning: "天才；天赋",
+        phonetic: "/ˈdʒiːniəs/",
+        topic: "🧠 天才齐夏",
+        date: "2026-04",
         example: {
-            en: "Xiao Zhan's new drama 'Small Town Good Recipe' has wrapped filming!",
-            zh: "肖战的新剧《小城良方》已经杀青！"
+            en: "Qi Xia is a genius who leads his companions through deadly challenges with his brilliant mind.",
+            zh: "齐夏是一位凭借超凡智慧带领伙伴闯过生死挑战的天才。"
         },
         image: ""
     },
     {
-        word: "ambassador",
-        meaning: "大使；代言人",
-        phonetic: "/æmˈbæsədə/",
-        topic: "💄 全球品牌代言人",
-        date: "2026-03",
+        word: "goat / sheep",
+        meaning: "羊；山羊/绵羊",
+        phonetic: "/ɡəʊt/ /ʃiːp/",
+        topic: "🐏 齐夏羊 🐐",
+        date: "2026-04",
         example: {
-            en: "Xiao Zhan attended the event as a global brand ambassador.",
-            zh: "肖战作为全球品牌代言人出席活动。"
+            en: "Qi Xia is deeply associated with the symbol of goat / sheep.",
+            zh: "齐夏与羊的象征深度关联。"
         },
         image: ""
     },
     {
-        word: "fashion",
-        meaning: "时尚；时装",
-        phonetic: "/ˈfæʃn/",
-        topic: "✨ 时装周惊喜",
-        date: "2026-03",
+        word: "echo",
+        meaning: "\u56DE\u54CD\uFF1B\u56DE\u58F0\uFF1B\u56DE\u97F3",
+        phonetic: "/\u02C8ek\u0259\u028A/",
+        topic: "\uD83D\uDC42 \u751F\u751F\u4E0D\u606F\u7684\u56DE\u54CD",
+        date: "2026-04",
         example: {
-            en: "Xiao Zhan always brings great surprises at fashion weeks.",
-            zh: "肖战每次去时装周都能给人很大惊喜。"
+            en: "I hear the echo of \"Sempiternal Genesis Loop\".",
+            zh: "\u6211\u542C\u5230\u4E86\u201C\u751F\u751F\u4E0D\u606F\u201D\u7684\u56DE\u54CD\u3002"
         },
         image: ""
     },
     {
-        word: "recognition",
-        meaning: "认可；赏识",
-        phonetic: "/ˌrekəɡˈnɪʃn/",
-        topic: "🌟 业界认可",
-        date: "2026-03",
+        word: "loop",
+        meaning: "循环；回路",
+        phonetic: "/luːp/",
+        topic: "🔄 十日循环",
+        date: "2026-04",
         example: {
-            en: "Xiao Zhan's acting has gained recognition from industry professionals.",
-            zh: "肖战的演技得到了业内专业人士的认可。"
+            en: "They are trapped in a ten-day loop that erases their memories after each cycle.",
+            zh: "他们被困在一个每次循环结束都会抹去记忆的十日循环里。"
         },
         image: ""
     },
     {
-        word: "celebrate",
-        meaning: "庆祝；庆贺",
-        phonetic: "/ˈselɪbreɪt/",
-        topic: "🎉 粉丝庆祝",
-        date: "2026-03",
+        word: "infinite",
+        meaning: "无限的；无穷尽的",
+        phonetic: "/ˈɪnfɪnət/",
+        topic: "📕 无限流",
+        date: "2026-04",
         example: {
-            en: "Fans are celebrating Xiao Zhan's recent achievements!",
-            zh: "粉丝们正在庆祝肖战最近的成就！"
+            en: "10 DAYS TILL THE END is a typical infinite stream novel.",
+            zh: "《十日终焉》是一本典型的无限流小说。"
         },
         image: ""
     }
@@ -1957,7 +1983,7 @@ const chineseMeanings = {
     speech: '演讲；说话',
     whisper: '低语；耳语',
     shout: '喊叫；呼喊',
-    echo: '回声；共鸣',
+    echo: '回响；回声；回音',
     sound: '声音；音响',
     noise: '噪音；喧闹',
     silence: '沉默；寂静',
@@ -2045,7 +2071,15 @@ const chineseMeanings = {
     essence: '本质；精髓',
     nature: '自然；本质',
     quality: '质量；品质',
-    standard: '标准；水准'
+    standard: '标准；水准',
+    
+    // 十日终焉热词（2026年4月）
+    liar: '说谎者；撒谎者',
+    genius: '天才；天赋',
+    goat: '山羊',
+    sheep: '绵羊；羊',
+    loop: '循环；回路',
+    infinite: '无限的；无穷尽的'
 };
 
 // 详细的词性中文释义（来源：牛津词典/柯林斯词典）
