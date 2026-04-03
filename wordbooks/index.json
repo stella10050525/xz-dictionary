@@ -12,6 +12,18 @@
       "builtin": true,
       "updateDate": "2026-03-25",
       "dataFile": "wordbooks/primary-school.json"
+    },
+    {
+      "id": "middle-school",
+      "name": "初中单词",
+      "version": "1.0.0",
+      "cover": "📗",
+      "description": "初中英语核心词汇（去重小学），含专属例句",
+      "wordCount": 1104,
+      "category": "📖完成义务教育后3年的进阶",
+      "builtin": true,
+      "updateDate": "2026-04-03",
+      "dataFile": "wordbooks/middle-school.json"
     }
   ]
 }
