@@ -718,6 +718,12 @@ function deleteWordbookConfirm(event, id) {
     }
 }
 
+// 词书分页状态
+const WORDBOOK_PAGE_SIZE = 50;
+let _wordbookCurrentPage = 1;
+let _wordbookCurrentId = null;
+let _wordbookCurrentWords = null;
+
 // 打开词书详情
 function openWordbook(id) {
     const wordbooks = getWordbooks();
@@ -743,15 +749,81 @@ function openWordbook(id) {
     document.getElementById('learnedCount').textContent = learnedCount;
     document.getElementById('totalCount').textContent = wordbook.wordCount;
     
-    // 显示单词列表
+    // 初始化分页并显示第一页
+    _wordbookCurrentPage = 1;
+    _wordbookCurrentId = id;
+    _wordbookCurrentWords = wordbook.words;
     displayWordbookWords(id, wordbook.words);
 }
 
-// 显示词书中的单词列表
+// 生成分页控件 HTML
+function buildPaginationHTML(currentPage, totalPages) {
+    if (totalPages <= 1) return '';
+    
+    return `
+        <div class="wordbook-pagination" style="display: flex; align-items: center; justify-content: center; gap: 12px; padding: 16px 0;">
+            ${currentPage > 1 ? `
+                <button onclick="goWordbookPage(${currentPage - 1})" 
+                    style="padding: 8px 18px; border: 2px solid var(--primary-red); background: white; color: var(--primary-red); 
+                           border-radius: 8px; cursor: pointer; font-size: 0.95rem; font-weight: bold; transition: all 0.2s;"
+                    onmouseover="this.style.background='var(--primary-red)';this.style.color='white'"
+                    onmouseout="this.style.background='white';this.style.color='var(--primary-red)'">
+                    ⬅️ 上一页
+                </button>
+            ` : `
+                <button disabled 
+                    style="padding: 8px 18px; border: 2px solid #ddd; background: #f5f5f5; color: #bbb; 
+                           border-radius: 8px; cursor: not-allowed; font-size: 0.95rem; font-weight: bold;">
+                    ⬅️ 上一页
+                </button>
+            `}
+            <span style="font-size: 0.95rem; color: var(--text-dark); font-weight: bold; min-width: 100px; text-align: center;">
+                第 ${currentPage} / ${totalPages} 页
+            </span>
+            ${currentPage < totalPages ? `
+                <button onclick="goWordbookPage(${currentPage + 1})" 
+                    style="padding: 8px 18px; border: 2px solid var(--primary-red); background: var(--primary-red); color: white; 
+                           border-radius: 8px; cursor: pointer; font-size: 0.95rem; font-weight: bold; transition: all 0.2s;"
+                    onmouseover="this.style.background='#c5303a'"
+                    onmouseout="this.style.background='var(--primary-red)'">
+                    下一页 ➡️
+                </button>
+            ` : `
+                <button disabled 
+                    style="padding: 8px 18px; border: 2px solid #ddd; background: #f5f5f5; color: #bbb; 
+                           border-radius: 8px; cursor: not-allowed; font-size: 0.95rem; font-weight: bold;">
+                    下一页 ➡️
+                </button>
+            `}
+        </div>
+    `;
+}
+
+// 跳转词书页码
+function goWordbookPage(page) {
+    if (!_wordbookCurrentId || !_wordbookCurrentWords) return;
+    const totalPages = Math.ceil(_wordbookCurrentWords.length / WORDBOOK_PAGE_SIZE);
+    if (page < 1 || page > totalPages) return;
+    _wordbookCurrentPage = page;
+    displayWordbookWords(_wordbookCurrentId, _wordbookCurrentWords);
+    // 滚动到词书详情顶部
+    document.getElementById('wordbookDetail').scrollIntoView({ behavior: 'smooth' });
+}
+
+// 显示词书中的单词列表（分页）
 function displayWordbookWords(wordbookId, words) {
     const container = document.getElementById('wordbookWords');
+    const totalPages = Math.ceil(words.length / WORDBOOK_PAGE_SIZE);
+    const page = _wordbookCurrentPage;
+    const startIdx = (page - 1) * WORDBOOK_PAGE_SIZE;
+    const endIdx = Math.min(startIdx + WORDBOOK_PAGE_SIZE, words.length);
+    const pageWords = words.slice(startIdx, endIdx);
     
-    container.innerHTML = words.map((word, index) => {
+    const paginationTop = buildPaginationHTML(page, totalPages);
+    const paginationBottom = buildPaginationHTML(page, totalPages);
+    
+    const wordListHTML = pageWords.map((word, i) => {
+        const index = startIdx + i; // 全局索引
         const learned = isWordLearned(wordbookId, index);
         
         return `
@@ -773,6 +845,8 @@ function displayWordbookWords(wordbookId, words) {
             </div>
         `;
     }).join('');
+    
+    container.innerHTML = paginationTop + wordListHTML + paginationBottom;
 }
 
 // 切换单词学习状态
