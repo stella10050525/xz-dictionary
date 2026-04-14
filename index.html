@@ -46,6 +46,7 @@
             <button class="tab active" data-tab="search">📖 查词</button>
             <button class="tab" data-tab="hotwords">🔥 热词</button>
             <button class="tab" data-tab="wordbook">📚 词书</button>
+            <button class="tab" data-tab="drama">🎬追剧背词</button>
             <button class="tab" data-tab="vocabulary">⭐ 生词本</button>
             <button class="tab" data-tab="custom">➕ 自定义</button>
         </nav>
@@ -132,6 +133,71 @@
                 </div>
             </div>
 
+            <!-- 追剧背词页面 -->
+            <div id="dramaTab" class="tab-content">
+                <!-- 第 3 层版头（进入单集学习时显示） -->
+                <div class="drama-header">
+                    <div class="drama-header-image-overlay"></div>
+                    <div class="drama-header-content">
+                        <button class="back-btn-header" onclick="window.dramaBackToEpisodes()">← 返回</button>
+                        <h1>📖 剧集名 × 四级单词</h1>
+                        <p>第 X 集：XXX</p>
+                    </div>
+                </div>
+
+                <!-- 第 3 层导航栏（进入单集学习时显示） -->
+                <div class="drama-nav-bar">
+                    <button class="drama-nav-btn active" data-target="words">📚 单词速览</button>
+                    <button class="drama-nav-btn" data-target="story">📜 剧情助记</button>
+                </div>
+
+                <!-- 三层内容容器（动态渲染） -->
+                <div id="dramaContainer">
+                    <!-- 第 1 层：剧集列表 / 第 2 层：分集列表 / 第 3 层：学习内容 -->
+                </div>
+
+                <div id="dramaTipBox" class="drama-tip-box"></div>
+
+                <!-- 第 3 层：单词速览 -->
+                <div id="drama-sec-words" class="drama-section">
+                    <div class="drama-toolbar">
+                        <input class="drama-search-input" id="dramaSearchInput" placeholder="🔍 搜索单词或释义…" />
+                        <button class="drama-filter-btn active" id="filterAll" onclick="window.dramaSetFilter('all')">全部</button>
+                        <button class="drama-filter-btn" id="filterTodo" onclick="window.dramaSetFilter('todo')">待学</button>
+                        <button class="drama-filter-btn" id="filterDone" onclick="window.dramaSetFilter('done')">已掌握</button>
+                    </div>
+                    <div class="drama-toggle-row">
+                        <label class="drama-toggle-label">
+                            <input type="checkbox" id="dramaHideMeaning" onchange="window.dramaToggleMeaning(this.checked)">
+                            <span>隐藏释义</span>
+                        </label>
+                    </div>
+                    <div class="drama-progress-text" id="dramaProgressText">已掌握 0 / 50</div>
+                    <div class="drama-progress-bar">
+                        <div class="drama-progress-fill" id="dramaProgressFill" style="width:0%"></div>
+                    </div>
+                    <div id="dramaWordList">
+                        <!-- 动态加载单词卡片 -->
+                    </div>
+                </div>
+
+                <!-- 第 3 层：剧情助记 -->
+                <div id="drama-sec-story" class="drama-section">
+                    <div class="drama-story-toolbar">
+                        <label class="drama-toggle-label">
+                            <input type="checkbox" id="dramaShowStoryMeaning" onchange="window.dramaToggleStoryMeaning(this.checked)">
+                            <span>展示词义</span>
+                        </label>
+                        <span class="drama-story-tip">💡 鼠标点击单词可发音</span>
+                    </div>
+                    <div class="drama-story-box" id="dramaStoryBox">
+                        <!-- 动态加载剧情故事（嵌入高亮单词） -->
+                    </div>
+                </div>
+
+                <div class="drama-footer"></div>
+            </div>
+
             <!-- 生词本页面 -->
             <div id="vocabularyTab" class="tab-content">
                 <div class="vocabulary-section">
@@ -199,6 +265,10 @@
     <script src="wordbook-builtin.js"></script>
     <script src="wordbook-fix.js"></script>
     <script src="wordbook-example-fix.js"></script>
+    <!-- 追剧背单词模块 -->
+    <link rel="stylesheet" href="drama.css">
+    <script src="drama-data-zhz.js"></script>
+    <script src="drama.js"></script>
     <script src="script.js"></script>
     <!-- 查词逻辑优化（方案C：无AI生成）-->
     <script src="script-final.js"></script>
