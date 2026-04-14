@@ -153,9 +153,17 @@
             header.style.display = '';
         }
 
-        // 更新导航栏
+        // 更新导航栏（加入返回按钮）
         const navBar = document.querySelector('.drama-nav-bar');
         if (navBar) {
+            // 如果还没有返回按钮，在导航栏最前面插入一个
+            if (!navBar.querySelector('.drama-nav-back')) {
+                const backBtn = document.createElement('button');
+                backBtn.className = 'drama-nav-back';
+                backBtn.textContent = '← 返回';
+                backBtn.onclick = function() { window.dramaBackToEpisodes(); };
+                navBar.insertBefore(backBtn, navBar.firstChild);
+            }
             navBar.style.display = 'flex';
         }
 
@@ -183,7 +191,12 @@
         const header = document.querySelector('.drama-header');
         if (header) header.style.display = 'none';
         const navBar = document.querySelector('.drama-nav-bar');
-        if (navBar) navBar.style.display = 'none';
+        if (navBar) {
+            navBar.style.display = 'none';
+            // 移除返回按钮
+            const backBtn = navBar.querySelector('.drama-nav-back');
+            if (backBtn) backBtn.remove();
+        }
         // 隐藏所有 section
         document.querySelectorAll('.drama-section').forEach(s => s.classList.remove('active'));
     }

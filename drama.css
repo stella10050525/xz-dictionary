@@ -343,6 +343,25 @@
     color: #fff;
 }
 
+.drama-nav-back {
+    padding: 8px 20px;
+    border: 2px solid #999;
+    background: transparent;
+    color: #666;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: all 0.25s;
+    margin-right: 8px;
+}
+
+.drama-nav-back:hover {
+    background: #666;
+    color: #fff;
+    border-color: #666;
+}
+
 /* ========== 内容区域（第 3 层） ========== */
 .drama-section {
     display: none;
