@@ -7,9 +7,9 @@ window.DRAMA_ZHZ = {
     subtitle: '跟着奴奴速记单词',
     cover: 'images/zhz.jpg',
     description: '故事基于电视剧藏海传，词汇覆盖到大学四六级。',
-    totalEpisodes: 1,
-    totalWords: 135,
-    releasedEpisodes: 1,
+    totalEpisodes: 40,
+    totalWords: 245,
+    releasedEpisodes: 2,
     episodes: [
         {
             id: 1,
@@ -203,6 +203,170 @@ window.DRAMA_ZHZ = {
 <p>一场关乎<span class="vocab-highlight" data-word="revenge">revenge</span>（复仇）棋局，自此开篇。</p>
 
 <p style="text-align:center;color:#c9a84c;margin-top:32px;font-weight:700">—— 第 1 集完 · 共 135 词 ——</p>`
+        },
+        {
+            id: 2,
+            title: '第 2 集',
+            banner: '',
+            wordCount: 110,
+            words: [
+                {id:1, en:"wake", ph:"/weɪk/", cn:"v. 醒来", ex:'稚奴从昏迷中<em>wake</em>。'},
+                {id:2, en:"boat", ph:"/boʊt/", cn:"n. 船", ex:'发现自己躺在一艘小<em>boat</em>上。'},
+                {id:3, en:"fear", ph:"/fɪr/", cn:"n. 恐惧", ex:'面具人察觉到他的<em>fear</em>。'},
+                {id:4, en:"acquaintance", ph:"/əˈkweɪntəns/", cn:"n. 相识；熟人", ex:'自称是蒯铎的旧<em>acquaintance</em>。'},
+                {id:5, en:"burst", ph:"/bɜːrst/", cn:"v. 爆发", ex:'悲痛与恐惧彻底<em>burst</em>。'},
+                {id:6, en:"encounter", ph:"/ɪnˈkaʊntər/", cn:"n. 遭遇", ex:'诉说着家中的<em>encounter</em>。'},
+                {id:7, en:"witness", ph:"/ˈwɪtnəs/", cn:"v. 目睹", ex:'亲眼<em>witness</em>父母被杀害。'},
+                {id:8, en:"orphan", ph:"/ˈɔːrfn/", cn:"n. 孤儿", ex:'沦为无家可归的<em>orphan</em>。'},
+                {id:9, en:"calm", ph:"/kɑːm/", cn:"v./adj. 平复；平静的", ex:'待稚奴情绪<em>calm</em>。'},
+                {id:10, en:"receive", ph:"/rɪˈsiːv/", cn:"v. 收到", ex:'他<em>receive</em>了蒯铎的书信。'},
+                {id:11, en:"flame", ph:"/fleɪm/", cn:"n. 火焰；火海", ex:'那里早已是一片<em>flame</em>。'},
+                {id:12, en:"survive", ph:"/sərˈvaɪv/", cn:"v. 幸免；存活", ex:'蒯府上下无一人<em>survive</em>。'},
+                {id:13, en:"rescue", ph:"/ˈreskjuː/", cn:"v. 救出；营救", ex:'才得以将他<em>rescue</em>。'},
+                {id:14, en:"bow", ph:"/baʊ/", cn:"v. 叩拜；鞠躬", ex:'朝着面具人重重<em>bow</em>。'},
+                {id:15, en:"grace", ph:"/ɡreɪs/", cn:"n. 恩情；恩典", ex:'感谢他的救命<em>grace</em>。'},
+                {id:16, en:"swear", ph:"/swer/", cn:"v. 发誓", ex:'眼神坚定地<em>swear</em>。'},
+                {id:17, en:"avenge", ph:"/əˈvendʒ/", cn:"v. 报仇雪恨", ex:'一定要亲手为家人<em>avenge</em>。'},
+                {id:18, en:"ability", ph:"/əˈbɪləti/", cn:"n. 能力", ex:'仅凭他现在的<em>ability</em>。'},
+                {id:19, en:"approach", ph:"/əˈproʊtʃ/", cn:"v. 接近", ex:'根本无法<em>approach</em>仇人。'},
+                {id:20, en:"detailed", ph:"/ˈdiːteɪld/", cn:"adj. 详细的", ex:'制定<em>detailed</em>复仇计划。'},
+                {id:21, en:"residence", ph:"/ˈrezɪdəns/", cn:"n. 住处；住所", ex:'送到了师父的<em>residence</em>。'},
+                {id:22, en:"martial arts", ph:"/ˌmɑːrʃl ˈɑːrts/", cn:"n. 武术", ex:'稚奴说想要习<em>martial arts</em>报仇。'},
+                {id:23, en:"enemy", ph:"/ˈenəmi/", cn:"n. 敌人；仇人", ex:'亲手杀死<em>enemy</em>。'},
+                {id:24, en:"bone", ph:"/boʊn/", cn:"n. 骨；骨头", ex:'直言他筋<em>bone</em>松软。'},
+                {id:25, en:"wisdom", ph:"/ˈwɪzdəm/", cn:"n. 智谋；智慧", ex:'必须走一条以<em>wisdom</em>为主的道路。'},
+                {id:26, en:"avoid", ph:"/əˈvɔɪd/", cn:"v. 避免", ex:'为了<em>avoid</em>被人认出。'},
+                {id:27, en:"recognize", ph:"/ˈrekəɡnaɪz/", cn:"v. 认出；识别", ex:'被庄芦隐的人<em>recognize</em>。'},
+                {id:28, en:"appearance", ph:"/əˈpɪrəns/", cn:"n. 容貌；外表", ex:'决定为稚奴微调<em>appearance</em>。'},
+                {id:29, en:"remove", ph:"/rɪˈmuːv/", cn:"v. 拆除；移除", ex:'等纱布<em>remove</em>后。'},
+                {id:30, en:"injury", ph:"/ˈɪndʒəri/", cn:"n. 伤；伤痕", ex:'后背的鞭<em>injury</em>太深。'},
+                {id:31, en:"medical", ph:"/ˈmedɪkl/", cn:"adj. 医术的；医学的", ex:'即便<em>medical</em>高超。'},
+                {id:32, en:"erase", ph:"/ɪˈreɪs/", cn:"v. 抹去；消除", ex:'无法将其彻底<em>erase</em>。'},
+                {id:33, en:"expose", ph:"/ɪkˈspoʊz/", cn:"v. 暴露", ex:'不会因此<em>expose</em>身份。'},
+                {id:34, en:"wooden", ph:"/ˈwʊdn/", cn:"adj. 木制的", ex:'一个榫卯结构的<em>wooden</em>笼子。'},
+                {id:35, en:"solve", ph:"/sɑːlv/", cn:"v. 解开；解决", ex:'必须凭借智慧<em>solve</em>机关。'},
+                {id:36, en:"exhaust", ph:"/ɪɡˈzɔːst/", cn:"v. 耗尽；精疲力竭", ex:'体力<em>exhaust</em>不支。'},
+                {id:37, en:"abandon", ph:"/əˈbændən/", cn:"v. 放弃", ex:'甚至产生了<em>abandon</em>的念头。'},
+                {id:38, en:"ignite", ph:"/ɪɡˈnaɪt/", cn:"v. 点燃；燃起", ex:'又重新<em>ignite</em>了斗志。'},
+                {id:39, en:"observe", ph:"/əbˈzɜːrv/", cn:"v. 观察", ex:'仔细<em>observe</em>笼子的结构。'},
+                {id:40, en:"skill", ph:"/skɪl/", cn:"n. 技巧；技能", ex:'回忆父亲教过的<em>skill</em>。'},
+                {id:41, en:"support", ph:"/səˈpɔːrt/", cn:"v. 扶住；支撑", ex:'高明及时上前<em>support</em>他。'},
+                {id:42, en:"approve", ph:"/əˈpruːv/", cn:"v. 认可；赞成", ex:'心中<em>approve</em>。'},
+                {id:43, en:"all-around", ph:"/ˌɔːl əˈraʊnd/", cn:"adj. 全方位的", ex:'制定了<em>all-around</em>学习计划。'},
+                {id:44, en:"rest", ph:"/rest/", cn:"v./n. 休息", ex:'亥时<em>rest</em>。'},
+                {id:45, en:"follow", ph:"/ˈfɑːloʊ/", cn:"v. 跟随", ex:'上午<em>follow</em>星斗大师学习。'},
+                {id:46, en:"polish", ph:"/ˈpɑːlɪʃ/", cn:"v. 打磨；磨练", ex:'日夜<em>polish</em>心智和本领。'},
+                {id:47, en:"mission", ph:"/ˈmɪʃn/", cn:"n. 使命", ex:'牢记复仇的<em>mission</em>。'},
+                {id:48, en:"insist", ph:"/ɪnˈsɪst/", cn:"v. 坚持", ex:'也咬牙<em>insist</em>。'},
+                {id:49, en:"complain", ph:"/kəmˈpleɪn/", cn:"v. 抱怨", ex:'从不<em>complain</em>。'},
+                {id:50, en:"pass", ph:"/pæs/", cn:"v. 经过；流逝", ex:'十年光阴匆匆<em>pass</em>。'},
+                {id:51, en:"excellent", ph:"/ˈeksələnt/", cn:"adj. 出色的；过硬的", ex:'练就了一身<em>excellent</em>的技艺。'},
+                {id:52, en:"consolidate", ph:"/kənˈsɑːlɪdeɪt/", cn:"v. 巩固", ex:'进一步<em>consolidate</em>自己的权势。'},
+                {id:53, en:"pigeon", ph:"/ˈpɪdʒɪn/", cn:"n. 鸽子", ex:'收到一封飞<em>pigeon</em>传书。'},
+                {id:54, en:"letter", ph:"/ˈletər/", cn:"n. 书信；信件", ex:'星斗大师看到<em>letter</em>后。'},
+                {id:55, en:"nervous", ph:"/ˈnɜːrvəs/", cn:"adj. 紧张的", ex:'神情变得<em>nervous</em>起来。'},
+                {id:56, en:"alone", ph:"/əˈloʊn/", cn:"adj./adv. 独自的", ex:'让稚奴<em>alone</em>迎接新师父。'},
+                {id:57, en:"warn", ph:"/wɔːrn/", cn:"v. 叮嘱；警告", ex:'反复<em>warn</em>稚奴。'},
+                {id:58, en:"respect", ph:"/rɪˈspekt/", cn:"v./n. 恭敬；尊重", ex:'一定要<em>respect</em>对待新师父。'},
+                {id:59, en:"impulsive", ph:"/ɪmˈpʌlsɪv/", cn:"adj. 冲动的", ex:'不可像小时候那样<em>impulsive</em>。'},
+                {id:60, en:"doubt", ph:"/daʊt/", cn:"n./v. 疑惑；怀疑", ex:'稚奴虽然有点<em>doubt</em>。'},
+                {id:61, en:"beautiful", ph:"/ˈbjuːtɪfl/", cn:"adj. 美丽的", ex:'竟然是一个<em>beautiful</em>女子。'},
+                {id:62, en:"refuse", ph:"/rɪˈfjuːz/", cn:"v. 拒绝", ex:'教他如何<em>refuse</em>女人的诱惑。'},
+                {id:63, en:"attract", ph:"/əˈtrækt/", cn:"v./n. 诱惑；吸引", ex:'如何拒绝女人的<em>attract</em>。'},
+                {id:64, en:"seduce", ph:"/sɪˈduːs/", cn:"v. 引诱；勾引", ex:'六初百般<em>seduce</em>稚奴。'},
+                {id:65, en:"break", ph:"/breɪk/", cn:"v. 打破", ex:'试图<em>break</em>他的心理防线。'},
+                {id:66, en:"remind", ph:"/rɪˈmaɪnd/", cn:"v. 提醒", ex:'也<em>remind</em>他日后在京城要小心。'},
+                {id:67, en:"temptation", ph:"/tempˈteɪʃn/", cn:"n. 诱惑", ex:'难免会遇到各种<em>temptation</em>。'},
+                {id:68, en:"resist", ph:"/rɪˈzɪst/", cn:"v. 抵挡；抵抗", ex:'仅凭本心恐怕难以<em>resist</em>。'},
+                {id:69, en:"hide", ph:"/haɪd/", cn:"v. 隐藏", ex:'唯有封闭感情、<em>hide</em>真心。'},
+                {id:70, en:"background", ph:"/ˈbækɡraʊnd/", cn:"n. 身世；背景", ex:'诉说自己的<em>background</em>。'},
+                {id:71, en:"vaguely", ph:"/ˈveɪɡli/", cn:"adv. 隐约地；模糊地", ex:'只能<em>vaguely</em>回忆起一些片段。'},
+                {id:72, en:"childhood", ph:"/ˈtʃaɪldhʊd/", cn:"n. 童年", ex:'回忆起一些<em>childhood</em>的片段。'},
+                {id:73, en:"sympathy", ph:"/ˈsɪmpəθi/", cn:"n. 同情", ex:'稚奴心生<em>sympathy</em>。'},
+                {id:74, en:"loosen", ph:"/ˈluːsn/", cn:"v. 松动；放松", ex:'情绪渐渐<em>loosen</em>。'},
+                {id:75, en:"guard", ph:"/ɡɑːrd/", cn:"n. 防备；侍卫", ex:'就在他放下<em>guard</em>的瞬间。'},
+                {id:76, en:"trust", ph:"/trʌst/", cn:"v. 相信；信任", ex:'不能轻易<em>trust</em>任何人。'},
+                {id:77, en:"similar", ph:"/ˈsɪmɪlər/", cn:"adj. 相似的", ex:'哪怕对方有<em>similar</em>的遭遇。'},
+                {id:78, en:"alert", ph:"/əˈlɜːrt/", cn:"n./adj. 警惕", ex:'不能放松<em>alert</em>。'},
+                {id:79, en:"vital", ph:"/ˈvaɪtl/", cn:"adj. 至关重要的", ex:'这是<em>vital</em>的一课。'},
+                {id:80, en:"lesson", ph:"/ˈlesn/", cn:"n. 课；教训", ex:'这也是她要教给稚奴的一<em>lesson</em>。'},
+                {id:81, en:"lock", ph:"/lɑːk/", cn:"n. 锁", ex:'带来了一个鲁班<em>lock</em>。'},
+                {id:82, en:"calmly", ph:"/ˈkɑːmli/", cn:"adv. 冷静地", ex:'边解边<em>calmly</em>讲着当年的灾祸。'},
+                {id:83, en:"disaster", ph:"/dɪˈzæstər/", cn:"n. 灾祸；灾难", ex:'那场让他失去全家的<em>disaster</em>。'},
+                {id:84, en:"admire", ph:"/ədˈmaɪər/", cn:"v. 赞许；钦佩", ex:'面具人露出了<em>admire</em>的目光。'},
+                {id:85, en:"hostility", ph:"/hɑːˈstɪləti/", cn:"n. 仇恨；敌意", ex:'没有忘记<em>hostility</em>。'},
+                {id:86, en:"express", ph:"/ɪkˈspres/", cn:"v. 表露；表达", ex:'学会了不<em>express</em>出来。'},
+                {id:87, en:"portrait", ph:"/ˈpɔːrtrət/", cn:"n. 画像；肖像", ex:'庄芦隐的<em>portrait</em>。'},
+                {id:88, en:"introduce", ph:"/ˌɪntrəˈduːs/", cn:"v. 介绍", ex:'向稚奴<em>introduce</em>了他的情况。'},
+                {id:89, en:"golden", ph:"/ˈɡoʊldən/", cn:"adj. 金色的", ex:'常年身着<em>golden</em>丝软甲。'},
+                {id:90, en:"sneak", ph:"/sniːk/", cn:"v. 潜入；偷偷进入", ex:'必须想办法<em>sneak</em>庄芦隐的府中。'},
+                {id:91, en:"mansion", ph:"/ˈmænʃn/", cn:"n. 府邸", ex:'<em>sneak</em>庄芦隐的<em>mansion</em>中。'},
+                {id:92, en:"roster", ph:"/ˈrɑːstər/", cn:"n. 名册；花名册", ex:'将庄芦隐府中的<em>roster</em>交给稚奴。'},
+                {id:93, en:"memorize", ph:"/ˈmeməraɪz/", cn:"v. 熟记；背诵", ex:'让他仔细<em>memorize</em>府中每个人。'},
+                {id:94, en:"prepare", ph:"/prɪˈper/", cn:"v. 准备", ex:'为日后潜入侯府做<em>prepare</em>。'},
+                {id:95, en:"mature", ph:"/məˈtʃʊr/", cn:"adj. 成熟的", ex:'时机还不够<em>mature</em>。'},
+                {id:96, en:"identity", ph:"/aɪˈdentəti/", cn:"n. 身份", ex:'以免暴露<em>identity</em>。'},
+                {id:97, en:"reveal", ph:"/rɪˈviːl/", cn:"v. 透露；揭示", ex:'面具人却<em>reveal</em>了一个重要消息。'},
+                {id:98, en:"mess", ph:"/mes/", cn:"n. 混乱", ex:'朝野上下一片<em>mess</em>。'},
+                {id:99, en:"chance", ph:"/tʃæns/", cn:"n. 时机；机会", ex:'正是下山赴京的最佳<em>chance</em>。'},
+                {id:100, en:"miss", ph:"/mɪs/", cn:"v. 错过", ex:'不能<em>miss</em>。'},
+                {id:101, en:"dragon", ph:"/ˈdræɡən/", cn:"n. 龙", ex:'潜<em>dragon</em>必须入渊了。'},
+                {id:102, en:"reach", ph:"/riːtʃ/", cn:"v. 达成", ex:'众人意见<em>reach</em>一致。'},
+                {id:103, en:"name", ph:"/neɪm/", cn:"n. 名字", ex:'你只有一个<em>name</em>，藏海。'},
+                {id:104, en:"luggage", ph:"/ˈlʌɡɪdʒ/", cn:"n. 行装；行李", ex:'收拾好<em>luggage</em>。'},
+                {id:105, en:"together", ph:"/təˈɡeðər/", cn:"adv. 一同；一起", ex:'想要和他<em>together</em>进京。'},
+                {id:106, en:"send", ph:"/send/", cn:"v. 送行；派送", ex:'星斗大师为藏海<em>send</em>。'},
+                {id:107, en:"cautious", ph:"/ˈkɔːʃəs/", cn:"adj. 谨慎的", ex:'在京城务必行事<em>cautious</em>。'},
+                {id:108, en:"difficulty", ph:"/ˈdɪfɪkəlti/", cn:"n. 困难", ex:'无论遇到什么<em>difficulty</em>。'},
+                {id:109, en:"world", ph:"/wɜːrld/", cn:"n. 世界", ex:'这<em>world</em>就没有人叫稚奴了。'},
+                {id:110, en:"step", ph:"/step/", cn:"v. 踏上；迈步", ex:'<em>step</em>了前往京城的道路。'}
+            ],
+            story: `<h2>🏯 藏海传 · 第 2 集</h2>
+
+<span class="story-chapter">【第一幕：江上醒来】</span>
+<p>稚奴从昏迷中<span class="vocab-highlight" data-word="wake">wake</span>（醒来），发现自己正躺在一艘小<span class="vocab-highlight" data-word="boat">boat</span>（船）上。他转头望去，只见一个戴着面具的男人站在身旁。面具人察觉到他的<span class="vocab-highlight" data-word="fear">fear</span>（恐惧），放缓语气开口，自称是他的父亲蒯铎的旧<span class="vocab-highlight" data-word="acquaintance">acquaintance</span>（相识）。</p>
+<p>听到"蒯铎"二字，稚奴积压的悲痛与恐惧彻底<span class="vocab-highlight" data-word="burst">burst</span>（爆发）。他断断续续地诉说着家中的<span class="vocab-highlight" data-word="encounter">encounter</span>（遭遇），亲眼<span class="vocab-highlight" data-word="witness">witness</span>（目睹）父母和妹妹月奴被杀害，自己也沦为无家可归的<span class="vocab-highlight" data-word="orphan">orphan</span>（孤儿）。</p>
+<p>面具人待稚奴情绪<span class="vocab-highlight" data-word="calm">calm</span>（平复），便缓缓道出缘由。他<span class="vocab-highlight" data-word="receive">receive</span>（收到）了蒯铎的书信，得知处境危险，特意赶来接应，可等他赶到时，那里早已是一片<span class="vocab-highlight" data-word="flame">flame</span>（火海），蒯府上下无一人<span class="vocab-highlight" data-word="survive">survive</span>（幸免），但密道里找到了昏迷的稚奴，才得以将他<span class="vocab-highlight" data-word="rescue">rescue</span>（救出）。</p>
+<p>稚奴听完，挣扎着从船上爬起来，朝着面具人重重<span class="vocab-highlight" data-word="bow">bow</span>（叩拜），感谢他的救命<span class="vocab-highlight" data-word="grace">grace</span>（恩情），然后眼神坚定地<span class="vocab-highlight" data-word="swear">swear</span>（发誓），一定要亲手为家人<span class="vocab-highlight" data-word="avenge">avenge</span>（报仇雪恨）。</p>
+
+<span class="story-chapter">【第二幕：拜师学艺】</span>
+<p>面具人扶起稚奴，告知他庄芦隐势力强大，仅凭他现在的<span class="vocab-highlight" data-word="ability">ability</span>（能力），根本无法<span class="vocab-highlight" data-word="approach">approach</span>（接近）仇人。想要报仇，必须潜心学习，他会为稚奴制定<span class="vocab-highlight" data-word="detailed">detailed</span>（详细的）复仇计划，并让两位师父教他。随后，面具人便带着稚奴上岸，将他送到了师父的<span class="vocab-highlight" data-word="residence">residence</span>（住处）。</p>
+<p>稚奴说想要习<span class="vocab-highlight" data-word="martial arts">martial arts</span>（武）报仇，亲手杀死<span class="vocab-highlight" data-word="enemy">enemy</span>（仇人）。星斗大师打量了稚奴一番，直言他"筋<span class="vocab-highlight" data-word="bone">bone</span>（骨）松软"，并不适合武力。想要复仇，必须走一条以<span class="vocab-highlight" data-word="wisdom">wisdom</span>（智谋）为主的道路。</p>
+<p>为了<span class="vocab-highlight" data-word="avoid">avoid</span>（避免）稚奴日后被庄芦隐的人<span class="vocab-highlight" data-word="recognize">recognize</span>（认出），星斗大师决定为稚奴微调<span class="vocab-highlight" data-word="appearance">appearance</span>（容貌）。稚奴再次醒来时，发现自己的脸上包着纱布，才得知等纱布<span class="vocab-highlight" data-word="remove">remove</span>（拆除）后，他再也没有爹娘的样子了。但是他后背的鞭<span class="vocab-highlight" data-word="injury">injury</span>（伤）太深，即便<span class="vocab-highlight" data-word="medical">medical</span>（医术）高超，也无法将其彻底<span class="vocab-highlight" data-word="erase">erase</span>（抹去），好在仇人并不知晓他后背有伤，应该不会因此<span class="vocab-highlight" data-word="expose">expose</span>（暴露）身份。</p>
+
+<span class="story-chapter">【第三幕：木笼破局】</span>
+<p>星斗大师随后赶来，告诉稚奴，想要从眼前这个榫卯结构的<span class="vocab-highlight" data-word="wooden">wooden</span>（木）笼子里出来，就必须凭借自己的智慧<span class="vocab-highlight" data-word="solve">solve</span>（解开）机关。</p>
+<p>起初，他饿得饥肠辘辘、体力<span class="vocab-highlight" data-word="exhaust">exhaust</span>（不支），甚至产生了<span class="vocab-highlight" data-word="abandon">abandon</span>（放弃）的念头。但一想到家人，他又重新<span class="vocab-highlight" data-word="ignite">ignite</span>（燃起）了斗志。稚奴从小跟随父亲学过机关之术，他仔细<span class="vocab-highlight" data-word="observe">observe</span>（观察）笼子的结构，回忆父亲生前教过的<span class="vocab-highlight" data-word="skill">skill</span>（技巧）。终于，他静下心来，成功解开了机关，走了出来。高明及时上前<span class="vocab-highlight" data-word="support">support</span>（扶住）他。</p>
+
+<span class="story-chapter">【第四幕：十年磨剑】</span>
+<p>星斗大师看着眼前这个坚韧的孩子，心中<span class="vocab-highlight" data-word="approve">approve</span>（认可），随即为稚奴制定了<span class="vocab-highlight" data-word="all-around">all-around</span>（全方位的）学习计划。计划规定，每天卯时起床，亥时<span class="vocab-highlight" data-word="rest">rest</span>（休息），上午<span class="vocab-highlight" data-word="follow">follow</span>（跟随）星斗大师学习堪舆营造之术，下午则跟随高明学习纵横之术，日夜<span class="vocab-highlight" data-word="polish">polish</span>（打磨）心智和本领。稚奴也始终牢记复仇的<span class="vocab-highlight" data-word="mission">mission</span>（使命），尽管每日任务艰难，也咬牙<span class="vocab-highlight" data-word="insist">insist</span>（坚持），从不<span class="vocab-highlight" data-word="complain">complain</span>（抱怨）。</p>
+<p>转眼十年光阴匆匆<span class="vocab-highlight" data-word="pass">pass</span>（而过），当年年幼的稚奴已经长大，在星斗大师和高明的教导下，他练就了一身<span class="vocab-highlight" data-word="excellent">excellent</span>（过硬）的技艺。与此同时，平津侯庄芦隐进一步<span class="vocab-highlight" data-word="consolidate">consolidate</span>（巩固）自己的权势。</p>
+
+<span class="story-chapter">【第五幕：第三位师父】</span>
+<p>一天，稚奴收到一封飞<span class="vocab-highlight" data-word="pigeon">pigeon</span>（鸽）传书，得知自己还有一位新师父。星斗大师看到<span class="vocab-highlight" data-word="letter">letter</span>（书信）后，神情变得<span class="vocab-highlight" data-word="nervous">nervous</span>（紧张）起来，说要让稚奴<span class="vocab-highlight" data-word="alone">alone</span>（独自）迎接新师父的到来。高明临走前，反复<span class="vocab-highlight" data-word="warn">warn</span>（叮嘱）稚奴，一定要<span class="vocab-highlight" data-word="respect">respect</span>（恭敬）对待新师父，不可像小时候那样<span class="vocab-highlight" data-word="impulsive">impulsive</span>（冲动）。</p>
+<p>稚奴虽然有点<span class="vocab-highlight" data-word="doubt">doubt</span>（疑惑），还是按照吩咐迎接新师父。让他意外的是，新来的师父竟然是一个<span class="vocab-highlight" data-word="beautiful">beautiful</span>（美丽的）女子，名叫六初。</p>
+<p>六初开门见山，告诉稚奴，她此次前来，是要教他"风花雪月"之事，而第一堂课，就是教他如何<span class="vocab-highlight" data-word="refuse">refuse</span>（拒绝）女人的<span class="vocab-highlight" data-word="attract">attract</span>（诱惑）。随后，六初百般<span class="vocab-highlight" data-word="seduce">seduce</span>（引诱）稚奴，试图<span class="vocab-highlight" data-word="break">break</span>（打破）他的心理防线，可稚奴始终不为所动，甚至直接将六初推到一边。</p>
+<p>六初非但没有生气，反而很是认可。也<span class="vocab-highlight" data-word="remind">remind</span>（提醒）他，日后进入京城，难免会遇到各种<span class="vocab-highlight" data-word="temptation">temptation</span>（诱惑），到那时，仅凭本心恐怕难以<span class="vocab-highlight" data-word="resist">resist</span>（抵挡），唯有封闭感情、<span class="vocab-highlight" data-word="hide">hide</span>（隐藏）真心。</p>
+
+<span class="story-chapter">【第六幕：防备人心】</span>
+<p>接下来，六初开始向稚奴诉说自己的<span class="vocab-highlight" data-word="background">background</span>（身世），幼年丧母，早已记不清父母的模样，只能<span class="vocab-highlight" data-word="vaguely">vaguely</span>（隐约）回忆起一些<span class="vocab-highlight" data-word="childhood">childhood</span>（童年）的片段。稚奴听后，心生<span class="vocab-highlight" data-word="sympathy">sympathy</span>（同情），忍不住想起了自己的家人，情绪渐渐<span class="vocab-highlight" data-word="loosen">loosen</span>（松动），就在他放下<span class="vocab-highlight" data-word="guard">guard</span>（防备）的瞬间，六初突然亮出匕首，稚奴瞬间惊醒。</p>
+<p>六初告诉稚奴，想要报仇，就不能轻易<span class="vocab-highlight" data-word="trust">trust</span>（相信）任何人，哪怕对方与自己有<span class="vocab-highlight" data-word="similar">similar</span>（相似）的遭遇，也不能放松<span class="vocab-highlight" data-word="alert">alert</span>（警惕），这也是她要教给稚奴的<span class="vocab-highlight" data-word="vital">vital</span>（至关重要的）一<span class="vocab-highlight" data-word="lesson">lesson</span>（课）——防备人心。稚奴恍然大悟。</p>
+
+<span class="story-chapter">【第七幕：潜龙入渊】</span>
+<p>这天，当初那个救了稚奴的面具人突然到来，还带来了一个鲁班<span class="vocab-highlight" data-word="lock">lock</span>（锁）。稚奴接过来，边解边<span class="vocab-highlight" data-word="calmly">calmly</span>（冷静地）讲着当年那场让他失去全家的<span class="vocab-highlight" data-word="disaster">disaster</span>（灾祸），凭借多年所学，很快就将其<span class="vocab-highlight" data-word="solve">solve</span>（解开），面具人看着他露出了<span class="vocab-highlight" data-word="admire">admire</span>（赞许）的目光。当年那个孩子没有忘记<span class="vocab-highlight" data-word="hostility">hostility</span>（仇恨），只是学会了不<span class="vocab-highlight" data-word="express">express</span>（表露）出来。</p>
+<p>随后，面具人拿出一份"礼物"，庄芦隐的<span class="vocab-highlight" data-word="portrait">portrait</span>（画像），向稚奴<span class="vocab-highlight" data-word="introduce">introduce</span>（介绍）了他的情况——庄芦隐武功高强，身边常年有贴身<span class="vocab-highlight" data-word="guard">guard</span>（侍卫）守护，他自己也常年身着<span class="vocab-highlight" data-word="golden">golden</span>（金）丝软甲，外人根本无法<span class="vocab-highlight" data-word="approach">approach</span>（接近），想要报仇，就必须想办法<span class="vocab-highlight" data-word="sneak">sneak</span>（潜入）庄芦隐的<span class="vocab-highlight" data-word="mansion">mansion</span>（府）中，成为他的幕僚，伺机而动。说着，面具人又将庄芦隐府中的<span class="vocab-highlight" data-word="roster">roster</span>（名册）交给稚奴，让他仔细<span class="vocab-highlight" data-word="memorize">memorize</span>（熟记）府中每个人，为日后潜入侯府做<span class="vocab-highlight" data-word="prepare">prepare</span>（准备）。</p>
+<p>星斗大师见状，提出时机还不够<span class="vocab-highlight" data-word="mature">mature</span>（成熟），认为稚奴暂时不宜进入侯府，以免暴露<span class="vocab-highlight" data-word="identity">identity</span>（身份）。</p>
+<p>但面具人却<span class="vocab-highlight" data-word="reveal">reveal</span>（透露）了一个重要消息：当朝太后刚刚驾崩，朝野上下一片<span class="vocab-highlight" data-word="mess">mess</span>（混乱），正是稚奴下山赴京的最佳<span class="vocab-highlight" data-word="chance">chance</span>（时机），不能<span class="vocab-highlight" data-word="miss">miss</span>（错过）。</p>
+<p>"潜<span class="vocab-highlight" data-word="dragon">dragon</span>（龙）必须入渊了。"</p>
+<p>众人意见<span class="vocab-highlight" data-word="reach">reach</span>（达成）一致，告诉稚奴："从今往后，你只有一个<span class="vocab-highlight" data-word="name">name</span>（名字），藏海。"</p>
+<p>第二天一早，藏海收拾好<span class="vocab-highlight" data-word="luggage">luggage</span>（行装），前往高明的住处，想要和他<span class="vocab-highlight" data-word="together">together</span>（一同）进京，却发现高明早已离开。</p>
+<p>星斗大师为藏海<span class="vocab-highlight" data-word="send">send</span>（送行），嘱咐他在京城务必行事<span class="vocab-highlight" data-word="cautious">cautious</span>（谨慎），无论遇到什么<span class="vocab-highlight" data-word="difficulty">difficulty</span>（困难），都要牢记复仇的<span class="vocab-highlight" data-word="mission">mission</span>（使命）。</p>
+<p>最后，星斗叫了一声"稚奴"。</p>
+<p>眼前的少年却道："师父，你在叫谁？我叫藏海。从今往后，这<span class="vocab-highlight" data-word="world">world</span>（世界）就没有人叫稚奴了。"</p>
+<p>随后转身，<span class="vocab-highlight" data-word="step">step</span>（踏上）了前往京城的道路。</p>
+
+<p style="text-align:center;color:#c9a84c;margin-top:32px;font-weight:700">—— 第 2 集完 · 共 110 词 ——</p>`
         }
     ]
 };
+
