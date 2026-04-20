@@ -1,49 +1,104 @@
-// XZ Dictionary - 查词逻辑优化（最终版 v3）
-// 方案C：预定义例句 + 词书例句 + 中文释义 + API兜底，不生成AI例句
-// v3 新增：从已安装词书（localStorage）中查找例句和释义
+// XZ Dictionary - 查词逻辑优化（最终版 v4）
+// 方案C：预定义例句 + 内置词书例句 + 中文释义 + API兜底，不生成AI例句
+// v4 改进：启动时静默加载内置词书JSON到内存，查词时直接查内存索引，无需用户手动下载词书
 
-// ==================== 新增：词书例句查找 ====================
+// ==================== 内置词书内存索引 ====================
+
+// 内存中的词书索引：{ word: { meanings, meaning, partOfSpeech, wordbookName, ... } }
+const _builtinWordIndex = {};
+let _builtinIndexReady = false;
+let _builtinIndexPromise = null;
 
 /**
- * 从已安装的词书（localStorage）中查找单词的例句和释义
+ * 启动时静默加载所有内置词书JSON，构建内存索引
+ * 不依赖localStorage，不需要用户手动下载
+ */
+function loadBuiltinWordIndex() {
+    if (_builtinIndexPromise) return _builtinIndexPromise;
+
+    _builtinIndexPromise = (async () => {
+        try {
+            const indexResp = await fetch('wordbooks/index.json');
+            if (!indexResp.ok) {
+                console.warn('内置词书索引加载失败');
+                return;
+            }
+            const index = await indexResp.json();
+            const books = index.wordbooks || [];
+
+            // 并行加载所有词书JSON
+            const results = await Promise.allSettled(
+                books.map(async (meta) => {
+                    const resp = await fetch(meta.dataFile);
+                    if (!resp.ok) throw new Error(`加载 ${meta.dataFile} 失败`);
+                    const data = await resp.json();
+                    return { meta, data };
+                })
+            );
+
+            for (const result of results) {
+                if (result.status !== 'fulfilled') continue;
+                const { meta, data } = result.value;
+                const words = data.words || [];
+                for (const w of words) {
+                    if (!w || !w.word) continue;
+                    const key = w.word.toLowerCase();
+                    // 不覆盖已有的（优先级：先加载的词书优先）
+                    if (!_builtinWordIndex[key]) {
+                        _builtinWordIndex[key] = {
+                            ...w,
+                            wordbookName: meta.name || data.name || '内置词书'
+                        };
+                    }
+                }
+            }
+
+            _builtinIndexReady = true;
+            console.log(`✅ 内置词书索引已构建，共 ${Object.keys(_builtinWordIndex).length} 个词`);
+        } catch (e) {
+            console.warn('构建内置词书索引出错:', e);
+        }
+    })();
+
+    return _builtinIndexPromise;
+}
+
+// 页面加载后立即开始构建索引（不阻塞UI）
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => loadBuiltinWordIndex());
+} else {
+    loadBuiltinWordIndex();
+}
+
+// ==================== 词书例句查找（内存索引 + localStorage 双查） ====================
+
+/**
+ * 从内置词书内存索引 + 已安装词书（localStorage）中查找单词
  * @param {string} word - 要查找的单词（小写）
- * @returns {object|null} - { en, zh, meaning, wordbookName } 或 null
+ * @returns {object|null} - { en, zh, meaning, wordbookName, allMeanings } 或 null
  */
 function findWordInWordbooks(word) {
+    // 优先查内存索引（内置词书，不需要用户下载）
+    const builtinEntry = _builtinWordIndex[word];
+    if (builtinEntry) {
+        const result = _extractWordbookResult(builtinEntry, builtinEntry.wordbookName);
+        if (result) return result;
+    }
+
+    // 兜底：查 localStorage 中已安装的词书
     try {
         const stored = localStorage.getItem('xz_wordbooks');
         if (!stored) return null;
 
         const wordbooks = JSON.parse(stored);
-        // wordbooks 可能是对象（key=id）或数组
         const bookList = Array.isArray(wordbooks) ? wordbooks : Object.values(wordbooks);
 
         for (const book of bookList) {
             if (!book || !book.words) continue;
-
             const found = book.words.find(w => w && w.word && w.word.toLowerCase() === word);
-            if (found && found.meanings && found.meanings.length > 0) {
-                const m = found.meanings[0];
-                const example = m.example;
-                const meaning = m.def || found.meaning || '';
-
-                if (example && example.en && example.zh) {
-                    return {
-                        en: example.en,
-                        zh: example.zh,
-                        meaning: meaning,
-                        wordbookName: book.name || '词书'
-                    };
-                }
-                // 有释义但没有例句的情况
-                if (meaning) {
-                    return {
-                        en: null,
-                        zh: null,
-                        meaning: meaning,
-                        wordbookName: book.name || '词书'
-                    };
-                }
+            if (found) {
+                const result = _extractWordbookResult(found, book.name || '词书');
+                if (result) return result;
             }
         }
 
@@ -52,6 +107,42 @@ function findWordInWordbooks(word) {
         console.warn('词书查找出错:', e);
         return null;
     }
+}
+
+/**
+ * 从词书条目中提取查词结果
+ */
+function _extractWordbookResult(entry, wordbookName) {
+    if (!entry.meanings || entry.meanings.length === 0) return null;
+
+    const m = entry.meanings[0];
+    const example = m.example;
+    // 拼接所有词性的释义
+    const allMeaningStr = entry.meanings.map(mi => {
+        const pos = mi.pos ? mi.pos + ' ' : '';
+        return pos + (mi.def || '');
+    }).filter(Boolean).join('；');
+    const meaning = allMeaningStr || m.def || entry.meaning || '';
+
+    if (example && example.en && example.zh) {
+        return {
+            en: example.en,
+            zh: example.zh,
+            meaning: meaning,
+            wordbookName: wordbookName,
+            allMeanings: entry.meanings
+        };
+    }
+    if (meaning) {
+        return {
+            en: null,
+            zh: null,
+            meaning: meaning,
+            wordbookName: wordbookName,
+            allMeanings: entry.meanings
+        };
+    }
+    return null;
 }
 
 // ==================== 覆盖 searchEnglish ====================
@@ -64,7 +155,11 @@ async function searchEnglish(word) {
         return;
     }
 
-    // 步骤1.5（新增）：从已安装词书中查找例句
+    // 步骤1.5：从内置词书（内存索引）+ 已安装词书中查找例句
+    // 确保内置词书索引已加载完成
+    if (!_builtinIndexReady && _builtinIndexPromise) {
+        await _builtinIndexPromise;
+    }
     const wordbookResult = findWordInWordbooks(word);
     if (wordbookResult && wordbookResult.en) {
         console.log(`✅ 找到词书例句（${wordbookResult.wordbookName}）`);
@@ -118,6 +213,56 @@ async function displayWordWithWordbookExample(word, wordbookData) {
     // 设置 currentWordData 供其他功能使用
     window.currentWordData = { word, meaning, example: { en: wordbookData.en, zh: wordbookData.zh } };
 
+    // 多词性释义渲染
+    let meaningsHtml = '';
+    if (wordbookData.allMeanings && wordbookData.allMeanings.length > 0) {
+        meaningsHtml = wordbookData.allMeanings.map(mi => {
+            const pos = mi.pos ? `<div class="part-of-speech">${mi.pos}</div>` : '';
+            const def = mi.def || '';
+            return `<div class="meaning-item">${pos}<div class="definition">• ${def}</div></div>`;
+        }).join('');
+    } else {
+        meaningsHtml = `<div class="meaning-item"><div class="definition">📖 ${meaning}</div></div>`;
+    }
+
+    // 多词性例句渲染（每个词性都有独立例句时全部展示）
+    let examplesHtml = '';
+    if (wordbookData.allMeanings && wordbookData.allMeanings.length > 1) {
+        const exampleItems = wordbookData.allMeanings
+            .filter(mi => mi.example && mi.example.en && mi.example.zh)
+            .map(mi => {
+                const posLabel = mi.pos ? `<span style="color:var(--text-light);font-size:0.85rem;">[${mi.pos}]</span> ` : '';
+                return `
+                    <div class="example-item">
+                        <div class="example-en">
+                            ${posLabel}<span class="example-text">${mi.example.en}</span>
+                            <button class="btn-speak-example" onclick="speakText('${mi.example.en.replace(/'/g, "\\\\'")}')" >🔊</button>
+                        </div>
+                        <div class="example-zh">${mi.example.zh}</div>
+                    </div>
+                `;
+            });
+        examplesHtml = exampleItems.length > 0 ? exampleItems.join('') : `
+            <div class="example-item">
+                <div class="example-en">
+                    <span class="example-text">${wordbookData.en}</span>
+                    <button class="btn-speak-example" onclick="speakText('${wordbookData.en.replace(/'/g, "\\\\'")}')" >🔊</button>
+                </div>
+                <div class="example-zh">${wordbookData.zh}</div>
+            </div>
+        `;
+    } else {
+        examplesHtml = `
+            <div class="example-item">
+                <div class="example-en">
+                    <span class="example-text">${wordbookData.en}</span>
+                    <button class="btn-speak-example" onclick="speakText('${wordbookData.en.replace(/'/g, "\\\\'")}')" >🔊</button>
+                </div>
+                <div class="example-zh">${wordbookData.zh}</div>
+            </div>
+        `;
+    }
+
     resultArea.innerHTML = `
         <div class="word-card">
             <div class="word-content-wrapper">
@@ -137,20 +282,12 @@ async function displayWordWithWordbookExample(word, wordbookData) {
                     </div>
                     
                     <div class="meanings">
-                        <div class="meaning-item">
-                            <div class="definition">📖 ${meaning}</div>
-                        </div>
+                        ${meaningsHtml}
                     </div>
                     
                     <div class="examples">
                         <h3>📝 例句 <span class="xz-tag">专属例句</span></h3>
-                        <div class="example-item">
-                            <div class="example-en">
-                                <span class="example-text">${wordbookData.en}</span>
-                                <button class="btn-speak-example" onclick="speakText('${wordbookData.en.replace(/'/g, "\\\\'")}')" >🔊</button>
-                            </div>
-                            <div class="example-zh">${wordbookData.zh}</div>
-                        </div>
+                        ${examplesHtml}
                     </div>
                 </div>
                 
@@ -401,4 +538,4 @@ function renderWordImageSidebar(wordImage, word) {
     `;
 }
 
-console.log('✅ XZ Dictionary 查词逻辑优化（方案C v3）已加载 - 支持词书例句查找');
+console.log('✅ XZ Dictionary 查词逻辑优化（方案C v4）已加载 - 内置词书自动索引，无需手动下载');
