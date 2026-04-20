@@ -1487,3 +1487,10 @@ body {
         padding: 18px 20px;
     }
 }
+
+/* 热词特辑分隔线 */
+.hotword-series-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--border, #e0e0e0), transparent);
+    margin: 32px 0;
+}

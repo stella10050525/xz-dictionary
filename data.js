@@ -1,4 +1,4 @@
-﻿// 肖战主题例句数据库（100词）
+﻿// 肖战主题例句数据库(100词)
 const xzExamples = {
     // 外貌相关
     handsome: {
@@ -7,15 +7,15 @@ const xzExamples = {
     },
     beautiful: {
         en: "Xiao Zhan's smile is so beautiful that it lights up the entire room.",
-        zh: "肖战的笑容如此美好，照亮了整个房间。"
+        zh: "肖战的笑容如此美好,照亮了整个房间。"
     },
     charming: {
         en: "Xiao Zhan has a charming personality that attracts everyone.",
-        zh: "肖战拥有迷人的个性，吸引着每一个人。"
+        zh: "肖战拥有迷人的个性,吸引着每一个人。"
     },
     elegant: {
         en: "Xiao Zhan looked incredibly elegant in that black suit at the awards ceremony.",
-        zh: "肖战在颁奖典礼上穿着黑色西装，显得格外优雅。"
+        zh: "肖战在颁奖典礼上穿着黑色西装,显得格外优雅。"
     },
     gorgeous: {
         en: "Xiao Zhan looks absolutely gorgeous in traditional Chinese costumes.",
@@ -41,11 +41,11 @@ const xzExamples = {
         en: "Xiao Zhan looked dashing in his military uniform in the drama.",
         zh: "肖战在剧中穿军装时看起来英姿飒爽。"
     },
-    
+
     // 才华相关
     talented: {
         en: "Xiao Zhan is a talented actor who brings characters to life.",
-        zh: "肖战是一位有才华的演员，能让角色栩栩如生。"
+        zh: "肖战是一位有才华的演员,能让角色栩栩如生。"
     },
     brilliant: {
         en: "Xiao Zhan's performance in this drama was absolutely brilliant.",
@@ -53,7 +53,7 @@ const xzExamples = {
     },
     professional: {
         en: "Xiao Zhan is always professional on set, respecting every staff member.",
-        zh: "肖战在片场总是很专业，尊重每一位工作人员。"
+        zh: "肖战在片场总是很专业,尊重每一位工作人员。"
     },
     creative: {
         en: "Xiao Zhan shows his creative side through music and acting.",
@@ -65,7 +65,7 @@ const xzExamples = {
     },
     versatile: {
         en: "Xiao Zhan is a versatile performer who excels in many fields.",
-        zh: "肖战是一位多才多艺的表演者，在许多领域都很出色。"
+        zh: "肖战是一位多才多艺的表演者,在许多领域都很出色。"
     },
     artistic: {
         en: "Xiao Zhan's artistic interpretation of the character was impressive.",
@@ -75,7 +75,7 @@ const xzExamples = {
         en: "Xiao Zhan is truly gifted in both acting and singing.",
         zh: "肖战在表演和歌唱方面都极具天赋。"
     },
-    
+
     // 品质相关
     kind: {
         en: "Xiao Zhan is known for being kind and caring towards his fans.",
@@ -83,7 +83,7 @@ const xzExamples = {
     },
     humble: {
         en: "Despite his success, Xiao Zhan remains humble and down-to-earth.",
-        zh: "尽管很成功，肖战依然保持谦逊和脚踏实地。"
+        zh: "尽管很成功,肖战依然保持谦逊和脚踏实地。"
     },
     dedicated: {
         en: "Xiao Zhan is dedicated to improving his craft every single day.",
@@ -107,7 +107,7 @@ const xzExamples = {
     },
     reliable: {
         en: "Xiao Zhan is a reliable person who keeps his promises.",
-        zh: "肖战是一个可靠的人，信守承诺。"
+        zh: "肖战是一个可靠的人,信守承诺。"
     },
     respectful: {
         en: "Xiao Zhan is always respectful to seniors in the industry.",
@@ -115,17 +115,17 @@ const xzExamples = {
     },
     thoughtful: {
         en: "Xiao Zhan is thoughtful and considers others' feelings.",
-        zh: "肖战很体贴，会考虑他人的感受。"
+        zh: "肖战很体贴,会考虑他人的感受。"
     },
-    
+
     // 工作相关
     hardworking: {
         en: "Xiao Zhan is extremely hardworking, often practicing late into the night.",
-        zh: "肖战工作非常努力，经常练习到深夜。"
+        zh: "肖战工作非常努力,经常练习到深夜。"
     },
     focused: {
         en: "When filming, Xiao Zhan is completely focused on his character.",
-        zh: "拍摄时，肖战完全专注于角色。"
+        zh: "拍摄时,肖战完全专注于角色。"
     },
     passionate: {
         en: "Xiao Zhan is passionate about every role he takes on.",
@@ -151,7 +151,7 @@ const xzExamples = {
         en: "Xiao Zhan's persistent efforts finally paid off with this award.",
         zh: "肖战坚持不懈的努力最终通过这个奖项得到了回报。"
     },
-    
+
     // 身体相关
     strong: {
         en: "Xiao Zhan's strong physique is the result of consistent exercise.",
@@ -181,11 +181,11 @@ const xzExamples = {
         en: "Xiao Zhan's agile movements during fight scenes are impressive.",
         zh: "肖战在打斗场景中敏捷的动作令人印象深刻。"
     },
-    
+
     // 表演相关
     act: {
         en: "Xiao Zhan can act in various genres, from romance to historical drama.",
-        zh: "肖战能演绎多种类型，从爱情到古装剧。"
+        zh: "肖战能演绎多种类型,从爱情到古装剧。"
     },
     perform: {
         en: "Xiao Zhan performed the song beautifully at the concert.",
@@ -197,7 +197,7 @@ const xzExamples = {
     },
     sing: {
         en: "When Xiao Zhan sings, his voice touches people's hearts.",
-        zh: "当肖战歌唱时，他的声音触动人心。"
+        zh: "当肖战歌唱时,他的声音触动人心。"
     },
     portray: {
         en: "Xiao Zhan can portray different characters convincingly.",
@@ -215,7 +215,7 @@ const xzExamples = {
         en: "Xiao Zhan truly embodies the spirit of his characters.",
         zh: "肖战真正体现了角色的精神。"
     },
-    
+
     // 情感相关
     smile: {
         en: "Xiao Zhan's warm smile can brighten anyone's day.",
@@ -223,7 +223,7 @@ const xzExamples = {
     },
     laugh: {
         en: "Xiao Zhan's genuine laugh is contagious and heartwarming.",
-        zh: "肖战真诚的笑声很有感染力，温暖人心。"
+        zh: "肖战真诚的笑声很有感染力,温暖人心。"
     },
     inspire: {
         en: "Xiao Zhan inspires millions of fans to pursue their dreams.",
@@ -249,11 +249,11 @@ const xzExamples = {
         en: "Xiao Zhan's funny moments always cheer up the fans.",
         zh: "肖战的搞笑时刻总能让粉丝开心起来。"
     },
-    
+
     // 常用词汇
     amazing: {
         en: "Xiao Zhan's performance in the new drama is simply amazing!",
-        zh: "肖战在新剧中的表现简直太棒了！"
+        zh: "肖战在新剧中的表现简直太棒了!"
     },
     wonderful: {
         en: "It was a wonderful experience meeting Xiao Zhan at the fan event.",
@@ -281,7 +281,7 @@ const xzExamples = {
     },
     dream: {
         en: "Meeting Xiao Zhan in person is my biggest dream!",
-        zh: "亲眼见到肖战是我最大的梦想！"
+        zh: "亲眼见到肖战是我最大的梦想!"
     },
     outstanding: {
         en: "Xiao Zhan's outstanding acting skills earned him many awards.",
@@ -309,11 +309,11 @@ const xzExamples = {
     },
     favorite: {
         en: "Xiao Zhan is my favorite actor of all time!",
-        zh: "肖战是我有史以来最喜欢的演员！"
+        zh: "肖战是我有史以来最喜欢的演员!"
     },
     idol: {
         en: "Xiao Zhan is not just an actor, he's my idol.",
-        zh: "肖战不仅是演员，更是我的偶像。"
+        zh: "肖战不仅是演员,更是我的偶像。"
     },
     hero: {
         en: "Xiao Zhan is a hero both on screen and in real life.",
@@ -321,7 +321,7 @@ const xzExamples = {
     },
     star: {
         en: "Xiao Zhan shines like a star wherever he goes.",
-        zh: "无论走到哪里，肖战都像明星一样闪耀。"
+        zh: "无论走到哪里,肖战都像明星一样闪耀。"
     },
     shine: {
         en: "Xiao Zhan's talent allows him to shine in every role.",
@@ -361,7 +361,7 @@ const xzExamples = {
     },
     intelligent: {
         en: "Xiao Zhan is an intelligent actor who analyzes his roles deeply.",
-        zh: "肖战是一位智慧的演员，深入分析角色。"
+        zh: "肖战是一位智慧的演员,深入分析角色。"
     },
     wise: {
         en: "Xiao Zhan's wise words about life inspire many young people.",
@@ -377,11 +377,11 @@ const xzExamples = {
     },
     proud: {
         en: "I'm so proud to be Xiao Zhan's fan!",
-        zh: "我为成为肖战的粉丝而自豪！"
+        zh: "我为成为肖战的粉丝而自豪!"
     },
     happy: {
         en: "Seeing Xiao Zhan happy makes all fans happy too.",
-        zh: "看到肖战开心，所有粉丝也都开心。"
+        zh: "看到肖战开心,所有粉丝也都开心。"
     },
     lucky: {
         en: "We are lucky to have such a wonderful artist like Xiao Zhan.",
@@ -391,11 +391,11 @@ const xzExamples = {
         en: "Fans are grateful for every moment Xiao Zhan shares with us.",
         zh: "粉丝感激肖战与我们分享的每一刻。"
     },
-    
-    // 活动相关（热词推送）
+
+    // 活动相关(热词推送)
     premiere: {
         en: "The premiere of Xiao Zhan's new drama will be this weekend!",
-        zh: "肖战新剧的首映将在本周末！"
+        zh: "肖战新剧的首映将在本周末!"
     },
     endorsement: {
         en: "Xiao Zhan's endorsement of this luxury brand shows his influence.",
@@ -415,21 +415,21 @@ const xzExamples = {
     },
     concert: {
         en: "I'm so excited about Xiao Zhan's upcoming concert tour!",
-        zh: "我对肖战即将到来的演唱会巡演感到非常兴奋！"
+        zh: "我对肖战即将到来的演唱会巡演感到非常兴奋!"
     },
-    
-    // 最新热词（2026年3月）
+
+    // 最新热词(2026年3月)
     award: {
         en: "Xiao Zhan won the Best Actor award at SMG TV Drama Quality Awards!",
-        zh: "肖战在SMG影视剧品质盛典荣获最佳男演员奖！"
+        zh: "肖战在SMG影视剧品质盛典荣获最佳男演员奖!"
     },
     wrap: {
         en: "Xiao Zhan's new drama 'Small Town Good Recipe' has wrapped filming!",
-        zh: "肖战的新剧《小城良方》已经杀青！"
+        zh: "肖战的新剧《小城良方》已经杀青!"
     },
     honor: {
         en: "It's a great honor for Xiao Zhan to receive this recognition.",
-        zh: "对肖战来说，获得这个认可是莫大的荣誉。"
+        zh: "对肖战来说,获得这个认可是莫大的荣誉。"
     },
     filming: {
         en: "Xiao Zhan is currently busy with filming his new project.",
@@ -441,9 +441,9 @@ const xzExamples = {
     },
     celebrate: {
         en: "Fans are celebrating Xiao Zhan's recent achievements!",
-        zh: "粉丝们正在庆祝肖战最近的成就！"
+        zh: "粉丝们正在庆祝肖战最近的成就!"
     },
-    
+
     // 时尚与代言
     ambassador: {
         en: "Xiao Zhan attended the event as a global brand ambassador.",
@@ -459,9 +459,9 @@ const xzExamples = {
     },
     cosmetics: {
         en: "As a NARS ambassador, Xiao Zhan represents premium cosmetics.",
-        zh: "作为NARS大使，肖战代表着高端彩妆。"
+        zh: "作为NARS大使,肖战代表着高端彩妆。"
     },
-    
+
     // 表演与演技相关 (新增)
     scene: {
         en: "Xiao Zhan's emotional scenes always leave a deep impression.",
@@ -539,7 +539,7 @@ const xzExamples = {
         en: "Each episode showcases Xiao Zhan's acting skills.",
         zh: "每一集都展现了肖战的演技。"
     },
-    
+
     // 音乐相关 (新增)
     song: {
         en: "Xiao Zhan's songs touch millions of hearts.",
@@ -577,7 +577,7 @@ const xzExamples = {
         en: "Xiao Zhan owns every stage he performs on.",
         zh: "肖战在每个舞台上都表现出色。"
     },
-    
+
     // 粉丝互动相关 (新增)
     fan: {
         en: "Xiao Zhan deeply appreciates every fan's support.",
@@ -619,11 +619,11 @@ const xzExamples = {
         en: "Fans collect every poster featuring Xiao Zhan.",
         zh: "粉丝们收集每一张肖战的海报。"
     },
-    
+
     // 品质与态度 (新增)
     modest: {
         en: "Xiao Zhan remains modest despite his fame.",
-        zh: "尽管名声在外，肖战依然保持谦逊。"
+        zh: "尽管名声在外,肖战依然保持谦逊。"
     },
     polite: {
         en: "Xiao Zhan is always polite to everyone.",
@@ -661,7 +661,7 @@ const xzExamples = {
         en: "Xiao Zhan is gracious in victory and defeat.",
         zh: "肖战无论胜败都很有风度。"
     },
-    
+
     // 外表细节 (新增)
     eyes: {
         en: "Xiao Zhan's eyes sparkle with emotion.",
@@ -703,7 +703,7 @@ const xzExamples = {
         en: "Xiao Zhan's outfit choice is always on point.",
         zh: "肖战的服装选择总是恰到好处。"
     },
-    
+
     // 成就与荣誉 (新增)
     success: {
         en: "Xiao Zhan's success comes from hard work and talent.",
@@ -745,7 +745,7 @@ const xzExamples = {
         en: "Xiao Zhan is building a lasting legacy.",
         zh: "肖战正在建立持久的艺术遗产。"
     },
-    
+
     // 情感与关系 (新增)
     respect: {
         en: "Xiao Zhan earns respect from peers and fans alike.",
@@ -787,7 +787,7 @@ const xzExamples = {
         en: "Xiao Zhan approaches every project with enthusiasm.",
         zh: "肖战以热情对待每个项目。"
     },
-    
+
     // 时尚与造型 (新增)
     style: {
         en: "Xiao Zhan's personal style is influential.",
@@ -829,7 +829,7 @@ const xzExamples = {
         en: "Xiao Zhan looks stunning in haute couture.",
         zh: "肖战穿高级定制服装非常惊艳。"
     },
-    
+
     // 媒体与传播 (新增)
     interview: {
         en: "Xiao Zhan gives thoughtful interviews.",
@@ -871,7 +871,7 @@ const xzExamples = {
         en: "Xiao Zhan's content often goes viral.",
         zh: "肖战的内容经常病毒式传播。"
     },
-    
+
     // 训练与提升 (新增)
     practice: {
         en: "Xiao Zhan dedicates hours to practice daily.",
@@ -913,7 +913,7 @@ const xzExamples = {
         en: "Xiao Zhan understands the importance of rest.",
         zh: "肖战明白休息的重要性。"
     },
-    
+
     // 创作与艺术 (新增)
     create: {
         en: "Xiao Zhan loves to create meaningful art.",
@@ -955,7 +955,7 @@ const xzExamples = {
         en: "Xiao Zhan is genuine in everything he does.",
         zh: "肖战做任何事都很真诚。"
     },
-    
+
     // 活动与场合 (新增)
     event: {
         en: "Xiao Zhan lights up every event he attends.",
@@ -997,7 +997,7 @@ const xzExamples = {
         en: "Xiao Zhan attended the grand opening.",
         zh: "肖战出席了盛大的开幕式。"
     },
-    
+
     // 交流与互动 (新增)
     communicate: {
         en: "Xiao Zhan communicates well with everyone.",
@@ -1039,7 +1039,7 @@ const xzExamples = {
         en: "Xiao Zhan's message always resonates deeply.",
         zh: "肖战传达的信息总能深深共鸣。"
     },
-    
+
     // 成长与发展 (新增)
     grow: {
         en: "Xiao Zhan continues to grow as an artist.",
@@ -1081,7 +1081,7 @@ const xzExamples = {
         en: "Xiao Zhan never stops learning.",
         zh: "肖战从不停止学习。"
     },
-    
+
     // 精神品质 (新增)
     courage: {
         en: "Xiao Zhan shows courage in taking on difficult roles.",
@@ -1123,7 +1123,7 @@ const xzExamples = {
         en: "Xiao Zhan has high moral standards.",
         zh: "肖战有很高的道德标准。"
     },
-    
+
     // 时间与经历 (新增)
     moment: {
         en: "Every moment with Xiao Zhan is precious.",
@@ -1165,7 +1165,7 @@ const xzExamples = {
         en: "Xiao Zhan works hard toward his goals.",
         zh: "肖战努力实现他的目标。"
     },
-    
+
     // 自然与描述 (新增)
     light: {
         en: "Xiao Zhan is like a light in darkness.",
@@ -1207,7 +1207,7 @@ const xzExamples = {
         en: "Xiao Zhan is a hidden gem discovered by the world.",
         zh: "肖战是被世界发现的隐藏珍宝。"
     },
-    
+
     // 声音与表达 (新增)
     tone: {
         en: "Xiao Zhan's tone is soothing and pleasant.",
@@ -1227,7 +1227,7 @@ const xzExamples = {
     },
     shout: {
         en: "When Xiao Zhan shouts, it's full of passion.",
-        zh: "当肖战呐喊时，充满激情。"
+        zh: "当肖战呐喊时,充满激情。"
     },
     echo: {
         en: "I hear the echo of \"Sempiternal Genesis Loop\".",
@@ -1243,13 +1243,13 @@ const xzExamples = {
     },
     silence: {
         en: "Even in silence, Xiao Zhan communicates volumes.",
-        zh: "即使在沉默中，肖战也能传达很多。"
+        zh: "即使在沉默中,肖战也能传达很多。"
     },
     quiet: {
         en: "Xiao Zhan enjoys quiet moments of reflection.",
         zh: "肖战享受安静的反思时刻。"
     },
-    
+
     // 动作与行为 (新增)
     walk: {
         en: "Xiao Zhan walks with grace and confidence.",
@@ -1269,11 +1269,11 @@ const xzExamples = {
     },
     sit: {
         en: "Even when Xiao Zhan sits, his posture is elegant.",
-        zh: "即使坐着，肖战的姿态也很优雅。"
+        zh: "即使坐着,肖战的姿态也很优雅。"
     },
     turn: {
         en: "When Xiao Zhan turns, all eyes follow.",
-        zh: "当肖战转身时，所有目光都追随着。"
+        zh: "当肖战转身时,所有目光都追随着。"
     },
     wave: {
         en: "Xiao Zhan waves goodbye to fans warmly.",
@@ -1291,7 +1291,7 @@ const xzExamples = {
         en: "Xiao Zhan reaches for new heights.",
         zh: "肖战追求新的高度。"
     },
-    
+
     // 特质与特点 (新增)
     natural: {
         en: "Xiao Zhan's acting feels completely natural.",
@@ -1307,7 +1307,7 @@ const xzExamples = {
     },
     sharp: {
         en: "Xiao Zhan has a sharp mind and wit.",
-        zh: "肖战头脑敏锐，机智过人。"
+        zh: "肖战头脑敏锐,机智过人。"
     },
     keen: {
         en: "Xiao Zhan has keen observation skills.",
@@ -1333,7 +1333,7 @@ const xzExamples = {
         en: "Xiao Zhan is a reliable team member.",
         zh: "肖战是可靠的团队成员。"
     },
-    
+
     // 色彩与视觉 (新增)
     color: {
         en: "Xiao Zhan looks great in any color.",
@@ -1369,13 +1369,13 @@ const xzExamples = {
     },
     shadow: {
         en: "Even in shadow, Xiao Zhan stands out.",
-        zh: "即使在阴影中，肖战也很突出。"
+        zh: "即使在阴影中,肖战也很突出。"
     },
     reflection: {
         en: "Xiao Zhan's reflection is equally captivating.",
         zh: "肖战的倒影同样迷人。"
     },
-    
+
     // 数量与程度 (新增)
     many: {
         en: "Many people admire Xiao Zhan.",
@@ -1406,8 +1406,8 @@ const xzExamples = {
         zh: "越来越多的人发现肖战的才华。"
     },
     less: {
-        en: "Less talk, more action—that's Xiao Zhan's way.",
-        zh: "少说多做——这就是肖战的方式。"
+        en: "Less talk, more action-that's Xiao Zhan's way.",
+        zh: "少说多做--这就是肖战的方式。"
     },
     much: {
         en: "Xiao Zhan gives so much to his work.",
@@ -1415,9 +1415,9 @@ const xzExamples = {
     },
     little: {
         en: "Xiao Zhan started with little but achieved much.",
-        zh: "肖战起步时很少，但成就很多。"
+        zh: "肖战起步时很少,但成就很多。"
     },
-    
+
     // 位置与方向 (新增)
     top: {
         en: "Xiao Zhan is at the top of his game.",
@@ -1429,7 +1429,7 @@ const xzExamples = {
     },
     low: {
         en: "Xiao Zhan never looks down on others despite his high status.",
-        zh: "尽管地位很高，肖战从不小看别人。"
+        zh: "尽管地位很高,肖战从不小看别人。"
     },
     front: {
         en: "Xiao Zhan is always in front leading the way.",
@@ -1459,11 +1459,11 @@ const xzExamples = {
         en: "Xiao Zhan always moves forward.",
         zh: "肖战总是向前迈进。"
     },
-    
+
     // 时间相关 (新增)
     today: {
         en: "Today, Xiao Zhan is more popular than ever.",
-        zh: "今天，肖战比以往任何时候都更受欢迎。"
+        zh: "今天,肖战比以往任何时候都更受欢迎。"
     },
     tomorrow: {
         en: "Tomorrow belongs to talents like Xiao Zhan.",
@@ -1475,11 +1475,11 @@ const xzExamples = {
     },
     now: {
         en: "Right now, Xiao Zhan is at his peak.",
-        zh: "现在，肖战正处于巅峰。"
+        zh: "现在,肖战正处于巅峰。"
     },
     then: {
         en: "Back then, Xiao Zhan was already showing promise.",
-        zh: "那时候，肖战就已经显露出潜力。"
+        zh: "那时候,肖战就已经显露出潜力。"
     },
     always: {
         en: "Xiao Zhan always gives his best.",
@@ -1501,7 +1501,7 @@ const xzExamples = {
         en: "Xiao Zhan rarely makes mistakes.",
         zh: "肖战很少犯错。"
     },
-    
+
     // 抽象概念 (新增)
     idea: {
         en: "Xiao Zhan's creative ideas are innovative.",
@@ -1543,11 +1543,11 @@ const xzExamples = {
         en: "Xiao Zhan sets the standard for excellence.",
         zh: "肖战树立了卓越的标准。"
     },
-    
-    // 十日终焉热词（2026年4月）
+
+    // 十日终焉热词(2026年4月)
     liar: {
         en: "My name is Qi Xia. I'm a liar. You can only believe half of what I say.",
-        zh: "我叫齐夏，是个骗子，我的话你只能信一半。"
+        zh: "我叫齐夏,是个骗子,我的话你只能信一半。"
     },
     genius: {
         en: "Qi Xia is a genius who leads his companions through deadly challenges with his brilliant mind.",
@@ -1571,83 +1571,165 @@ const xzExamples = {
     }
 };
 
-// 热词推送数据（定期更新）
-const hotWords = [
+// 热词推送数据(定期更新)
+// 热词特辑系列(新特辑放数组前面,旧的在后面)
+const hotWordSeries = [
     {
-        word: "liar",
-        meaning: "说谎者；撒谎者",
-        phonetic: "/ˈlaɪə(r)/",
-        topic: "😏 我叫齐夏，是个骗子",
+        id: "xclf",
+        title: "小城良方 · 热词特辑",
+        banner: "images/hotword-banner-xclf.jpg",
+        subtitle: "🏥 6个核心词汇,一起走进小城,寻找刘铮亮的良方...",
         date: "2026-04",
-        example: {
-            en: "My name is Qi Xia. I'm a liar. You can only believe half of what I say.",
-            zh: "我叫齐夏，是个骗子，我的话你只能信一半。"
-        },
-        image: ""
+        words: [
+            {
+                word: "town",
+                meaning: "城镇",
+                phonetic: "/taʊn/",
+                topic: "❄ 东北小城",
+                example: {
+                    en: "The story unfolds in this small northeastern town just before winter sets in.",
+                    zh: "故事发生在这座东北小城的冬天来临之前。"
+                },
+                image: ""
+            },
+            {
+                word: "remedy",
+                meaning: "药方",
+                phonetic: "/ˈremədi/",
+                topic: "💊 刘医生的药方",
+                example: {
+                    en: "Dr. Liu, who prescribes remedies for his patients, also finds the right remedy for himself right here.",
+                    zh: "给病人开药方的刘医生,也会在这里找到自己的良方。"
+                },
+                image: ""
+            },
+            {
+                word: "trauma",
+                meaning: "创伤",
+                phonetic: "/ˈtrɔːmə/",
+                topic: "💔 刘铮亮的创伤",
+                example: {
+                    en: "Liu Zhengliang has suffered severe trauma.",
+                    zh: "刘铮亮经历过严重的创伤。"
+                },
+                image: ""
+            },
+            {
+                word: "heal",
+                meaning: "治愈",
+                phonetic: "/hiːl/",
+                topic: "❤ 治愈",
+                example: {
+                    en: "The sincere connections between people in this small town will heal him.",
+                    zh: "小城里人与人之间真挚的联结会治愈他。"
+                },
+                image: ""
+            },
+            {
+                word: "emergency department",
+                meaning: "急诊科",
+                phonetic: "/ɪˈmɜːdʒənsi dɪˈpɑːtmənt/",
+                topic: "🚑 急诊科主任",
+                example: {
+                    en: "Liu Zhengliang is the director of the Emergency Department at Xiaoximen Hospital.",
+                    zh: "刘铮亮是小西门医院急诊科主任。"
+                },
+                image: ""
+            },
+            {
+                word: "sweet potato",
+                meaning: "地瓜",
+                phonetic: "/ˌswiːt pəˈteɪtəʊ/",
+                topic: "🍠 烤地瓜",
+                example: {
+                    en: "Liu Zhengliang likes eating roast sweet potatoes.",
+                    zh: "刘铮亮爱吃烤地瓜。"
+                },
+                image: ""
+            }
+        ]
     },
     {
-        word: "genius",
-        meaning: "天才；天赋",
-        phonetic: "/ˈdʒiːniəs/",
-        topic: "🧠 天才齐夏",
+        id: "srzy",
+        title: "十日终焉 · 热词特辑",
+        banner: "images/hotword-banner.jpg",
+        subtitle: "📖 6个核心词汇,带你走进齐夏的十日世界",
         date: "2026-04",
-        example: {
-            en: "Qi Xia is a genius who leads his companions through deadly challenges with his brilliant mind.",
-            zh: "齐夏是一位凭借超凡智慧带领伙伴闯过生死挑战的天才。"
-        },
-        image: ""
-    },
-    {
-        word: "goat / sheep",
-        meaning: "羊；山羊/绵羊",
-        phonetic: "/ɡəʊt/ /ʃiːp/",
-        topic: "🐏 齐夏羊 🐐",
-        date: "2026-04",
-        example: {
-            en: "Qi Xia is deeply associated with the symbol of goat / sheep.",
-            zh: "齐夏与羊的象征深度关联。"
-        },
-        image: ""
-    },
-    {
-        word: "echo",
-        meaning: "\u56DE\u54CD\uFF1B\u56DE\u58F0\uFF1B\u56DE\u97F3",
-        phonetic: "/\u02C8ek\u0259\u028A/",
-        topic: "\uD83D\uDC42 \u751F\u751F\u4E0D\u606F\u7684\u56DE\u54CD",
-        date: "2026-04",
-        example: {
-            en: "I hear the echo of \"Sempiternal Genesis Loop\".",
-            zh: "\u6211\u542C\u5230\u4E86\u201C\u751F\u751F\u4E0D\u606F\u201D\u7684\u56DE\u54CD\u3002"
-        },
-        image: ""
-    },
-    {
-        word: "loop",
-        meaning: "循环；回路",
-        phonetic: "/luːp/",
-        topic: "🔄 十日循环",
-        date: "2026-04",
-        example: {
-            en: "They are trapped in a ten-day loop that erases their memories after each cycle.",
-            zh: "他们被困在一个每次循环结束都会抹去记忆的十日循环里。"
-        },
-        image: ""
-    },
-    {
-        word: "infinite",
-        meaning: "无限的；无穷尽的",
-        phonetic: "/ˈɪnfɪnət/",
-        topic: "📕 无限流",
-        date: "2026-04",
-        example: {
-            en: "10 DAYS TILL THE END is a typical infinite stream novel.",
-            zh: "《十日终焉》是一本典型的无限流小说。"
-        },
-        image: ""
+        words: [
+            {
+                word: "liar",
+                meaning: "说谎者;撒谎者",
+                phonetic: "/ˈlaɪə(r)/",
+                topic: "😏 我叫齐夏,是个骗子",
+                example: {
+                    en: "My name is Qi Xia. I'm a liar. You can only believe half of what I say.",
+                    zh: "我叫齐夏,是个骗子,我的话你只能信一半。"
+                },
+                image: ""
+            },
+            {
+                word: "genius",
+                meaning: "天才;天赋",
+                phonetic: "/ˈdʒiːniəs/",
+                topic: "🧠 天才齐夏",
+                example: {
+                    en: "Qi Xia is a genius who leads his companions through deadly challenges with his brilliant mind.",
+                    zh: "齐夏是一位凭借超凡智慧带领伙伴闯过生死挑战的天才。"
+                },
+                image: ""
+            },
+            {
+                word: "goat / sheep",
+                meaning: "羊;山羊/绵羊",
+                phonetic: "/ɡəʊt/ /ʃiːp/",
+                topic: "🐏 齐夏羊 🐐",
+                example: {
+                    en: "Qi Xia is deeply associated with the symbol of goat / sheep.",
+                    zh: "齐夏与羊的象征深度关联。"
+                },
+                image: ""
+            },
+            {
+                word: "echo",
+                meaning: "回响;回声;回音",
+                phonetic: "/ˈekəʊ/",
+                topic: "👂 生生不息的回响",
+                example: {
+                    en: "I hear the echo of \"Sempiternal Genesis Loop\".",
+                    zh: '我听到了\u201c生生不息\u201d的回响。'
+                },
+                image: ""
+            },
+            {
+                word: "loop",
+                meaning: "循环;回路",
+                phonetic: "/luːp/",
+                topic: "🔄 十日循环",
+                example: {
+                    en: "They are trapped in a ten-day loop that erases their memories after each cycle.",
+                    zh: "他们被困在一个每次循环结束都会抹去记忆的十日循环里。"
+                },
+                image: ""
+            },
+            {
+                word: "infinite",
+                meaning: "无限的;无穷尽的",
+                phonetic: "/ˈɪnfɪnət/",
+                topic: "📕 无限流",
+                example: {
+                    en: "10 DAYS TILL THE END is a typical infinite stream novel.",
+                    zh: "《十日终焉》是一本典型的无限流小说。"
+                },
+                image: ""
+            }
+        ]
     }
 ];
 
-// 词典API配置（使用免费API）
+// 向后兼容:生成扁平的 hotWords 供旧代码使用
+const hotWords = hotWordSeries.flatMap(s => s.words.map(w => ({...w, date: s.date})));
+
+// 词典API配置(使用免费API)
 const DICT_API = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 
 // 词性中文翻译
@@ -1663,539 +1745,539 @@ const partOfSpeechMap = {
     'determiner': '限定词'
 };
 
-// 常用词汇的中文释义（用于补充API数据）
+// 常用词汇的中文释义(用于补充API数据)
 const chineseMeanings = {
-    handsome: '英俊的；帅气的',
-    beautiful: '美丽的；美好的',
-    charming: '迷人的；有魅力的',
-    elegant: '优雅的；高雅的',
-    gorgeous: '华丽的；极美的',
-    attractive: '有吸引力的；迷人的',
-    stylish: '时髦的；有格调的',
-    radiant: '光彩照人的；容光焕发的',
-    graceful: '优美的；优雅的',
-    dashing: '英姿飒爽的；潇洒的',
-    talented: '有才华的；天才的',
-    brilliant: '杰出的；才华横溢的',
-    professional: '专业的；职业的',
-    creative: '有创造力的；创新的',
-    skillful: '熟练的；技术高超的',
-    versatile: '多才多艺的；多面手的',
-    artistic: '艺术的；有艺术才能的',
-    gifted: '有天赋的；有才华的',
-    kind: '善良的；友好的',
-    humble: '谦逊的；谦虚的',
-    dedicated: '专注的；献身的',
-    sincere: '真诚的；诚挚的',
-    gentle: '温柔的；温和的',
-    generous: '慷慨的；大方的',
-    honest: '诚实的；正直的',
-    reliable: '可靠的；值得信赖的',
-    respectful: '尊重的；有礼貌的',
-    thoughtful: '体贴的；考虑周到的',
-    hardworking: '勤奋的；努力工作的',
-    focused: '专注的；集中的',
-    passionate: '热情的；热烈的',
-    diligent: '勤勉的；勤奋的',
-    committed: '坚定的；尽责的',
-    determined: '坚定的；有决心的',
-    ambitious: '有雄心的；有抱负的',
-    persistent: '坚持不懈的；持久的',
-    strong: '强壮的；强大的',
-    fit: '健康的；健壮的',
+    handsome: '英俊的;帅气的',
+    beautiful: '美丽的;美好的',
+    charming: '迷人的;有魅力的',
+    elegant: '优雅的;高雅的',
+    gorgeous: '华丽的;极美的',
+    attractive: '有吸引力的;迷人的',
+    stylish: '时髦的;有格调的',
+    radiant: '光彩照人的;容光焕发的',
+    graceful: '优美的;优雅的',
+    dashing: '英姿飒爽的;潇洒的',
+    talented: '有才华的;天才的',
+    brilliant: '杰出的;才华横溢的',
+    professional: '专业的;职业的',
+    creative: '有创造力的;创新的',
+    skillful: '熟练的;技术高超的',
+    versatile: '多才多艺的;多面手的',
+    artistic: '艺术的;有艺术才能的',
+    gifted: '有天赋的;有才华的',
+    kind: '善良的;友好的',
+    humble: '谦逊的;谦虚的',
+    dedicated: '专注的;献身的',
+    sincere: '真诚的;诚挚的',
+    gentle: '温柔的;温和的',
+    generous: '慷慨的;大方的',
+    honest: '诚实的;正直的',
+    reliable: '可靠的;值得信赖的',
+    respectful: '尊重的;有礼貌的',
+    thoughtful: '体贴的;考虑周到的',
+    hardworking: '勤奋的;努力工作的',
+    focused: '专注的;集中的',
+    passionate: '热情的;热烈的',
+    diligent: '勤勉的;勤奋的',
+    committed: '坚定的;尽责的',
+    determined: '坚定的;有决心的',
+    ambitious: '有雄心的;有抱负的',
+    persistent: '坚持不懈的;持久的',
+    strong: '强壮的;强大的',
+    fit: '健康的;健壮的',
     muscle: '肌肉',
-    athletic: '运动的；健壮的',
-    healthy: '健康的；有益健康的',
-    energetic: '精力充沛的；充满活力的',
-    agile: '敏捷的；灵活的',
-    act: '表演；扮演',
-    perform: '表演；演出',
-    dance: '跳舞；舞蹈',
-    sing: '唱歌；歌唱',
-    portray: '描绘；刻画',
-    express: '表达；表现',
-    interpret: '诠释；演绎',
-    embody: '体现；具体表现',
-    smile: '微笑；笑容',
-    laugh: '笑；大笑',
-    inspire: '激励；鼓舞',
-    encourage: '鼓励；激励',
-    comfort: '安慰；舒适',
-    touch: '触动；感动',
-    move: '感动；打动',
-    cheer: '欢呼；使高兴',
-    amazing: '令人惊叹的；了不起的',
-    wonderful: '精彩的；极好的',
-    perfect: '完美的；理想的',
-    popular: '受欢迎的；流行的',
-    famous: '著名的；出名的',
-    love: '爱；喜爱',
-    support: '支持；拥护',
-    dream: '梦想；梦',
-    outstanding: '杰出的；优秀的',
-    excellent: '优秀的；卓越的',
-    incredible: '难以置信的；了不起的',
-    remarkable: '非凡的；卓越的',
-    special: '特别的；特殊的',
-    unique: '独特的；唯一的',
+    athletic: '运动的;健壮的',
+    healthy: '健康的;有益健康的',
+    energetic: '精力充沛的;充满活力的',
+    agile: '敏捷的;灵活的',
+    act: '表演;扮演',
+    perform: '表演;演出',
+    dance: '跳舞;舞蹈',
+    sing: '唱歌;歌唱',
+    portray: '描绘;刻画',
+    express: '表达;表现',
+    interpret: '诠释;演绎',
+    embody: '体现;具体表现',
+    smile: '微笑;笑容',
+    laugh: '笑;大笑',
+    inspire: '激励;鼓舞',
+    encourage: '鼓励;激励',
+    comfort: '安慰;舒适',
+    touch: '触动;感动',
+    move: '感动;打动',
+    cheer: '欢呼;使高兴',
+    amazing: '令人惊叹的;了不起的',
+    wonderful: '精彩的;极好的',
+    perfect: '完美的;理想的',
+    popular: '受欢迎的;流行的',
+    famous: '著名的;出名的',
+    love: '爱;喜爱',
+    support: '支持;拥护',
+    dream: '梦想;梦',
+    outstanding: '杰出的;优秀的',
+    excellent: '优秀的;卓越的',
+    incredible: '难以置信的;了不起的',
+    remarkable: '非凡的;卓越的',
+    special: '特别的;特殊的',
+    unique: '独特的;唯一的',
     favorite: '最喜欢的',
-    idol: '偶像；崇拜对象',
-    hero: '英雄；男主角',
-    star: '明星；星星',
-    shine: '发光；照耀',
-    glow: '发光；容光焕发',
-    bright: '明亮的；聪明的',
-    warm: '温暖的；热情的',
-    cool: '酷的；凉爽的',
-    sweet: '甜美的；可爱的',
-    adorable: '可爱的；讨人喜欢的',
-    funny: '有趣的；滑稽的',
-    witty: '机智的；诙谐的',
-    intelligent: '聪明的；智慧的',
-    wise: '明智的；睿智的',
-    brave: '勇敢的；无畏的',
-    confident: '自信的；有信心的',
-    proud: '自豪的；骄傲的',
-    happy: '快乐的；幸福的',
+    idol: '偶像;崇拜对象',
+    hero: '英雄;男主角',
+    star: '明星;星星',
+    shine: '发光;照耀',
+    glow: '发光;容光焕发',
+    bright: '明亮的;聪明的',
+    warm: '温暖的;热情的',
+    cool: '酷的;凉爽的',
+    sweet: '甜美的;可爱的',
+    adorable: '可爱的;讨人喜欢的',
+    funny: '有趣的;滑稽的',
+    witty: '机智的;诙谐的',
+    intelligent: '聪明的;智慧的',
+    wise: '明智的;睿智的',
+    brave: '勇敢的;无畏的',
+    confident: '自信的;有信心的',
+    proud: '自豪的;骄傲的',
+    happy: '快乐的;幸福的',
     lucky: '幸运的',
-    grateful: '感激的；感谢的',
-    
-    // 测试专用词（仅释义，无预定义例句）
-    magnificent: '壮丽的；宏伟的',
-    fabulous: '极好的；绝妙的',
-    splendid: '辉煌的；极好的',
-    superb: '极好的；上乘的',
-    
+    grateful: '感激的;感谢的',
+
+    // 测试专用词(仅释义,无预定义例句)
+    magnificent: '壮丽的;宏伟的',
+    fabulous: '极好的;绝妙的',
+    splendid: '辉煌的;极好的',
+    superb: '极好的;上乘的',
+
     // 表演与演技相关
-    scene: '场景；场面',
-    role: '角色；作用',
-    character: '角色；性格',
-    script: '剧本；脚本',
-    rehearsal: '排练；彩排',
-    audition: '试镜；试演',
-    director: '导演；主管',
-    producer: '制片人；生产者',
-    actor: '演员；男演员',
+    scene: '场景;场面',
+    role: '角色;作用',
+    character: '角色;性格',
+    script: '剧本;脚本',
+    rehearsal: '排练;彩排',
+    audition: '试镜;试演',
+    director: '导演;主管',
+    producer: '制片人;生产者',
+    actor: '演员;男演员',
     actress: '女演员',
-    cast: '演员阵容；投掷',
-    crew: '全体人员；船员',
-    screen: '屏幕；银幕',
-    stage: '舞台；阶段',
-    drama: '戏剧；电视剧',
+    cast: '演员阵容;投掷',
+    crew: '全体人员;船员',
+    screen: '屏幕;银幕',
+    stage: '舞台;阶段',
+    drama: '戏剧;电视剧',
     movie: '电影',
-    film: '电影；胶片',
-    series: '系列；连续剧',
-    episode: '一集；插曲',
-    
+    film: '电影;胶片',
+    series: '系列;连续剧',
+    episode: '一集;插曲',
+
     // 音乐相关
-    song: '歌曲；歌唱',
+    song: '歌曲;歌唱',
     music: '音乐',
-    voice: '声音；嗓音',
-    melody: '旋律；曲调',
-    album: '专辑；相册',
+    voice: '声音;嗓音',
+    melody: '旋律;曲调',
+    album: '专辑;相册',
     lyrics: '歌词',
-    rhythm: '节奏；韵律',
-    microphone: '麦克风；话筒',
-    
+    rhythm: '节奏;韵律',
+    microphone: '麦克风;话筒',
+
     // 粉丝互动相关
-    fan: '粉丝；爱好者',
-    follower: '追随者；粉丝',
-    audience: '观众；听众',
-    admirer: '仰慕者；爱慕者',
-    devotion: '奉献；热爱',
-    community: '社群；社区',
-    meet: '见面；遇见',
+    fan: '粉丝;爱好者',
+    follower: '追随者;粉丝',
+    audience: '观众;听众',
+    admirer: '仰慕者;爱慕者',
+    devotion: '奉献;热爱',
+    community: '社群;社区',
+    meet: '见面;遇见',
     autograph: '亲笔签名',
     photo: '照片',
-    poster: '海报；张贴者',
-    
+    poster: '海报;张贴者',
+
     // 品质与态度
-    modest: '谦虚的；适度的',
-    polite: '有礼貌的；客气的',
-    patient: '耐心的；病人',
-    caring: '体贴的；关心的',
-    responsible: '负责任的；可靠的',
-    mature: '成熟的；到期的',
-    calm: '冷静的；平静的',
-    positive: '积极的；正面的',
-    optimistic: '乐观的；乐观主义的',
-    gracious: '亲切的；优雅的',
-    
+    modest: '谦虚的;适度的',
+    polite: '有礼貌的;客气的',
+    patient: '耐心的;病人',
+    caring: '体贴的;关心的',
+    responsible: '负责任的;可靠的',
+    mature: '成熟的;到期的',
+    calm: '冷静的;平静的',
+    positive: '积极的;正面的',
+    optimistic: '乐观的;乐观主义的',
+    gracious: '亲切的;优雅的',
+
     // 外表细节
     eyes: '眼睛',
-    hair: '头发；毛发',
-    face: '脸；面容',
-    skin: '皮肤；外皮',
-    height: '高度；身高',
-    posture: '姿势；姿态',
-    figure: '身材；人物',
-    appearance: '外貌；出现',
-    look: '外表；看',
-    outfit: '服装；装备',
-    
+    hair: '头发;毛发',
+    face: '脸;面容',
+    skin: '皮肤;外皮',
+    height: '高度;身高',
+    posture: '姿势;姿态',
+    figure: '身材;人物',
+    appearance: '外貌;出现',
+    look: '外表;看',
+    outfit: '服装;装备',
+
     // 成就与荣誉
-    success: '成功；成就',
-    victory: '胜利；成功',
-    triumph: '胜利；成功',
-    accomplishment: '成就；完成',
-    milestone: '里程碑；重要事件',
-    breakthrough: '突破；重大进展',
-    reputation: '名誉；声望',
-    influence: '影响；影响力',
-    impact: '影响；冲击',
-    legacy: '遗产；遗赠',
-    
+    success: '成功;成就',
+    victory: '胜利;成功',
+    triumph: '胜利;成功',
+    accomplishment: '成就;完成',
+    milestone: '里程碑;重要事件',
+    breakthrough: '突破;重大进展',
+    reputation: '名誉;声望',
+    influence: '影响;影响力',
+    impact: '影响;冲击',
+    legacy: '遗产;遗赠',
+
     // 情感与关系
-    respect: '尊重；尊敬',
-    trust: '信任；信赖',
-    friendship: '友谊；友情',
-    loyalty: '忠诚；忠心',
-    bond: '纽带；联系',
-    connection: '联系；连接',
-    emotion: '情感；情绪',
-    feeling: '感觉；情感',
-    passion: '激情；热情',
-    enthusiasm: '热情；热忱',
-    
+    respect: '尊重;尊敬',
+    trust: '信任;信赖',
+    friendship: '友谊;友情',
+    loyalty: '忠诚;忠心',
+    bond: '纽带;联系',
+    connection: '联系;连接',
+    emotion: '情感;情绪',
+    feeling: '感觉;情感',
+    passion: '激情;热情',
+    enthusiasm: '热情;热忱',
+
     // 时尚与造型
-    style: '风格；样式',
-    trend: '趋势；潮流',
+    style: '风格;样式',
+    trend: '趋势;潮流',
     designer: '设计师',
-    brand: '品牌；商标',
-    luxury: '奢华；奢侈品',
+    brand: '品牌;商标',
+    luxury: '奢华;奢侈品',
     magazine: '杂志',
-    photoshoot: '摄影；拍照',
-    model: '模特；模型',
-    catwalk: 'T台；猫步',
-    haute: '高级的；高档的',
-    
+    photoshoot: '摄影;拍照',
+    model: '模特;模型',
+    catwalk: 'T台;猫步',
+    haute: '高级的;高档的',
+
     // 媒体与传播
-    interview: '采访；面试',
-    press: '媒体；新闻界',
-    media: '媒体；媒介',
-    news: '新闻；消息',
-    headline: '头条；标题',
-    report: '报道；报告',
-    social: '社交的；社会的',
-    post: '帖子；邮寄',
-    trending: '流行的；趋势',
-    viral: '病毒式传播的；走红的',
-    
+    interview: '采访;面试',
+    press: '媒体;新闻界',
+    media: '媒体;媒介',
+    news: '新闻;消息',
+    headline: '头条;标题',
+    report: '报道;报告',
+    social: '社交的;社会的',
+    post: '帖子;邮寄',
+    trending: '流行的;趋势',
+    viral: '病毒式传播的;走红的',
+
     // 训练与提升
-    practice: '练习；实践',
-    training: '训练；培训',
-    exercise: '锻炼；练习',
-    workout: '锻炼；健身',
-    gym: '健身房；体育馆',
-    diet: '饮食；节食',
-    nutrition: '营养；营养学',
-    wellness: '健康；幸福',
-    balance: '平衡；均衡',
-    rest: '休息；剩余',
-    
+    practice: '练习;实践',
+    training: '训练;培训',
+    exercise: '锻炼;练习',
+    workout: '锻炼;健身',
+    gym: '健身房;体育馆',
+    diet: '饮食;节食',
+    nutrition: '营养;营养学',
+    wellness: '健康;幸福',
+    balance: '平衡;均衡',
+    rest: '休息;剩余',
+
     // 创作与艺术
-    create: '创造；创作',
-    craft: '工艺；技艺',
-    design: '设计；构思',
-    aesthetic: '美学的；审美的',
-    vision: '视野；远见',
-    imagination: '想象力；想象',
-    innovation: '创新；革新',
-    originality: '独创性；新颖',
-    authentic: '真实的；可靠的',
-    genuine: '真诚的；真正的',
-    
+    create: '创造;创作',
+    craft: '工艺;技艺',
+    design: '设计;构思',
+    aesthetic: '美学的;审美的',
+    vision: '视野;远见',
+    imagination: '想象力;想象',
+    innovation: '创新;革新',
+    originality: '独创性;新颖',
+    authentic: '真实的;可靠的',
+    genuine: '真诚的;真正的',
+
     // 活动与场合
-    event: '活动；事件',
-    ceremony: '典礼；仪式',
-    gala: '庆典；盛会',
-    party: '派对；聚会',
-    conference: '会议；研讨会',
-    exhibition: '展览；展示',
-    festival: '节日；庆典',
-    show: '表演；展示',
-    presentation: '展示；演讲',
-    opening: '开幕；开场',
-    
+    event: '活动;事件',
+    ceremony: '典礼;仪式',
+    gala: '庆典;盛会',
+    party: '派对;聚会',
+    conference: '会议;研讨会',
+    exhibition: '展览;展示',
+    festival: '节日;庆典',
+    show: '表演;展示',
+    presentation: '展示;演讲',
+    opening: '开幕;开场',
+
     // 交流与互动
-    communicate: '交流；沟通',
-    conversation: '对话；交谈',
-    speak: '说话；演讲',
-    listen: '听；倾听',
-    respond: '回应；反应',
-    share: '分享；共享',
-    discuss: '讨论；商讨',
-    explain: '解释；说明',
-    tell: '告诉；讲述',
-    message: '信息；消息',
-    
+    communicate: '交流;沟通',
+    conversation: '对话;交谈',
+    speak: '说话;演讲',
+    listen: '听;倾听',
+    respond: '回应;反应',
+    share: '分享;共享',
+    discuss: '讨论;商讨',
+    explain: '解释;说明',
+    tell: '告诉;讲述',
+    message: '信息;消息',
+
     // 成长与发展
-    grow: '成长；生长',
-    develop: '发展；开发',
-    improve: '改善；提高',
-    progress: '进步；进展',
-    evolve: '进化；演变',
-    advance: '前进；进步',
-    transform: '转变；改变',
-    change: '改变；变化',
-    adapt: '适应；改编',
-    learn: '学习；学会',
-    
+    grow: '成长;生长',
+    develop: '发展;开发',
+    improve: '改善;提高',
+    progress: '进步;进展',
+    evolve: '进化;演变',
+    advance: '前进;进步',
+    transform: '转变;改变',
+    change: '改变;变化',
+    adapt: '适应;改编',
+    learn: '学习;学会',
+
     // 精神品质
-    courage: '勇气；胆量',
-    strength: '力量；实力',
-    perseverance: '毅力；坚持',
-    determination: '决心；果断',
-    willpower: '意志力；毅力',
-    discipline: '纪律；自律',
-    integrity: '正直；诚实',
-    principle: '原则；准则',
-    value: '价值；价值观',
-    moral: '道德的；寓意',
-    
+    courage: '勇气;胆量',
+    strength: '力量;实力',
+    perseverance: '毅力;坚持',
+    determination: '决心;果断',
+    willpower: '意志力;毅力',
+    discipline: '纪律;自律',
+    integrity: '正直;诚实',
+    principle: '原则;准则',
+    value: '价值;价值观',
+    moral: '道德的;寓意',
+
     // 时间与经历
-    moment: '时刻；片刻',
-    memory: '记忆；回忆',
-    experience: '经历；经验',
-    journey: '旅程；行程',
-    path: '道路；路径',
-    future: '未来；前途',
-    hope: '希望；期望',
-    wish: '愿望；希望',
-    promise: '承诺；诺言',
-    goal: '目标；球门',
-    
+    moment: '时刻;片刻',
+    memory: '记忆;回忆',
+    experience: '经历;经验',
+    journey: '旅程;行程',
+    path: '道路;路径',
+    future: '未来;前途',
+    hope: '希望;期望',
+    wish: '愿望;希望',
+    promise: '承诺;诺言',
+    goal: '目标;球门',
+
     // 自然与描述
-    light: '光；灯光',
-    sun: '太阳；阳光',
-    moon: '月亮；月球',
+    light: '光;灯光',
+    sun: '太阳;阳光',
+    moon: '月亮;月球',
     ocean: '海洋',
     sky: '天空',
-    flower: '花；花朵',
-    diamond: '钻石；菱形',
-    treasure: '宝藏；珍宝',
-    jewel: '宝石；珠宝',
-    gem: '宝石；精华',
-    
+    flower: '花;花朵',
+    diamond: '钻石;菱形',
+    treasure: '宝藏;珍宝',
+    jewel: '宝石;珠宝',
+    gem: '宝石;精华',
+
     // 声音与表达
-    tone: '语气；音调',
-    accent: '口音；重音',
-    speech: '演讲；说话',
-    whisper: '低语；耳语',
-    shout: '喊叫；呼喊',
-    echo: '回响；回声；回音',
-    sound: '声音；音响',
-    noise: '噪音；喧闹',
-    silence: '沉默；寂静',
-    quiet: '安静的；平静的',
-    
+    tone: '语气;音调',
+    accent: '口音;重音',
+    speech: '演讲;说话',
+    whisper: '低语;耳语',
+    shout: '喊叫;呼喊',
+    echo: '回响;回声;回音',
+    sound: '声音;音响',
+    noise: '噪音;喧闹',
+    silence: '沉默;寂静',
+    quiet: '安静的;平静的',
+
     // 动作与行为
-    walk: '走；步行',
-    run: '跑；奔跑',
-    jump: '跳；跳跃',
-    stand: '站；站立',
-    sit: '坐；就座',
-    turn: '转；转动',
-    wave: '挥手；波浪',
-    gesture: '手势；姿态',
-    bow: '鞠躬；弯腰',
-    reach: '到达；够到',
-    
+    walk: '走;步行',
+    run: '跑;奔跑',
+    jump: '跳;跳跃',
+    stand: '站;站立',
+    sit: '坐;就座',
+    turn: '转;转动',
+    wave: '挥手;波浪',
+    gesture: '手势;姿态',
+    bow: '鞠躬;弯腰',
+    reach: '到达;够到',
+
     // 特质与特点
-    natural: '自然的；天然的',
-    spontaneous: '自发的；即兴的',
-    flexible: '灵活的；柔韧的',
-    sharp: '锋利的；敏锐的',
-    keen: '敏锐的；热心的',
-    quick: '快的；敏捷的',
-    slow: '慢的；迟缓的',
-    steady: '稳定的；稳固的',
-    consistent: '一致的；始终如一的',
-    reliable: '可靠的；可信赖的',
-    
+    natural: '自然的;天然的',
+    spontaneous: '自发的;即兴的',
+    flexible: '灵活的;柔韧的',
+    sharp: '锋利的;敏锐的',
+    keen: '敏锐的;热心的',
+    quick: '快的;敏捷的',
+    slow: '慢的;迟缓的',
+    steady: '稳定的;稳固的',
+    consistent: '一致的;始终如一的',
+    reliable: '可靠的;可信赖的',
+
     // 色彩与视觉
-    color: '颜色；色彩',
-    red: '红色的；红色',
-    black: '黑色的；黑色',
-    white: '白色的；白色',
-    blue: '蓝色的；蓝色',
-    gold: '金色的；黄金',
-    silver: '银色的；银',
+    color: '颜色;色彩',
+    red: '红色的;红色',
+    black: '黑色的;黑色',
+    white: '白色的;白色',
+    blue: '蓝色的;蓝色',
+    gold: '金色的;黄金',
+    silver: '银色的;银',
     rainbow: '彩虹',
-    shadow: '阴影；影子',
-    reflection: '反射；映像',
-    
+    shadow: '阴影;影子',
+    reflection: '反射;映像',
+
     // 数量与程度
-    many: '许多的；很多',
-    few: '少数的；几个',
-    all: '全部的；所有',
-    every: '每个的；每一',
-    some: '一些；某些',
-    most: '大多数的；最',
-    more: '更多的；更',
-    less: '更少的；较少',
-    much: '许多；很多',
-    little: '小的；少量',
-    
+    many: '许多的;很多',
+    few: '少数的;几个',
+    all: '全部的;所有',
+    every: '每个的;每一',
+    some: '一些;某些',
+    most: '大多数的;最',
+    more: '更多的;更',
+    less: '更少的;较少',
+    much: '许多;很多',
+    little: '小的;少量',
+
     // 位置与方向
-    top: '顶部；顶端',
-    high: '高的；高度',
-    low: '低的；低处',
-    front: '前面；正面',
-    back: '后面；背部',
-    center: '中心；中央',
-    side: '侧面；边',
-    up: '向上；上面',
-    down: '向下；下面',
-    forward: '向前；前进',
-    
+    top: '顶部;顶端',
+    high: '高的;高度',
+    low: '低的;低处',
+    front: '前面;正面',
+    back: '后面;背部',
+    center: '中心;中央',
+    side: '侧面;边',
+    up: '向上;上面',
+    down: '向下;下面',
+    forward: '向前;前进',
+
     // 时间相关
-    today: '今天；现在',
-    tomorrow: '明天；未来',
+    today: '今天;现在',
+    tomorrow: '明天;未来',
     yesterday: '昨天',
-    now: '现在；此刻',
-    then: '那时；然后',
-    always: '总是；永远',
-    never: '从不；决不',
-    sometimes: '有时；偶尔',
-    often: '经常；常常',
-    rarely: '很少；难得',
-    
+    now: '现在;此刻',
+    then: '那时;然后',
+    always: '总是;永远',
+    never: '从不;决不',
+    sometimes: '有时;偶尔',
+    often: '经常;常常',
+    rarely: '很少;难得',
+
     // 抽象概念
-    idea: '想法；主意',
-    thought: '思想；想法',
-    mind: '头脑；思维',
-    soul: '灵魂；心灵',
-    heart: '心；心脏',
-    spirit: '精神；心灵',
-    essence: '本质；精髓',
-    nature: '自然；本质',
-    quality: '质量；品质',
-    standard: '标准；水准',
-    
-    // 十日终焉热词（2026年4月）
-    liar: '说谎者；撒谎者',
-    genius: '天才；天赋',
+    idea: '想法;主意',
+    thought: '思想;想法',
+    mind: '头脑;思维',
+    soul: '灵魂;心灵',
+    heart: '心;心脏',
+    spirit: '精神;心灵',
+    essence: '本质;精髓',
+    nature: '自然;本质',
+    quality: '质量;品质',
+    standard: '标准;水准',
+
+    // 十日终焉热词(2026年4月)
+    liar: '说谎者;撒谎者',
+    genius: '天才;天赋',
     goat: '山羊',
-    sheep: '绵羊；羊',
-    loop: '循环；回路',
-    infinite: '无限的；无穷尽的'
+    sheep: '绵羊;羊',
+    loop: '循环;回路',
+    infinite: '无限的;无穷尽的'
 };
 
-// 详细的词性中文释义（来源：牛津词典/柯林斯词典）
+// 详细的词性中文释义(来源:牛津词典/柯林斯词典)
 const detailedDefinitions = {
     handsome: {
-        adjective: ['(指男子) 英俊的，帅气的', '(指物品) 美观的，优质的', '(数量) 可观的，大方的']
+        adjective: ['(指男子) 英俊的,帅气的', '(指物品) 美观的,优质的', '(数量) 可观的,大方的']
     },
     beautiful: {
-        adjective: ['美丽的，漂亮的', '美好的，出色的']
+        adjective: ['美丽的,漂亮的', '美好的,出色的']
     },
     charming: {
-        adjective: ['迷人的，有魅力的', '令人愉快的']
+        adjective: ['迷人的,有魅力的', '令人愉快的']
     },
     elegant: {
-        adjective: ['优雅的，高雅的', '(设计或方法) 简洁巧妙的']
+        adjective: ['优雅的,高雅的', '(设计或方法) 简洁巧妙的']
     },
     talented: {
-        adjective: ['有天赋的，有才能的']
+        adjective: ['有天赋的,有才能的']
     },
     professional: {
-        adjective: ['职业的，专业的', '内行的，专业水准的'],
-        noun: ['专业人员，职业选手']
+        adjective: ['职业的,专业的', '内行的,专业水准的'],
+        noun: ['专业人员,职业选手']
     },
     kind: {
-        adjective: ['善良的，友好的', '体贴的，宽容的'],
-        noun: ['种类，类型']
+        adjective: ['善良的,友好的', '体贴的,宽容的'],
+        noun: ['种类,类型']
     },
     humble: {
-        adjective: ['谦逊的，谦虚的', '地位低下的，卑微的'],
-        verb: ['使谦卑，使感到卑微']
+        adjective: ['谦逊的,谦虚的', '地位低下的,卑微的'],
+        verb: ['使谦卑,使感到卑微']
     },
     dedicated: {
-        adjective: ['专心致志的，献身的', '专用的，专门的']
+        adjective: ['专心致志的,献身的', '专用的,专门的']
     },
     sincere: {
-        adjective: ['真诚的，诚挚的', '真心实意的']
+        adjective: ['真诚的,诚挚的', '真心实意的']
     },
     strong: {
-        adjective: ['强壮的，强健的', '坚固的，牢固的', '强烈的，浓的']
+        adjective: ['强壮的,强健的', '坚固的,牢固的', '强烈的,浓的']
     },
     smile: {
-        noun: ['微笑，笑容'],
-        verb: ['微笑，笑']
+        noun: ['微笑,笑容'],
+        verb: ['微笑,笑']
     },
     act: {
-        verb: ['表演，扮演', '行动，做事', '起作用'],
-        noun: ['行为，行动', '(戏剧的) 一幕', '法令，法案']
+        verb: ['表演,扮演', '行动,做事', '起作用'],
+        noun: ['行为,行动', '(戏剧的) 一幕', '法令,法案']
     },
     perform: {
-        verb: ['表演，演出', '执行，履行', '运转，表现']
+        verb: ['表演,演出', '执行,履行', '运转,表现']
     },
     sing: {
-        verb: ['唱，唱歌', '鸣叫']
+        verb: ['唱,唱歌', '鸣叫']
     },
     dance: {
-        verb: ['跳舞，舞蹈'],
-        noun: ['舞蹈，舞会']
+        verb: ['跳舞,舞蹈'],
+        noun: ['舞蹈,舞会']
     },
     love: {
-        verb: ['爱，热爱', '喜欢，喜爱'],
-        noun: ['爱，爱情', '喜爱的人或物']
+        verb: ['爱,热爱', '喜欢,喜爱'],
+        noun: ['爱,爱情', '喜爱的人或物']
     },
     support: {
-        verb: ['支持，拥护', '扶持，支撑', '供养，资助'],
-        noun: ['支持，拥护', '支撑物', '生活费，赡养费']
+        verb: ['支持,拥护', '扶持,支撑', '供养,资助'],
+        noun: ['支持,拥护', '支撑物', '生活费,赡养费']
     },
     dream: {
-        noun: ['梦，梦境', '梦想，愿望'],
-        verb: ['做梦', '梦想，向往']
+        noun: ['梦,梦境', '梦想,愿望'],
+        verb: ['做梦', '梦想,向往']
     },
     perfect: {
-        adjective: ['完美的，完善的', '十足的，完全的'],
-        verb: ['使完美，使完善']
+        adjective: ['完美的,完善的', '十足的,完全的'],
+        verb: ['使完美,使完善']
     },
     famous: {
-        adjective: ['著名的，出名的']
+        adjective: ['著名的,出名的']
     },
     popular: {
-        adjective: ['受欢迎的，受喜爱的', '流行的，大众的']
+        adjective: ['受欢迎的,受喜爱的', '流行的,大众的']
     },
     star: {
-        noun: ['星，恒星', '明星，名人'],
-        verb: ['主演，担任主角', '标星号']
+        noun: ['星,恒星', '明星,名人'],
+        verb: ['主演,担任主角', '标星号']
     },
     bright: {
-        adjective: ['明亮的，鲜艳的', '聪明的，伶俐的', '欢快的，乐观的']
+        adjective: ['明亮的,鲜艳的', '聪明的,伶俐的', '欢快的,乐观的']
     },
     award: {
-        noun: ['奖，奖品', '奖金'],
-        verb: ['授予，颁发']
+        noun: ['奖,奖品', '奖金'],
+        verb: ['授予,颁发']
     },
     celebrate: {
-        verb: ['庆祝，庆贺', '赞美，颂扬']
+        verb: ['庆祝,庆贺', '赞美,颂扬']
     },
     fashion: {
-        noun: ['时尚，流行款式', '方式，样子'],
-        verb: ['制作，塑造']
+        noun: ['时尚,流行款式', '方式,样子'],
+        verb: ['制作,塑造']
     },
     wrap: {
-        verb: ['包裹，缠绕', '(影视) 杀青，完成拍摄'],
-        noun: ['包裹材料', '披肩，围巾']
+        verb: ['包裹,缠绕', '(影视) 杀青,完成拍摄'],
+        noun: ['包裹材料', '披肩,围巾']
     },
     ambassador: {
-        noun: ['大使', '品牌代言人，形象大使']
+        noun: ['大使', '品牌代言人,形象大使']
     },
     recognition: {
-        noun: ['认可，承认', '识别，辨认', '赏识，表彰']
+        noun: ['认可,承认', '识别,辨认', '赏识,表彰']
     },
     celebrate: {
-        verb: ['庆祝，庆贺', '赞美，颂扬']
+        verb: ['庆祝,庆贺', '赞美,颂扬']
     },
-    
+
     // 色彩相关
     color: {
-        noun: ['颜色，色彩', '肤色', '特色，个性'],
-        verb: ['给...着色', '影响，歪曲']
+        noun: ['颜色,色彩', '肤色', '特色,个性'],
+        verb: ['给...着色', '影响,歪曲']
     },
     red: {
         adjective: ['红色的', '(脸) 涨红的', '(头发) 红褐色的'],
@@ -2215,405 +2297,405 @@ const detailedDefinitions = {
         noun: ['蓝色', '蓝天', '蓝色制服']
     },
     gold: {
-        noun: ['黄金，金子', '金色', '金牌'],
+        noun: ['黄金,金子', '金色', '金牌'],
         adjective: ['金色的', '金制的']
     },
     silver: {
-        noun: ['银，银器', '银色', '银牌'],
+        noun: ['银,银器', '银色', '银牌'],
         adjective: ['银色的', '银制的', '银铃般的'],
         verb: ['镀银', '使有银色光泽']
     },
-    
+
     // 常用形容词
     gorgeous: {
-        adjective: ['极美的，华丽的', '令人愉快的', '(天气) 极好的']
+        adjective: ['极美的,华丽的', '令人愉快的', '(天气) 极好的']
     },
     attractive: {
-        adjective: ['有吸引力的，迷人的', '有魅力的']
+        adjective: ['有吸引力的,迷人的', '有魅力的']
     },
     stylish: {
-        adjective: ['时髦的，流行的', '有格调的']
+        adjective: ['时髦的,流行的', '有格调的']
     },
     radiant: {
-        adjective: ['光芒四射的，容光焕发的', '辐射的']
+        adjective: ['光芒四射的,容光焕发的', '辐射的']
     },
     graceful: {
-        adjective: ['优美的，优雅的', '得体的']
+        adjective: ['优美的,优雅的', '得体的']
     },
     dashing: {
-        adjective: ['精神抖擞的，英姿飒爽的', '时髦的']
+        adjective: ['精神抖擞的,英姿飒爽的', '时髦的']
     },
-    
+
     // 才华相关
     brilliant: {
-        adjective: ['杰出的，才华横溢的', '明亮的，鲜艳的', '聪颖的'],
-        noun: ['宝石（尤指钻石）']
+        adjective: ['杰出的,才华横溢的', '明亮的,鲜艳的', '聪颖的'],
+        noun: ['宝石(尤指钻石)']
     },
     creative: {
-        adjective: ['有创造力的，创新的', '创作的']
+        adjective: ['有创造力的,创新的', '创作的']
     },
     skillful: {
-        adjective: ['熟练的，灵巧的', '技术高超的']
+        adjective: ['熟练的,灵巧的', '技术高超的']
     },
     versatile: {
         adjective: ['多才多艺的', '多用途的', '易变的']
     },
     artistic: {
-        adjective: ['艺术的，艺术性的', '有艺术才能的', '精美的']
+        adjective: ['艺术的,艺术性的', '有艺术才能的', '精美的']
     },
     gifted: {
-        adjective: ['有天赋的，有才华的']
+        adjective: ['有天赋的,有才华的']
     },
-    
+
     // 品质相关
     gentle: {
-        adjective: ['温柔的，和蔼的', '轻柔的，平缓的', '高贵的'],
+        adjective: ['温柔的,和蔼的', '轻柔的,平缓的', '高贵的'],
         verb: ['使温和', '抚慰']
     },
     generous: {
-        adjective: ['慷慨的，大方的', '丰富的，大量的', '宽宏大量的']
+        adjective: ['慷慨的,大方的', '丰富的,大量的', '宽宏大量的']
     },
     reliable: {
-        adjective: ['可靠的，可信赖的']
+        adjective: ['可靠的,可信赖的']
     },
     respectful: {
-        adjective: ['恭敬的，有礼貌的', '表示敬意的']
+        adjective: ['恭敬的,有礼貌的', '表示敬意的']
     },
     thoughtful: {
-        adjective: ['深思的，体贴的', '经过缜密思考的']
+        adjective: ['深思的,体贴的', '经过缜密思考的']
     },
-    
+
     // 工作态度
     hardworking: {
-        adjective: ['勤奋的，努力工作的']
+        adjective: ['勤奋的,努力工作的']
     },
     focused: {
-        adjective: ['专注的，集中的', '目标明确的']
+        adjective: ['专注的,集中的', '目标明确的']
     },
     passionate: {
-        adjective: ['热情的，热烈的', '易怒的', '激昂的']
+        adjective: ['热情的,热烈的', '易怒的', '激昂的']
     },
     diligent: {
-        adjective: ['勤勉的，勤奋的', '细心的']
+        adjective: ['勤勉的,勤奋的', '细心的']
     },
     committed: {
-        adjective: ['坚定的，尽责的', '忠诚的']
+        adjective: ['坚定的,尽责的', '忠诚的']
     },
     determined: {
-        adjective: ['坚定的，坚决的', '果断的']
+        adjective: ['坚定的,坚决的', '果断的']
     },
     ambitious: {
-        adjective: ['有雄心的，有抱负的', '费力的，耗资的']
+        adjective: ['有雄心的,有抱负的', '费力的,耗资的']
     },
     persistent: {
-        adjective: ['坚持不懈的，执着的', '持续的']
+        adjective: ['坚持不懈的,执着的', '持续的']
     },
-    
+
     // 身体相关
     fit: {
-        adjective: ['健康的，健壮的', '合适的，恰当的', '能胜任的'],
-        verb: ['适合，合身', '安装', '使胜任'],
+        adjective: ['健康的,健壮的', '合适的,恰当的', '能胜任的'],
+        verb: ['适合,合身', '安装', '使胜任'],
         noun: ['适合', '合身', '发作']
     },
     muscle: {
-        noun: ['肌肉', '力量，实力'],
+        noun: ['肌肉', '力量,实力'],
         verb: ['用力挤过', '硬挤']
     },
     athletic: {
-        adjective: ['运动的，体育的', '健壮的，体格健美的']
+        adjective: ['运动的,体育的', '健壮的,体格健美的']
     },
     healthy: {
         adjective: ['健康的', '有益健康的', '正常合理的']
     },
     energetic: {
-        adjective: ['精力充沛的，充满活力的', '积极的']
+        adjective: ['精力充沛的,充满活力的', '积极的']
     },
     agile: {
-        adjective: ['敏捷的，灵活的', '机敏的']
+        adjective: ['敏捷的,灵活的', '机敏的']
     },
-    
+
     // 表演相关
     portray: {
-        verb: ['描绘，刻画', '扮演（角色）']
+        verb: ['描绘,刻画', '扮演(角色)']
     },
     express: {
-        verb: ['表达，表示', '快递'],
-        adjective: ['快速的，特快的', '明确的'],
-        noun: ['快车，快递']
+        verb: ['表达,表示', '快递'],
+        adjective: ['快速的,特快的', '明确的'],
+        noun: ['快车,快递']
     },
     interpret: {
-        verb: ['诠释，演绎', '理解，解释', '口译']
+        verb: ['诠释,演绎', '理解,解释', '口译']
     },
     embody: {
-        verb: ['体现，具体表现', '包含，收录']
+        verb: ['体现,具体表现', '包含,收录']
     },
-    
+
     // 情感相关
     inspire: {
-        verb: ['激励，鼓舞', '启发，赋予灵感', '引起，产生']
+        verb: ['激励,鼓舞', '启发,赋予灵感', '引起,产生']
     },
     encourage: {
-        verb: ['鼓励，激励', '支持，促进']
+        verb: ['鼓励,激励', '支持,促进']
     },
     comfort: {
-        noun: ['舒适，安慰', '令人感到安慰的人或物'],
-        verb: ['安慰，抚慰']
+        noun: ['舒适,安慰', '令人感到安慰的人或物'],
+        verb: ['安慰,抚慰']
     },
     touch: {
-        verb: ['触摸，碰', '触动，感动', '涉及'],
-        noun: ['触觉，触感', '少许', '风格，特色']
+        verb: ['触摸,碰', '触动,感动', '涉及'],
+        noun: ['触觉,触感', '少许', '风格,特色']
     },
     move: {
-        verb: ['移动，搬动', '感动，打动', '采取行动'],
-        noun: ['移动', '行动，措施', '（棋类）一步棋']
+        verb: ['移动,搬动', '感动,打动', '采取行动'],
+        noun: ['移动', '行动,措施', '(棋类)一步棋']
     },
     cheer: {
-        verb: ['欢呼，喝彩', '使振奋，使高兴'],
-        noun: ['欢呼声，喝彩声', '愉快，兴高采烈']
+        verb: ['欢呼,喝彩', '使振奋,使高兴'],
+        noun: ['欢呼声,喝彩声', '愉快,兴高采烈']
     },
-    
+
     // 常用词汇
     amazing: {
-        adjective: ['令人惊叹的，了不起的', '令人吃惊的']
+        adjective: ['令人惊叹的,了不起的', '令人吃惊的']
     },
     wonderful: {
-        adjective: ['精彩的，极好的', '令人惊奇的']
+        adjective: ['精彩的,极好的', '令人惊奇的']
     },
     outstanding: {
-        adjective: ['杰出的，优秀的', '显著的', '未解决的，未偿付的']
+        adjective: ['杰出的,优秀的', '显著的', '未解决的,未偿付的']
     },
     excellent: {
-        adjective: ['优秀的，卓越的', '杰出的']
+        adjective: ['优秀的,卓越的', '杰出的']
     },
     incredible: {
-        adjective: ['难以置信的', '极好的，了不起的']
+        adjective: ['难以置信的', '极好的,了不起的']
     },
     remarkable: {
-        adjective: ['非凡的，卓越的', '显著的，引人注目的']
+        adjective: ['非凡的,卓越的', '显著的,引人注目的']
     },
     special: {
-        adjective: ['特别的，特殊的', '专门的', '额外的'],
+        adjective: ['特别的,特殊的', '专门的', '额外的'],
         noun: ['特色菜', '特价商品', '特别节目']
     },
     unique: {
-        adjective: ['独特的，唯一的', '独一无二的', '非常特别的']
+        adjective: ['独特的,唯一的', '独一无二的', '非常特别的']
     },
     favorite: {
         adjective: ['最喜欢的'],
         noun: ['最喜欢的人或物', '特别受宠的人', '(赛马等) 夺冠热门']
     },
     idol: {
-        noun: ['偶像，崇拜对象', '神像']
+        noun: ['偶像,崇拜对象', '神像']
     },
     hero: {
         noun: ['英雄', '男主角', '崇拜的对象']
     },
     shine: {
-        verb: ['发光，照耀', '表现突出', '擦亮'],
-        noun: ['光泽，光彩', '擦亮']
+        verb: ['发光,照耀', '表现突出', '擦亮'],
+        noun: ['光泽,光彩', '擦亮']
     },
     glow: {
-        verb: ['发光，发热', '容光焕发', '(脸) 发红'],
-        noun: ['光亮，光辉', '(脸上的) 红光', '热烈']
+        verb: ['发光,发热', '容光焕发', '(脸) 发红'],
+        noun: ['光亮,光辉', '(脸上的) 红光', '热烈']
     },
     warm: {
-        adjective: ['温暖的', '热情的，友好的', '暖色调的'],
+        adjective: ['温暖的', '热情的,友好的', '暖色调的'],
         verb: ['使温暖', '变暖'],
-        noun: ['取暖，加热']
+        noun: ['取暖,加热']
     },
     cool: {
-        adjective: ['凉的，凉爽的', '冷静的', '酷的，时髦的', '冷淡的'],
+        adjective: ['凉的,凉爽的', '冷静的', '酷的,时髦的', '冷淡的'],
         verb: ['(使)变凉', '(使)冷静'],
         noun: ['凉爽', '冷静']
     },
     sweet: {
-        adjective: ['甜的', '可爱的，讨人喜欢的', '温柔的', '芳香的'],
-        noun: ['糖果', '甜点', '宝贝（称呼）']
+        adjective: ['甜的', '可爱的,讨人喜欢的', '温柔的', '芳香的'],
+        noun: ['糖果', '甜点', '宝贝(称呼)']
     },
     adorable: {
-        adjective: ['可爱的，讨人喜欢的', '值得崇拜的']
+        adjective: ['可爱的,讨人喜欢的', '值得崇拜的']
     },
     funny: {
-        adjective: ['有趣的，滑稽的', '古怪的，奇怪的'],
-        noun: ['笑话，俏皮话']
+        adjective: ['有趣的,滑稽的', '古怪的,奇怪的'],
+        noun: ['笑话,俏皮话']
     },
     witty: {
-        adjective: ['机智的，诙谐的', '巧妙的']
+        adjective: ['机智的,诙谐的', '巧妙的']
     },
     intelligent: {
-        adjective: ['聪明的，智慧的', '有智力的', '智能的']
+        adjective: ['聪明的,智慧的', '有智力的', '智能的']
     },
     wise: {
-        adjective: ['明智的，聪明的', '博学的', '有见识的'],
-        verb: ['了解，知道'],
-        noun: ['方式，方法']
+        adjective: ['明智的,聪明的', '博学的', '有见识的'],
+        verb: ['了解,知道'],
+        noun: ['方式,方法']
     },
     brave: {
-        adjective: ['勇敢的，无畏的', '华丽的'],
-        verb: ['勇敢面对，不畏'],
+        adjective: ['勇敢的,无畏的', '华丽的'],
+        verb: ['勇敢面对,不畏'],
         noun: ['勇士']
     },
     confident: {
-        adjective: ['自信的，有信心的', '确信的']
+        adjective: ['自信的,有信心的', '确信的']
     },
     proud: {
-        adjective: ['自豪的，骄傲的', '傲慢的', '壮丽的']
+        adjective: ['自豪的,骄傲的', '傲慢的', '壮丽的']
     },
     happy: {
-        adjective: ['快乐的，幸福的', '乐意的', '恰当的']
+        adjective: ['快乐的,幸福的', '乐意的', '恰当的']
     },
     lucky: {
         adjective: ['幸运的', '侥幸的', '吉祥的']
     },
     grateful: {
-        adjective: ['感激的，感谢的', '令人愉快的']
+        adjective: ['感激的,感谢的', '令人愉快的']
     },
-    
+
     // 活动相关
     premiere: {
-        noun: ['首映，首次公演', '首位，首要'],
-        verb: ['首次公演，首映'],
-        adjective: ['首位的，首要的']
+        noun: ['首映,首次公演', '首位,首要'],
+        verb: ['首次公演,首映'],
+        adjective: ['首位的,首要的']
     },
     endorsement: {
-        noun: ['代言，认可', '(支票的) 背书', '赞同，支持']
+        noun: ['代言,认可', '(支票的) 背书', '赞同,支持']
     },
     anniversary: {
         noun: ['周年纪念日']
     },
     charity: {
-        noun: ['慈善，慈善机构', '仁爱，宽容', '施舍'],
+        noun: ['慈善,慈善机构', '仁爱,宽容', '施舍'],
         adjective: ['慈善的']
     },
     filming: {
-        noun: ['拍摄，摄制'],
+        noun: ['拍摄,摄制'],
         verb: ['拍摄 (film 的现在分词)']
     },
     honor: {
-        noun: ['荣誉，光荣', '尊敬，敬意', '荣幸'],
-        verb: ['尊敬，给予荣誉', '信守，执行']
+        noun: ['荣誉,光荣', '尊敬,敬意', '荣幸'],
+        verb: ['尊敬,给予荣誉', '信守,执行']
     },
-    
+
     // 表演相关
     scene: {
-        noun: ['场景，场面', '(戏剧的) 一场', '景色，风景', '事发地点'],
+        noun: ['场景,场面', '(戏剧的) 一场', '景色,风景', '事发地点'],
         verb: ['为...设置场景']
     },
     role: {
-        noun: ['角色，作用', '职责，任务']
+        noun: ['角色,作用', '职责,任务']
     },
     character: {
-        noun: ['角色，人物', '性格，品质', '特点，特色', '(书写) 符号，字'],
-        adjective: ['典型的，有特色的']
+        noun: ['角色,人物', '性格,品质', '特点,特色', '(书写) 符号,字'],
+        adjective: ['典型的,有特色的']
     },
     script: {
-        noun: ['剧本，脚本', '笔迹，手写体', '(考试的) 答卷'],
+        noun: ['剧本,脚本', '笔迹,手写体', '(考试的) 答卷'],
         verb: ['为...写剧本', '把...改编成剧本']
     },
     rehearsal: {
-        noun: ['排练，彩排', '排演，预演', '详述，复述']
+        noun: ['排练,彩排', '排演,预演', '详述,复述']
     },
     audition: {
-        noun: ['试镜，试演', '听力'],
-        verb: ['试镜，试演']
+        noun: ['试镜,试演', '听力'],
+        verb: ['试镜,试演']
     },
     director: {
-        noun: ['导演', '主管，董事', '指挥者']
+        noun: ['导演', '主管,董事', '指挥者']
     },
     producer: {
-        noun: ['制片人，制作人', '生产者，制造商', '(天然气等的) 产地']
+        noun: ['制片人,制作人', '生产者,制造商', '(天然气等的) 产地']
     },
     actor: {
-        noun: ['演员，男演员', '行动者']
+        noun: ['演员,男演员', '行动者']
     },
     actress: {
         noun: ['女演员']
     },
     cast: {
-        verb: ['投，抛', '投射 (光、影等)', '选派角色', '浇铸'],
+        verb: ['投,抛', '投射 (光、影等)', '选派角色', '浇铸'],
         noun: ['演员阵容', '投掷', '铸件', '石膏模']
     },
     crew: {
-        noun: ['全体人员，全体船员', '一队，一组'],
-        verb: ['当船员，当机组人员']
+        noun: ['全体人员,全体船员', '一队,一组'],
+        verb: ['当船员,当机组人员']
     },
     screen: {
-        noun: ['屏幕，银幕', '屏风，隔板', '掩护物'],
-        verb: ['放映', '审查，甄别', '遮蔽，掩护']
+        noun: ['屏幕,银幕', '屏风,隔板', '掩护物'],
+        verb: ['放映', '审查,甄别', '遮蔽,掩护']
     },
     stage: {
-        noun: ['舞台', '阶段，时期', '戏剧，戏剧表演'],
-        verb: ['上演，举办', '组织，筹划']
+        noun: ['舞台', '阶段,时期', '戏剧,戏剧表演'],
+        verb: ['上演,举办', '组织,筹划']
     },
     drama: {
-        noun: ['戏剧，剧本', '戏剧性事件', '戏剧艺术']
+        noun: ['戏剧,剧本', '戏剧性事件', '戏剧艺术']
     },
     movie: {
         noun: ['电影'],
         adjective: ['电影的']
     },
     film: {
-        noun: ['电影', '胶片', '薄膜，薄层'],
+        noun: ['电影', '胶片', '薄膜,薄层'],
         verb: ['拍摄', '(使) 蒙上薄膜']
     },
     series: {
-        noun: ['系列，连续', '连续剧', '丛书']
+        noun: ['系列,连续', '连续剧', '丛书']
     },
     episode: {
-        noun: ['(连续剧的) 一集', '插曲，片段', '一段经历']
+        noun: ['(连续剧的) 一集', '插曲,片段', '一段经历']
     },
-    
+
     // 音乐相关
     song: {
-        noun: ['歌曲，歌', '鸟鸣', '诗歌']
+        noun: ['歌曲,歌', '鸟鸣', '诗歌']
     },
     music: {
         noun: ['音乐', '乐曲', '乐谱']
     },
     voice: {
-        noun: ['声音，嗓音', '发言权', '(语法) 语态'],
-        verb: ['表达，吐露']
+        noun: ['声音,嗓音', '发言权', '(语法) 语态'],
+        verb: ['表达,吐露']
     },
     melody: {
-        noun: ['旋律，曲调', '悦耳的音乐']
+        noun: ['旋律,曲调', '悦耳的音乐']
     },
     album: {
-        noun: ['专辑，唱片集', '相册', '集邮簿']
+        noun: ['专辑,唱片集', '相册', '集邮簿']
     },
     lyrics: {
         noun: ['歌词', '抒情诗']
     },
     rhythm: {
-        noun: ['节奏，韵律', '规律，节律']
+        noun: ['节奏,韵律', '规律,节律']
     },
     microphone: {
-        noun: ['麦克风，话筒']
+        noun: ['麦克风,话筒']
     },
-    
+
     // 粉丝互动
     fan: {
-        noun: ['粉丝，爱好者', '扇子', '风扇'],
+        noun: ['粉丝,爱好者', '扇子', '风扇'],
         verb: ['扇', '煽动', '激起']
     },
     follower: {
-        noun: ['追随者，拥护者', '粉丝']
+        noun: ['追随者,拥护者', '粉丝']
     },
     audience: {
-        noun: ['观众，听众', '读者', '接见，会见']
+        noun: ['观众,听众', '读者', '接见,会见']
     },
     admirer: {
-        noun: ['仰慕者，爱慕者', '赞赏者']
+        noun: ['仰慕者,爱慕者', '赞赏者']
     },
     devotion: {
-        noun: ['奉献，献身', '热爱，挚爱', '虔诚']
+        noun: ['奉献,献身', '热爱,挚爱', '虔诚']
     },
     community: {
-        noun: ['社区，社群', '共同体', '(动植物的) 群落']
+        noun: ['社区,社群', '共同体', '(动植物的) 群落']
     },
     meet: {
-        verb: ['遇见，碰到', '满足，符合', '迎接'],
-        noun: ['运动会，集会'],
-        adjective: ['合适的，恰当的']
+        verb: ['遇见,碰到', '满足,符合', '迎接'],
+        noun: ['运动会,集会'],
+        adjective: ['合适的,恰当的']
     },
     autograph: {
         noun: ['亲笔签名', '手稿'],
@@ -2623,597 +2705,597 @@ const detailedDefinitions = {
         noun: ['照片']
     },
     poster: {
-        noun: ['海报，招贴', '张贴者']
+        noun: ['海报,招贴', '张贴者']
     },
-    
+
     // 品质与态度
     modest: {
-        adjective: ['谦虚的，谦逊的', '适度的，不太大的', '朴素的，端庄的']
+        adjective: ['谦虚的,谦逊的', '适度的,不太大的', '朴素的,端庄的']
     },
     polite: {
-        adjective: ['有礼貌的，客气的', '上流社会的']
+        adjective: ['有礼貌的,客气的', '上流社会的']
     },
     patient: {
-        adjective: ['有耐心的，能忍受的'],
-        noun: ['病人，患者']
+        adjective: ['有耐心的,能忍受的'],
+        noun: ['病人,患者']
     },
     caring: {
-        adjective: ['体贴的，关心他人的']
+        adjective: ['体贴的,关心他人的']
     },
     responsible: {
-        adjective: ['负责任的，可靠的', '应负责的', '责任重大的']
+        adjective: ['负责任的,可靠的', '应负责的', '责任重大的']
     },
     mature: {
-        adjective: ['成熟的', '慎重的，深思熟虑的', '到期的'],
+        adjective: ['成熟的', '慎重的,深思熟虑的', '到期的'],
         verb: ['(使) 成熟', '(票据等) 到期']
     },
     calm: {
-        adjective: ['平静的，冷静的', '风平浪静的'],
-        verb: ['(使) 平静，(使) 镇静'],
-        noun: ['平静，宁静']
+        adjective: ['平静的,冷静的', '风平浪静的'],
+        verb: ['(使) 平静,(使) 镇静'],
+        noun: ['平静,宁静']
     },
     positive: {
-        adjective: ['积极的，正面的', '确信的，肯定的', '(数字) 正的', '阳性的'],
+        adjective: ['积极的,正面的', '确信的,肯定的', '(数字) 正的', '阳性的'],
         noun: ['正片', '正数', '阳性']
     },
     optimistic: {
-        adjective: ['乐观的，乐观主义的']
+        adjective: ['乐观的,乐观主义的']
     },
     gracious: {
-        adjective: ['亲切的，和蔼的', '优雅的', '仁慈的'],
-        interjection: ['天哪！(表示惊讶)']
+        adjective: ['亲切的,和蔼的', '优雅的', '仁慈的'],
+        interjection: ['天哪!(表示惊讶)']
     },
-    
+
     // 外表细节
     eyes: {
-        noun: ['眼睛 (eye 的复数)', '眼力，眼光', '孔，眼'],
-        verb: ['注视，审视 (eye 的第三人称单数)']
+        noun: ['眼睛 (eye 的复数)', '眼力,眼光', '孔,眼'],
+        verb: ['注视,审视 (eye 的第三人称单数)']
     },
     hair: {
-        noun: ['头发，毛发', '些微，一点儿']
+        noun: ['头发,毛发', '些微,一点儿']
     },
     face: {
-        noun: ['脸，面容', '表情', '正面，表面'],
-        verb: ['面对，面向', '正视，承认']
+        noun: ['脸,面容', '表情', '正面,表面'],
+        verb: ['面对,面向', '正视,承认']
     },
     skin: {
-        noun: ['皮肤', '兽皮，皮革', '外皮'],
+        noun: ['皮肤', '兽皮,皮革', '外皮'],
         verb: ['剥皮', '擦破皮肤']
     },
     height: {
-        noun: ['高度，身高', '高处，高地', '顶点，极点']
+        noun: ['高度,身高', '高处,高地', '顶点,极点']
     },
     posture: {
-        noun: ['姿势，姿态', '态度，立场'],
+        noun: ['姿势,姿态', '态度,立场'],
         verb: ['摆姿势', '装腔作势']
     },
     figure: {
-        noun: ['身材，体形', '人物，名人', '数字', '图表'],
-        verb: ['认为，估计', '出现', '计算']
+        noun: ['身材,体形', '人物,名人', '数字', '图表'],
+        verb: ['认为,估计', '出现', '计算']
     },
     appearance: {
-        noun: ['外貌，外观', '出现，露面', '表象']
+        noun: ['外貌,外观', '出现,露面', '表象']
     },
     look: {
-        verb: ['看，注视', '看起来', '寻找'],
-        noun: ['看，注视', '外表，样子', '神情']
+        verb: ['看,注视', '看起来', '寻找'],
+        noun: ['看,注视', '外表,样子', '神情']
     },
     outfit: {
-        noun: ['全套服装，装备', '团队，组织'],
-        verb: ['配备，装备']
+        noun: ['全套服装,装备', '团队,组织'],
+        verb: ['配备,装备']
     },
-    
+
     // 成就与荣誉
     success: {
         noun: ['成功', '成功的人或事']
     },
     victory: {
-        noun: ['胜利，成功']
+        noun: ['胜利,成功']
     },
     triumph: {
-        noun: ['胜利，成功', '巨大成就', '喜悦'],
-        verb: ['获胜，成功', '欢欣鼓舞']
+        noun: ['胜利,成功', '巨大成就', '喜悦'],
+        verb: ['获胜,成功', '欢欣鼓舞']
     },
     accomplishment: {
-        noun: ['成就，成绩', '才艺，技能', '完成']
+        noun: ['成就,成绩', '才艺,技能', '完成']
     },
     milestone: {
-        noun: ['里程碑', '重要事件，转折点']
+        noun: ['里程碑', '重要事件,转折点']
     },
     breakthrough: {
-        noun: ['突破，重大进展'],
+        noun: ['突破,重大进展'],
         adjective: ['突破性的']
     },
     reputation: {
-        noun: ['名誉，名声', '好名声']
+        noun: ['名誉,名声', '好名声']
     },
     influence: {
-        noun: ['影响，影响力', '有影响的人或事'],
-        verb: ['影响，对...起作用']
+        noun: ['影响,影响力', '有影响的人或事'],
+        verb: ['影响,对...起作用']
     },
     impact: {
-        noun: ['影响，作用', '冲击，撞击'],
-        verb: ['影响，冲击', '压紧']
+        noun: ['影响,作用', '冲击,撞击'],
+        verb: ['影响,冲击', '压紧']
     },
     legacy: {
-        noun: ['遗产，遗赠', '遗留问题'],
-        adjective: ['遗留的，过时的']
+        noun: ['遗产,遗赠', '遗留问题'],
+        adjective: ['遗留的,过时的']
     },
-    
+
     // 情感与关系
     respect: {
-        noun: ['尊重，尊敬', '方面'],
-        verb: ['尊重，尊敬', '遵守']
+        noun: ['尊重,尊敬', '方面'],
+        verb: ['尊重,尊敬', '遵守']
     },
     trust: {
-        noun: ['信任，信赖', '责任', '托拉斯，企业联合'],
-        verb: ['信任，信赖', '期望，希望']
+        noun: ['信任,信赖', '责任', '托拉斯,企业联合'],
+        verb: ['信任,信赖', '期望,希望']
     },
     friendship: {
-        noun: ['友谊，友情']
+        noun: ['友谊,友情']
     },
     loyalty: {
-        noun: ['忠诚，忠心', '忠于...的感情']
+        noun: ['忠诚,忠心', '忠于...的感情']
     },
     bond: {
-        noun: ['纽带，联系', '债券', '契约'],
+        noun: ['纽带,联系', '债券', '契约'],
         verb: ['(使) 建立联系', '粘合']
     },
     connection: {
-        noun: ['联系，关系', '连接', '人脉']
+        noun: ['联系,关系', '连接', '人脉']
     },
     emotion: {
-        noun: ['情感，情绪', '激情']
+        noun: ['情感,情绪', '激情']
     },
     feeling: {
-        noun: ['感觉，知觉', '感情，情绪', '看法，态度'],
-        adjective: ['富有同情心的，有感觉的']
+        noun: ['感觉,知觉', '感情,情绪', '看法,态度'],
+        adjective: ['富有同情心的,有感觉的']
     },
     passion: {
-        noun: ['激情，热情', '酷爱', '盛怒']
+        noun: ['激情,热情', '酷爱', '盛怒']
     },
     enthusiasm: {
-        noun: ['热情，热忱', '热衷的事物']
+        noun: ['热情,热忱', '热衷的事物']
     },
-    
+
     // 时尚与造型
     style: {
-        noun: ['风格，样式', '时尚，时髦', '文体', '称号'],
+        noun: ['风格,样式', '时尚,时髦', '文体', '称号'],
         verb: ['设计', '称呼']
     },
     trend: {
-        noun: ['趋势，倾向', '时尚，潮流'],
-        verb: ['趋向，倾向', '成为热门话题']
+        noun: ['趋势,倾向', '时尚,潮流'],
+        verb: ['趋向,倾向', '成为热门话题']
     },
     designer: {
         noun: ['设计师', '谋划者'],
         adjective: ['由著名设计师设计的']
     },
     brand: {
-        noun: ['品牌，商标', '烙印', '类型'],
+        noun: ['品牌,商标', '烙印', '类型'],
         verb: ['打烙印', '铭刻于']
     },
     luxury: {
-        noun: ['奢侈，奢华', '奢侈品', '享受'],
-        adjective: ['奢侈的，豪华的']
+        noun: ['奢侈,奢华', '奢侈品', '享受'],
+        adjective: ['奢侈的,豪华的']
     },
     magazine: {
-        noun: ['杂志', '弹仓，弹盒', '仓库']
+        noun: ['杂志', '弹仓,弹盒', '仓库']
     },
     photoshoot: {
-        noun: ['摄影，拍照活动']
+        noun: ['摄影,拍照活动']
     },
     model: {
-        noun: ['模型', '模特', '典型，模范', '款式'],
+        noun: ['模型', '模特', '典型,模范', '款式'],
         verb: ['当模特', '模仿', '做模型'],
-        adjective: ['模范的，典型的']
+        adjective: ['模范的,典型的']
     },
     catwalk: {
-        noun: ['T台，时装表演台', '狭窄通道']
+        noun: ['T台,时装表演台', '狭窄通道']
     },
     haute: {
-        adjective: ['高级的，高档的 (法语借词)']
+        adjective: ['高级的,高档的 (法语借词)']
     },
-    
+
     // 媒体与传播
     interview: {
-        noun: ['采访，面试', '会见'],
-        verb: ['采访，面试', '接见']
+        noun: ['采访,面试', '会见'],
+        verb: ['采访,面试', '接见']
     },
     press: {
-        noun: ['媒体，新闻界', '印刷机', '压，按'],
-        verb: ['按，压', '催促，逼迫', '熨烫'],
-        adjective: ['新闻的，出版的']
+        noun: ['媒体,新闻界', '印刷机', '压,按'],
+        verb: ['按,压', '催促,逼迫', '熨烫'],
+        adjective: ['新闻的,出版的']
     },
     media: {
-        noun: ['媒体，传播媒介 (medium 的复数)']
+        noun: ['媒体,传播媒介 (medium 的复数)']
     },
     news: {
-        noun: ['新闻，消息']
+        noun: ['新闻,消息']
     },
     headline: {
         noun: ['(报纸的) 大字标题', '头条新闻'],
         verb: ['给...加标题', '作为主角']
     },
     report: {
-        noun: ['报告，报道', '成绩单', '传闻'],
-        verb: ['报告，汇报', '报道', '举报']
+        noun: ['报告,报道', '成绩单', '传闻'],
+        verb: ['报告,汇报', '报道', '举报']
     },
     social: {
-        adjective: ['社交的，社会的', '群居的'],
+        adjective: ['社交的,社会的', '群居的'],
         noun: ['社交聚会']
     },
     post: {
-        noun: ['帖子，邮件', '柱子，杆', '岗位，职位'],
-        verb: ['邮寄，发布', '张贴', '派驻'],
-        adverb: ['在后，随后'],
-        prefix: ['后，在后']
+        noun: ['帖子,邮件', '柱子,杆', '岗位,职位'],
+        verb: ['邮寄,发布', '张贴', '派驻'],
+        adverb: ['在后,随后'],
+        prefix: ['后,在后']
     },
     trending: {
-        adjective: ['流行的，热门的'],
+        adjective: ['流行的,热门的'],
         verb: ['趋向 (trend 的现在分词)']
     },
     viral: {
-        adjective: ['病毒式传播的，走红的', '病毒的，病毒性的']
+        adjective: ['病毒式传播的,走红的', '病毒的,病毒性的']
     },
-    
+
     // 训练与提升
     practice: {
-        noun: ['练习，实践', '惯例', '业务，执业'],
-        verb: ['练习，实践', '执业']
+        noun: ['练习,实践', '惯例', '业务,执业'],
+        verb: ['练习,实践', '执业']
     },
     training: {
-        noun: ['训练，培训', '锻炼'],
+        noun: ['训练,培训', '锻炼'],
         verb: ['训练 (train 的现在分词)']
     },
     exercise: {
-        noun: ['锻炼，运动', '练习', '演习'],
-        verb: ['锻炼，运动', '行使，运用']
+        noun: ['锻炼,运动', '练习', '演习'],
+        verb: ['锻炼,运动', '行使,运用']
     },
     workout: {
-        noun: ['锻炼，健身', '试验']
+        noun: ['锻炼,健身', '试验']
     },
     gym: {
-        noun: ['健身房，体育馆', '体育，体操']
+        noun: ['健身房,体育馆', '体育,体操']
     },
     diet: {
         noun: ['日常饮食', '规定饮食', '议会'],
         verb: ['节食', '进规定饮食']
     },
     nutrition: {
-        noun: ['营养，营养学', '营养品']
+        noun: ['营养,营养学', '营养品']
     },
     wellness: {
-        noun: ['健康，幸福']
+        noun: ['健康,幸福']
     },
     balance: {
-        noun: ['平衡，均衡', '天平', '余额'],
+        noun: ['平衡,均衡', '天平', '余额'],
         verb: ['(使) 平衡', '权衡', '结算']
     },
     rest: {
         noun: ['休息', '剩余部分', '支撑物'],
         verb: ['休息', '倚靠', '取决于']
     },
-    
+
     // 创作与艺术
     create: {
-        verb: ['创造，创作', '造成，引起', '授予']
+        verb: ['创造,创作', '造成,引起', '授予']
     },
     craft: {
-        noun: ['工艺，手艺', '技巧', '飞机，船'],
+        noun: ['工艺,手艺', '技巧', '飞机,船'],
         verb: ['精心制作']
     },
     design: {
-        verb: ['设计，构思', '计划，筹划'],
-        noun: ['设计，图案', '目的，意图']
+        verb: ['设计,构思', '计划,筹划'],
+        noun: ['设计,图案', '目的,意图']
     },
     aesthetic: {
-        adjective: ['美学的，审美的', '美的，雅致的'],
+        adjective: ['美学的,审美的', '美的,雅致的'],
         noun: ['美学', '审美观']
     },
     vision: {
-        noun: ['视力，视觉', '想象，幻象', '远见，眼光']
+        noun: ['视力,视觉', '想象,幻象', '远见,眼光']
     },
     imagination: {
-        noun: ['想象力，创造力', '想象，空想']
+        noun: ['想象力,创造力', '想象,空想']
     },
     innovation: {
-        noun: ['创新，革新', '新思想，新方法']
+        noun: ['创新,革新', '新思想,新方法']
     },
     originality: {
-        noun: ['独创性，新颖', '创意']
+        noun: ['独创性,新颖', '创意']
     },
     authentic: {
-        adjective: ['真实的，真正的', '可靠的']
+        adjective: ['真实的,真正的', '可靠的']
     },
     genuine: {
-        adjective: ['真诚的，真心的', '真正的，名副其实的']
+        adjective: ['真诚的,真心的', '真正的,名副其实的']
     },
-    
+
     // 活动与场合
     event: {
-        noun: ['事件，大事', '活动，比赛项目']
+        noun: ['事件,大事', '活动,比赛项目']
     },
     ceremony: {
-        noun: ['典礼，仪式', '礼节，礼仪']
+        noun: ['典礼,仪式', '礼节,礼仪']
     },
     gala: {
-        noun: ['庆典，盛会'],
-        adjective: ['节日的，欢乐的']
+        noun: ['庆典,盛会'],
+        adjective: ['节日的,欢乐的']
     },
     party: {
-        noun: ['派对，聚会', '党派', '当事人'],
+        noun: ['派对,聚会', '党派', '当事人'],
         verb: ['参加聚会']
     },
     conference: {
-        noun: ['会议，研讨会', '协商，讨论']
+        noun: ['会议,研讨会', '协商,讨论']
     },
     exhibition: {
-        noun: ['展览，展示', '表现，显示']
+        noun: ['展览,展示', '表现,显示']
     },
     festival: {
-        noun: ['节日，庆典', '音乐节，艺术节']
+        noun: ['节日,庆典', '音乐节,艺术节']
     },
     show: {
-        verb: ['展示，显示', '表明', '带领，指引'],
-        noun: ['表演，演出', '展览', '迹象']
+        verb: ['展示,显示', '表明', '带领,指引'],
+        noun: ['表演,演出', '展览', '迹象']
     },
     presentation: {
-        noun: ['展示，介绍', '演讲', '外观，形象', '授予']
+        noun: ['展示,介绍', '演讲', '外观,形象', '授予']
     },
     opening: {
-        noun: ['开幕，开始', '开口，缺口', '机会', '空缺'],
-        adjective: ['开始的，开幕的']
+        noun: ['开幕,开始', '开口,缺口', '机会', '空缺'],
+        adjective: ['开始的,开幕的']
     },
-    
+
     // 交流与互动
     communicate: {
-        verb: ['交流，沟通', '传达，传播', '相通']
+        verb: ['交流,沟通', '传达,传播', '相通']
     },
     conversation: {
-        noun: ['交谈，会话']
+        noun: ['交谈,会话']
     },
     speak: {
-        verb: ['说话，讲', '演讲', '说(某种语言)']
+        verb: ['说话,讲', '演讲', '说(某种语言)']
     },
     listen: {
-        verb: ['听，倾听', '听从']
+        verb: ['听,倾听', '听从']
     },
     respond: {
-        verb: ['回答，回应', '作出反应', '响应']
+        verb: ['回答,回应', '作出反应', '响应']
     },
     share: {
-        verb: ['分享，共享', '分担', '共有'],
-        noun: ['份额，股份', '一份']
+        verb: ['分享,共享', '分担', '共有'],
+        noun: ['份额,股份', '一份']
     },
     discuss: {
-        verb: ['讨论，商讨', '详述']
+        verb: ['讨论,商讨', '详述']
     },
     explain: {
-        verb: ['解释，说明', '辩解']
+        verb: ['解释,说明', '辩解']
     },
     tell: {
-        verb: ['告诉，讲述', '吩咐', '辨别', '泄露']
+        verb: ['告诉,讲述', '吩咐', '辨别', '泄露']
     },
     message: {
-        noun: ['信息，消息', '要旨，主题'],
+        noun: ['信息,消息', '要旨,主题'],
         verb: ['给...发消息']
     },
-    
+
     // 成长与发展
     grow: {
-        verb: ['生长，成长', '增长，扩大', '种植', '变得']
+        verb: ['生长,成长', '增长,扩大', '种植', '变得']
     },
     develop: {
-        verb: ['发展，开发', '形成，产生', '冲洗(照片)']
+        verb: ['发展,开发', '形成,产生', '冲洗(照片)']
     },
     improve: {
-        verb: ['改善，提高', '改进，增进']
+        verb: ['改善,提高', '改进,增进']
     },
     progress: {
-        noun: ['进步，进展', '前进'],
-        verb: ['进步，前进']
+        noun: ['进步,进展', '前进'],
+        verb: ['进步,前进']
     },
     evolve: {
-        verb: ['进化，演变', '逐步发展']
+        verb: ['进化,演变', '逐步发展']
     },
     advance: {
-        verb: ['前进，推进', '促进', '提前'],
-        noun: ['前进，进展', '预付款'],
-        adjective: ['预先的，事先的']
+        verb: ['前进,推进', '促进', '提前'],
+        noun: ['前进,进展', '预付款'],
+        adjective: ['预先的,事先的']
     },
     transform: {
-        verb: ['使改变，使转化', '改造']
+        verb: ['使改变,使转化', '改造']
     },
     change: {
-        verb: ['改变，变化', '更换', '兑换'],
-        noun: ['变化，改变', '零钱', '换洗衣物']
+        verb: ['改变,变化', '更换', '兑换'],
+        noun: ['变化,改变', '零钱', '换洗衣物']
     },
     adapt: {
-        verb: ['适应，适合', '改编，改写']
+        verb: ['适应,适合', '改编,改写']
     },
     learn: {
-        verb: ['学习，学会', '得知']
+        verb: ['学习,学会', '得知']
     },
-    
+
     // 精神品质
     courage: {
-        noun: ['勇气，胆量']
+        noun: ['勇气,胆量']
     },
     strength: {
-        noun: ['力量，力气', '实力', '优点', '强度']
+        noun: ['力量,力气', '实力', '优点', '强度']
     },
     perseverance: {
-        noun: ['毅力，坚持不懈']
+        noun: ['毅力,坚持不懈']
     },
     determination: {
-        noun: ['决心，果断', '测定，确定']
+        noun: ['决心,果断', '测定,确定']
     },
     willpower: {
-        noun: ['意志力，毅力']
+        noun: ['意志力,毅力']
     },
     discipline: {
-        noun: ['纪律，风纪', '自律', '学科', '训练'],
-        verb: ['惩罚，处分', '训练']
+        noun: ['纪律,风纪', '自律', '学科', '训练'],
+        verb: ['惩罚,处分', '训练']
     },
     integrity: {
-        noun: ['正直，诚实', '完整，完善']
+        noun: ['正直,诚实', '完整,完善']
     },
     principle: {
-        noun: ['原则，准则', '道德准则', '原理，定律']
+        noun: ['原则,准则', '道德准则', '原理,定律']
     },
     value: {
         noun: ['价值', '价值观', '数值'],
-        verb: ['重视，珍视', '估价']
+        verb: ['重视,珍视', '估价']
     },
     moral: {
-        adjective: ['道德的，道义上的', '精神上的'],
-        noun: ['寓意，教益', '道德，品行']
+        adjective: ['道德的,道义上的', '精神上的'],
+        noun: ['寓意,教益', '道德,品行']
     },
-    
+
     // 时间与经历
     moment: {
-        noun: ['时刻，片刻', '瞬间', '重要时刻']
+        noun: ['时刻,片刻', '瞬间', '重要时刻']
     },
     memory: {
-        noun: ['记忆，回忆', '记忆力', '存储器']
+        noun: ['记忆,回忆', '记忆力', '存储器']
     },
     experience: {
-        noun: ['经历，经验', '体验'],
-        verb: ['经历，体验']
+        noun: ['经历,经验', '体验'],
+        verb: ['经历,体验']
     },
     journey: {
-        noun: ['旅程，旅行', '历程'],
+        noun: ['旅程,旅行', '历程'],
         verb: ['旅行']
     },
     path: {
-        noun: ['道路，小路', '路径，途径', '轨道']
+        noun: ['道路,小路', '路径,途径', '轨道']
     },
     future: {
-        noun: ['未来，将来', '前途', '期货'],
-        adjective: ['将来的，未来的']
+        noun: ['未来,将来', '前途', '期货'],
+        adjective: ['将来的,未来的']
     },
     hope: {
-        noun: ['希望，期望', '被寄予希望的人或事'],
-        verb: ['希望，期望']
+        noun: ['希望,期望', '被寄予希望的人或事'],
+        verb: ['希望,期望']
     },
     wish: {
-        verb: ['希望，想要', '祝愿'],
-        noun: ['愿望，希望', '祝福']
+        verb: ['希望,想要', '祝愿'],
+        noun: ['愿望,希望', '祝福']
     },
     promise: {
-        noun: ['承诺，诺言', '希望，前途'],
-        verb: ['承诺，答应', '预示']
+        noun: ['承诺,诺言', '希望,前途'],
+        verb: ['承诺,答应', '预示']
     },
     goal: {
-        noun: ['目标，目的', '球门', '进球得分']
+        noun: ['目标,目的', '球门', '进球得分']
     },
-    
+
     // 自然与描述
     light: {
-        noun: ['光，光线', '灯', '启发'],
-        verb: ['点燃，照亮', '使明亮'],
+        noun: ['光,光线', '灯', '启发'],
+        verb: ['点燃,照亮', '使明亮'],
         adjective: ['轻的', '浅色的', '明亮的', '清淡的']
     },
     sun: {
-        noun: ['太阳，阳光', '恒星'],
+        noun: ['太阳,阳光', '恒星'],
         verb: ['晒太阳']
     },
     moon: {
-        noun: ['月亮，月球', '卫星', '月光'],
-        verb: ['闲荡，虚度']
+        noun: ['月亮,月球', '卫星', '月光'],
+        verb: ['闲荡,虚度']
     },
     ocean: {
-        noun: ['海洋', '许多，大量']
+        noun: ['海洋', '许多,大量']
     },
     sky: {
         noun: ['天空', '天气'],
         verb: ['把...击向高空']
     },
     flower: {
-        noun: ['花，花朵', '开花植物', '精华'],
+        noun: ['花,花朵', '开花植物', '精华'],
         verb: ['开花', '繁荣']
     },
     diamond: {
         noun: ['钻石', '菱形', '方块 (纸牌)']
     },
     treasure: {
-        noun: ['宝藏，财富', '珍品', '珍爱的人'],
-        verb: ['珍视，珍藏']
+        noun: ['宝藏,财富', '珍品', '珍爱的人'],
+        verb: ['珍视,珍藏']
     },
     jewel: {
-        noun: ['宝石，珠宝', '宝贵的人或物'],
+        noun: ['宝石,珠宝', '宝贵的人或物'],
         verb: ['镶嵌宝石']
     },
     gem: {
-        noun: ['宝石', '精品，珍品']
+        noun: ['宝石', '精品,珍品']
     },
-    
+
     // 声音与表达
     tone: {
-        noun: ['语气，口吻', '音调，音色', '色调', '气氛'],
+        noun: ['语气,口吻', '音调,音色', '色调', '气氛'],
         verb: ['使更健壮', '调和']
     },
     accent: {
-        noun: ['口音，腔调', '重音', '强调'],
+        noun: ['口音,腔调', '重音', '强调'],
         verb: ['重读', '强调']
     },
     speech: {
-        noun: ['演讲，讲话', '说话能力', '语言']
+        noun: ['演讲,讲话', '说话能力', '语言']
     },
     whisper: {
-        verb: ['低语，耳语', '沙沙作响'],
-        noun: ['耳语，低语', '传闻']
+        verb: ['低语,耳语', '沙沙作响'],
+        noun: ['耳语,低语', '传闻']
     },
     shout: {
-        verb: ['呼喊，大声说'],
-        noun: ['呼喊，叫喊']
+        verb: ['呼喊,大声说'],
+        noun: ['呼喊,叫喊']
     },
     echo: {
-        noun: ['回声，回音', '共鸣', '反响'],
-        verb: ['回响', '重复，附和']
+        noun: ['回声,回音', '共鸣', '反响'],
+        verb: ['回响', '重复,附和']
     },
     sound: {
-        noun: ['声音，音响', '印象'],
+        noun: ['声音,音响', '印象'],
         verb: ['发出声音', '听起来', '探测'],
         adjective: ['健全的', '合理的', '酣畅的']
     },
     noise: {
-        noun: ['噪音，喧闹声', '干扰'],
+        noun: ['噪音,喧闹声', '干扰'],
         verb: ['谣传']
     },
     silence: {
-        noun: ['沉默，寂静', '无音讯'],
+        noun: ['沉默,寂静', '无音讯'],
         verb: ['使安静', '使沉默']
     },
     quiet: {
-        adjective: ['安静的，平静的', '轻声的', '僻静的'],
-        noun: ['安静，平静'],
+        adjective: ['安静的,平静的', '轻声的', '僻静的'],
+        noun: ['安静,平静'],
         verb: ['(使) 安静']
     },
-    
+
     // 动作与行为
     walk: {
-        verb: ['走，步行', '散步', '陪...走'],
+        verb: ['走,步行', '散步', '陪...走'],
         noun: ['步行', '散步', '人行道']
     },
     run: {
-        verb: ['跑，奔跑', '运转', '经营', '流动'],
+        verb: ['跑,奔跑', '运转', '经营', '流动'],
         noun: ['跑步', '运行', '航程']
     },
     jump: {
-        verb: ['跳，跳跃', '猛增', '略过'],
+        verb: ['跳,跳跃', '猛增', '略过'],
         noun: ['跳跃', '暴涨']
     },
     stand: {
-        verb: ['站，站立', '忍受', '位于'],
-        noun: ['立场', '台子，摊位', '看台']
+        verb: ['站,站立', '忍受', '位于'],
+        noun: ['立场', '台子,摊位', '看台']
     },
     sit: {
-        verb: ['坐，就座', '位于', '开会']
+        verb: ['坐,就座', '位于', '开会']
     },
     turn: {
-        verb: ['转动，旋转', '转变', '翻转'],
+        verb: ['转动,旋转', '转变', '翻转'],
         noun: ['转动', '转弯', '轮流', '转变']
     },
     wave: {
@@ -3221,28 +3303,28 @@ const detailedDefinitions = {
         noun: ['波浪', '挥手', '浪潮']
     },
     gesture: {
-        noun: ['手势，姿态', '姿态，表示'],
+        noun: ['手势,姿态', '姿态,表示'],
         verb: ['做手势']
     },
     bow: {
-        verb: ['鞠躬，弯腰', '屈服'],
+        verb: ['鞠躬,弯腰', '屈服'],
         noun: ['鞠躬', '弓', '船头', '蝴蝶结']
     },
     reach: {
-        verb: ['到达，够到', '达到', '联系'],
+        verb: ['到达,够到', '达到', '联系'],
         noun: ['范围', '河段']
     },
-    
+
     // 特质与特点
     natural: {
-        adjective: ['自然的，天然的', '天生的', '自然而然的', '本能的'],
+        adjective: ['自然的,天然的', '天生的', '自然而然的', '本能的'],
         noun: ['天生具有特定才能的人']
     },
     spontaneous: {
-        adjective: ['自发的，自然的', '即兴的', '自然发生的']
+        adjective: ['自发的,自然的', '即兴的', '自然发生的']
     },
     flexible: {
-        adjective: ['灵活的，柔韧的', '可变通的']
+        adjective: ['灵活的,柔韧的', '可变通的']
     },
     sharp: {
         adjective: ['锋利的', '敏锐的', '突然的', '刺耳的', '尖刻的'],
@@ -3250,28 +3332,28 @@ const detailedDefinitions = {
         noun: ['升半音']
     },
     keen: {
-        adjective: ['敏锐的，敏捷的', '热心的，渴望的', '激烈的'],
+        adjective: ['敏锐的,敏捷的', '热心的,渴望的', '激烈的'],
         verb: ['哀号']
     },
     quick: {
-        adjective: ['快的，敏捷的', '聪明的'],
+        adjective: ['快的,敏捷的', '聪明的'],
         adverb: ['快速地'],
-        noun: ['活人，要害']
+        noun: ['活人,要害']
     },
     slow: {
-        adjective: ['慢的，缓慢的', '迟缓的', '迟钝的'],
+        adjective: ['慢的,缓慢的', '迟缓的', '迟钝的'],
         verb: ['(使) 放慢', '(使) 减速'],
         adverb: ['慢慢地']
     },
     steady: {
-        adjective: ['稳定的，平稳的', '稳固的', '镇定的', '稳步的'],
+        adjective: ['稳定的,平稳的', '稳固的', '镇定的', '稳步的'],
         verb: ['(使) 稳定', '使镇定'],
         adverb: ['稳定地']
     },
     consistent: {
-        adjective: ['一致的，始终如一的', '连续的', '符合的']
+        adjective: ['一致的,始终如一的', '连续的', '符合的']
     },
-    
+
     // 数量与程度
     many: {
         adjective: ['许多的'],
@@ -3279,59 +3361,59 @@ const detailedDefinitions = {
         noun: ['许多']
     },
     few: {
-        adjective: ['少数的，几个'],
+        adjective: ['少数的,几个'],
         pronoun: ['少数人或物'],
         noun: ['少数']
     },
     all: {
-        adjective: ['全部的，所有的', '整个的'],
-        pronoun: ['全部，一切'],
+        adjective: ['全部的,所有的', '整个的'],
+        pronoun: ['全部,一切'],
         adverb: ['完全地', '非常'],
         noun: ['全部']
     },
     every: {
-        adjective: ['每个的，每一的', '一切的']
+        adjective: ['每个的,每一的', '一切的']
     },
     some: {
-        adjective: ['一些，某些', '某个', '相当多的'],
+        adjective: ['一些,某些', '某个', '相当多的'],
         pronoun: ['一些人或物'],
         adverb: ['大约']
     },
     most: {
-        adjective: ['大多数的，最多的'],
+        adjective: ['大多数的,最多的'],
         pronoun: ['大多数'],
-        adverb: ['最，非常', '几乎'],
+        adverb: ['最,非常', '几乎'],
         noun: ['最大量']
     },
     more: {
         adjective: ['更多的', '另外的'],
-        adverb: ['更，更多地', '此外'],
+        adverb: ['更,更多地', '此外'],
         pronoun: ['更多的数量'],
         noun: ['更多']
     },
     less: {
         adjective: ['更少的'],
-        adverb: ['更少地，较少地', '不太'],
+        adverb: ['更少地,较少地', '不太'],
         pronoun: ['较少的数量'],
         preposition: ['减去']
     },
     much: {
-        adjective: ['许多的，大量的'],
-        adverb: ['很，非常', '经常'],
-        pronoun: ['许多，大量'],
+        adjective: ['许多的,大量的'],
+        adverb: ['很,非常', '经常'],
+        pronoun: ['许多,大量'],
         noun: ['大量']
     },
     little: {
         adjective: ['小的', '少量的', '短暂的', '琐碎的'],
-        adverb: ['很少，几乎不'],
+        adverb: ['很少,几乎不'],
         pronoun: ['少许'],
-        noun: ['少许，一点儿']
+        noun: ['少许,一点儿']
     },
-    
+
     // 位置与方向
     top: {
-        noun: ['顶部，顶端', '上衣', '陀螺'],
-        adjective: ['最高的，顶端的', '最好的'],
+        noun: ['顶部,顶端', '上衣', '陀螺'],
+        adjective: ['最高的,顶端的', '最好的'],
         verb: ['居...之首', '高过', '达到顶点']
     },
     high: {
@@ -3346,23 +3428,23 @@ const detailedDefinitions = {
         verb: ['(牛) 哞哞叫']
     },
     front: {
-        noun: ['前面，正面', '前线', '方面', '幌子'],
-        adjective: ['前面的，前部的'],
+        noun: ['前面,正面', '前线', '方面', '幌子'],
+        adjective: ['前面的,前部的'],
         verb: ['面对', '作为...的领袖']
     },
     back: {
-        noun: ['后面，背部', '后卫'],
+        noun: ['后面,背部', '后卫'],
         adjective: ['后面的', '过去的', '拖欠的'],
         adverb: ['向后', '回原处', '以前'],
         verb: ['支持', '后退', '背书']
     },
     center: {
-        noun: ['中心，中央', '中锋'],
+        noun: ['中心,中央', '中锋'],
         verb: ['集中', '居中'],
         adjective: ['中央的']
     },
     side: {
-        noun: ['侧面，旁边', '一边，一方', '方面'],
+        noun: ['侧面,旁边', '一边,一方', '方面'],
         adjective: ['侧面的', '次要的'],
         verb: ['支持']
     },
@@ -3386,7 +3468,7 @@ const detailedDefinitions = {
         verb: ['转交', '促进'],
         noun: ['前锋']
     },
-    
+
     // 时间相关
     today: {
         noun: ['今天', '现在'],
@@ -3401,7 +3483,7 @@ const detailedDefinitions = {
         adverb: ['昨天']
     },
     now: {
-        adverb: ['现在，此刻', '立刻', '当时'],
+        adverb: ['现在,此刻', '立刻', '当时'],
         conjunction: ['既然'],
         noun: ['现在'],
         adjective: ['现在的']
@@ -3412,81 +3494,81 @@ const detailedDefinitions = {
         noun: ['那时']
     },
     always: {
-        adverb: ['总是，一直', '永远']
+        adverb: ['总是,一直', '永远']
     },
     never: {
-        adverb: ['从不，决不', '从未']
+        adverb: ['从不,决不', '从未']
     },
     sometimes: {
-        adverb: ['有时，偶尔']
+        adverb: ['有时,偶尔']
     },
     often: {
-        adverb: ['经常，常常']
+        adverb: ['经常,常常']
     },
     rarely: {
-        adverb: ['很少，难得', '非常好']
+        adverb: ['很少,难得', '非常好']
     },
-    
+
     // 抽象概念
     idea: {
-        noun: ['想法，主意', '概念', '理解']
+        noun: ['想法,主意', '概念', '理解']
     },
     thought: {
-        noun: ['思想，想法', '思考', '关心'],
+        noun: ['思想,想法', '思考', '关心'],
         verb: ['think 的过去式和过去分词']
     },
     mind: {
-        noun: ['头脑，智力', '思维方式', '记忆力', '理智'],
+        noun: ['头脑,智力', '思维方式', '记忆力', '理智'],
         verb: ['介意', '注意', '照料']
     },
     soul: {
-        noun: ['灵魂，心灵', '精神', '人']
+        noun: ['灵魂,心灵', '精神', '人']
     },
     heart: {
-        noun: ['心，心脏', '内心', '核心', '红桃']
+        noun: ['心,心脏', '内心', '核心', '红桃']
     },
     spirit: {
-        noun: ['精神，心灵', '勇气', '烈酒', '幽灵'],
+        noun: ['精神,心灵', '勇气', '烈酒', '幽灵'],
         verb: ['鼓励', '诱拐']
     },
     essence: {
-        noun: ['本质，实质', '精髓', '香精']
+        noun: ['本质,实质', '精髓', '香精']
     },
     nature: {
-        noun: ['自然', '本质，天性', '种类']
+        noun: ['自然', '本质,天性', '种类']
     },
     quality: {
-        noun: ['质量，品质', '特性', '优质'],
+        noun: ['质量,品质', '特性', '优质'],
         adjective: ['优质的']
     },
     standard: {
-        noun: ['标准，水准', '旗帜', '基准'],
+        noun: ['标准,水准', '旗帜', '基准'],
         adjective: ['标准的', '普通的', '权威的']
     },
-    
+
     // 基础动词
     dance: {
         verb: ['跳舞', '跳动'],
         noun: ['舞蹈', '舞会', '舞曲']
     },
     sing: {
-        verb: ['唱，唱歌', '鸣叫', '歌颂']
+        verb: ['唱,唱歌', '鸣叫', '歌颂']
     },
     act: {
         verb: ['行动', '表演', '起作用'],
         noun: ['行为', '法案', '(戏剧的) 一幕']
     },
     perform: {
-        verb: ['表演，演出', '执行，履行', '运转']
+        verb: ['表演,演出', '执行,履行', '运转']
     },
-    
+
     // 基础形容词
     strong: {
         adjective: ['强壮的', '坚固的', '强烈的', '擅长的', '浓的']
     },
     kind: {
-        adjective: ['善良的，友好的', '体贴的'],
-        noun: ['种类，类型']
+        adjective: ['善良的,友好的', '体贴的'],
+        noun: ['种类,类型']
     },
     humble: {
         adjective: ['谦逊的', '简陋的', '低下的'],
@@ -3498,7 +3580,7 @@ const detailedDefinitions = {
     sincere: {
         adjective: ['真诚的', '真心实意的']
     },
-    
+
     // 基础名词
     smile: {
         noun: ['微笑'],
@@ -3509,7 +3591,7 @@ const detailedDefinitions = {
         noun: ['笑', '笑声', '引人发笑的事']
     },
     love: {
-        noun: ['爱，爱情', '喜爱', '所爱的人', '零分 (网球)'],
+        noun: ['爱,爱情', '喜爱', '所爱的人', '零分 (网球)'],
         verb: ['爱', '喜欢']
     },
     support: {
@@ -3521,7 +3603,7 @@ const detailedDefinitions = {
         verb: ['做梦', '梦想', '想到']
     },
     award: {
-        noun: ['奖，奖品', '裁定'],
+        noun: ['奖,奖品', '裁定'],
         verb: ['授予', '判给']
     },
     popular: {
@@ -3557,7 +3639,7 @@ const detailedDefinitions = {
     }
 };
 
-// 汉译英词典（反向映射）
+// 汉译英词典(反向映射)
 const chineseToEnglish = {
     '英俊': ['handsome', 'dashing'],
     '帅': ['handsome', 'cool'],
@@ -3698,7 +3780,7 @@ const chineseToEnglish = {
     '幸运': ['lucky'],
     '感激': ['grateful'],
     '感谢': ['grateful'],
-    
+
     // 活动相关
     '首映': ['premiere'],
     '首播': ['premiere'],
@@ -3712,7 +3794,7 @@ const chineseToEnglish = {
     '公益': ['charity'],
     '演唱会': ['concert'],
     '音乐会': ['concert'],
-    
+
     // 最新热词相关
     '奖': ['award'],
     '奖项': ['award'],
@@ -3727,7 +3809,7 @@ const chineseToEnglish = {
     '赏识': ['recognition'],
     '庆祝': ['celebrate'],
     '庆贺': ['celebrate'],
-    
+
     // 时尚与代言
     '大使': ['ambassador'],
     '代言人': ['ambassador', 'endorsement'],
@@ -3767,7 +3849,7 @@ function getVocabulary() {
 function saveToVocabulary(wordData) {
     let vocabulary = getVocabulary();
     const index = vocabulary.findIndex(item => item.word === wordData.word);
-    
+
     if (index === -1) {
         vocabulary.unshift(wordData);
         localStorage.setItem(VOCABULARY_KEY, JSON.stringify(vocabulary));
@@ -3791,7 +3873,7 @@ function isInVocabulary(word) {
 
 // 清空生词本
 function clearVocabulary() {
-    if (confirm('确定要清空整个生词本吗？')) {
+    if (confirm('确定要清空整个生词本吗?')) {
         localStorage.removeItem(VOCABULARY_KEY);
         return true;
     }

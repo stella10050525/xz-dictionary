@@ -478,11 +478,16 @@ function toggleVocabulary(word) {
     }
 }
 
-// 加载热词
+// 加载热词（按特辑分组渲染，新的在上）
 function loadHotWords() {
     const container = document.getElementById('hotwordsList');
     
-    if (hotWords.length === 0) {
+    // 兼容：如果只有旧 hotWords 没有 hotWordSeries，包装一下
+    const series = (typeof hotWordSeries !== 'undefined' && hotWordSeries.length > 0)
+        ? hotWordSeries
+        : [{ id: 'default', title: '🔥 热词推送', banner: '', subtitle: '', date: '', words: hotWords }];
+
+    if (series.length === 0 || series.every(s => s.words.length === 0)) {
         container.innerHTML = `
             <div class="empty-state">
                 <div class="emoji">🔥</div>
@@ -492,21 +497,44 @@ function loadHotWords() {
         return;
     }
 
-    container.innerHTML = hotWords.map((item, index) => `
-        <div class="hotword-card" onclick="showHotWord(${index});">
-            <div class="hotword-header">
-                <div class="hotword-title">${item.word}</div>
-                <div class="hotword-date">${item.date}</div>
+    container.innerHTML = series.map((s, si) => {
+        const bannerHtml = s.banner ? `
+            <div class="hotword-banner" onclick="openSeriesBanner('${s.id}')">
+                <img src="${s.banner}" alt="${s.title}" />
+                <div class="hotword-banner-overlay">
+                    <div class="hotword-banner-title">${s.title}</div>
+                    <div class="hotword-banner-subtitle">${s.subtitle}</div>
+                </div>
+            </div>` : '';
+        const cardsHtml = s.words.map((item, wi) => `
+            <div class="hotword-card" onclick="showHotWord(${si}, ${wi});">
+                <div class="hotword-header">
+                    <div class="hotword-title">${item.word}</div>
+                    <div class="hotword-date">${s.date || item.date || ''}</div>
+                </div>
+                <div class="hotword-topic">${item.topic}</div>
+                <div class="hotword-preview">${item.example.en}</div>
             </div>
-            <div class="hotword-topic">${item.topic}</div>
-            <div class="hotword-preview">${item.example.en}</div>
-        </div>
-    `).join('');
+        `).join('');
+        const divider = si < series.length - 1 ? '<div class="hotword-series-divider"></div>' : '';
+        return bannerHtml + '<div class="hotwords-list">' + cardsHtml + '</div>' + divider;
+    }).join('');
+}
+
+// 打开特辑 Banner 大图
+function openSeriesBanner(seriesId) {
+    const s = hotWordSeries.find(x => x.id === seriesId);
+    if (!s || !s.banner) return;
+    const lb = document.getElementById('bannerLightbox');
+    lb.querySelector('img').src = s.banner;
+    lb.querySelector('img').alt = s.title;
+    lb.classList.add('active');
 }
 
 // 显示热词详情
-async function showHotWord(index) {
-    const hotWord = hotWords[index];
+async function showHotWord(seriesIndex, wordIndex) {
+    const series = (typeof hotWordSeries !== 'undefined') ? hotWordSeries : [{words: hotWords}];
+    const hotWord = series[seriesIndex].words[wordIndex];
     const word = hotWord.word.toLowerCase();
     
     // 切换到查词页面
