@@ -497,16 +497,24 @@ function loadHotWords() {
         return;
     }
 
-    container.innerHTML = series.map((s, si) => {
-        const bannerHtml = s.banner ? `
-            <div class="hotword-banner" onclick="openSeriesBanner('${s.id}')">
+    // 构建 HTML：每个特辑 = Banner(横跨整行) + 卡片们 + 分隔线
+    // 全部作为 #hotwordsList (grid容器) 的直接子元素
+    let html = '';
+    series.forEach((s, si) => {
+        // Banner 横跨整个 grid
+        if (s.banner) {
+            html += `
+            <div class="hotword-banner" style="grid-column:1/-1" onclick="openSeriesBanner('${s.id}')">
                 <img src="${s.banner}" alt="${s.title}" />
                 <div class="hotword-banner-overlay">
                     <div class="hotword-banner-title">${s.title}</div>
                     <div class="hotword-banner-subtitle">${s.subtitle}</div>
                 </div>
-            </div>` : '';
-        const cardsHtml = s.words.map((item, wi) => `
+            </div>`;
+        }
+        // 卡片们（直接作为 grid 子元素）
+        s.words.forEach((item, wi) => {
+            html += `
             <div class="hotword-card" onclick="showHotWord(${si}, ${wi});">
                 <div class="hotword-header">
                     <div class="hotword-title">${item.word}</div>
@@ -514,11 +522,14 @@ function loadHotWords() {
                 </div>
                 <div class="hotword-topic">${item.topic}</div>
                 <div class="hotword-preview">${item.example.en}</div>
-            </div>
-        `).join('');
-        const divider = si < series.length - 1 ? '<div class="hotword-series-divider"></div>' : '';
-        return bannerHtml + '<div class="hotwords-list">' + cardsHtml + '</div>' + divider;
-    }).join('');
+            </div>`;
+        });
+        // 分隔线横跨整行
+        if (si < series.length - 1) {
+            html += '<div class="hotword-series-divider" style="grid-column:1/-1"></div>';
+        }
+    });
+    container.innerHTML = html;
 }
 
 // 打开特辑 Banner 大图
