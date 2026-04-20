@@ -8,8 +8,8 @@ window.DRAMA_ZHZ = {
     cover: 'images/zhz.jpg',
     description: '故事基于电视剧藏海传，词汇覆盖到大学四六级。',
     totalEpisodes: 40,
-    totalWords: 245,
-    releasedEpisodes: 2,
+    totalWords: 509,
+    releasedEpisodes: 4,
     episodes: [
         {
             id: 1,
@@ -366,6 +366,355 @@ window.DRAMA_ZHZ = {
 <p>随后转身，<span class="vocab-highlight" data-word="step">step</span>（踏上）了前往京城的道路。</p>
 
 <p style="text-align:center;color:#c9a84c;margin-top:32px;font-weight:700">—— 第 2 集完 · 共 110 词 ——</p>`
+        },
+        {
+            id: 3,
+            title: '第 3 集',
+            banner: '',
+            wordCount: 109,
+            words: [
+                {id:1, en:"support", ph:"/səˈpɔːrt/", cn:"v. 接应，帮助", ex:'到了京城，去枕楼，会有人<em>support</em>你，"'},
+                {id:2, en:"obsession", ph:"/əbˈseʃn/", cn:"n. 执念", ex:'藏海就这样辞别了师父，背负着复仇的<em>obsession</em>，一路乘船搭车，孤身一人depart去京城。'},
+                {id:3, en:"depart", ph:"/dɪˈpɑːrt/", cn:"v. 奔赴", ex:'藏海就这样辞别了师父，背负着复仇的obsession，一路乘船搭车，孤身一人<em>depart</em>去京城。'},
+                {id:4, en:"expectation", ph:"/ˌekspekˈteɪʃn/", cn:"n. 期许", ex:'既对前路有一些<em>expectation</em>，也深知京城乃龙潭虎穴，步步皆需cautious。'},
+                {id:5, en:"cautious", ph:"/ˈkɔːʃəs/", cn:"adj. 谨慎", ex:'既对前路有一些expectation，也深知京城乃龙潭虎穴，步步皆需<em>cautious</em>。'},
+                {id:6, en:"instruction", ph:"/ɪnˈstrʌkʃn/", cn:"n. 嘱托", ex:'遵照行前的<em>instruction</em>，他入京后的第一件事，便是前往约定的接应之地——枕楼。'},
+                {id:7, en:"gather", ph:"/ˈɡæðər/", cn:"v. 云集", ex:'枕楼是京城首屈一指的风月雅楼，达官显贵<em>gather</em>在此，丝竹管弦不绝，歌舞升平，一派prosperou...'},
+                {id:8, en:"prosperous", ph:"/ˈprɑːspərəs/", cn:"adj. 繁华的", ex:'...，丝竹管弦不绝，歌舞升平，一派<em>prosperous</em>盛景。'},
+                {id:9, en:"shout", ph:"/ʃaʊt/", cn:"v. 吆喝", ex:'刚到了这儿，便听到楼中小二<em>shout</em>道："'},
+                {id:10, en:"shadow", ph:"/ˈʃædoʊ/", cn:"n. 影", ex:'望月阁八公子的<em>shadow</em>戏，不可不看哪！'},
+                {id:11, en:"audience", ph:"/ˈɔːdiəns/", cn:"n. 观众", ex:'藏海也就跟着<em>audience</em>上前，看到台前更是一片lively景象。'},
+                {id:12, en:"lively", ph:"/ˈlaɪvli/", cn:"adj. 热闹", ex:'藏海也就跟着audience上前，看到台前更是一片<em>lively</em>景象。'},
+                {id:13, en:"rule", ph:"/ruːl/", cn:"n. 规矩", ex:'不懂这里<em>rule</em>的藏海直接到了楼上，找了个view好的位置就坐了下来。'},
+                {id:14, en:"view", ph:"/vjuː/", cn:"n. 视野", ex:'不懂这里rule的藏海直接到了楼上，找了个<em>view</em>好的位置就坐了下来。'},
+                {id:15, en:"observe", ph:"/əbˈzɜːrv/", cn:"v. 打量", ex:'片刻后，有楼中小二上前<em>observe</em>他，语气有些hesitant，按枕楼convention问道："'},
+                {id:16, en:"hesitant", ph:"/ˈhezɪtənt/", cn:"adj. 迟疑", ex:'片刻后，有楼中小二上前observe他，语气有些<em>hesitant</em>，按枕楼convention问道："'},
+                {id:17, en:"convention", ph:"/kənˈvenʃn/", cn:"n. 惯例", ex:'片刻后，有楼中小二上前observe他，语气有些hesitant，按枕楼<em>convention</em>问道："'},
+                {id:18, en:"clothing", ph:"/ˈkloʊðɪŋ/", cn:"n. 衣着", ex:'小二打量了一番藏海朴素的的<em>clothing</em>，更是有点unbelievable，问："'},
+                {id:19, en:"unbelievable", ph:"/ˌʌnbɪˈliːvəbl/", cn:"adj. 不可置信", ex:'小二打量了一番藏海朴素的的clothing，更是有点<em>unbelievable</em>，问："'},
+                {id:20, en:"figure", ph:"/ˈfɪɡjər/", cn:"n. 身影", ex:'就在藏海也陷入疑惑的时候，一位女子的<em>figure</em>缓步而来。'},
+                {id:21, en:"exquisite", ph:"/ɪkˈskwɪzɪt/", cn:"adj. 精致的", ex:'来人正是香暗荼，她手持一盏<em>exquisite</em>宫灯，一眼便看穿了藏海的immature，浅笑开口："'},
+                {id:22, en:"immature", ph:"/ˌɪməˈtʃʊr/", cn:"adj. 生涩", ex:'来人正是香暗荼，她手持一盏exquisite宫灯，一眼便看穿了藏海的<em>immature</em>，浅笑开口："'},
+                {id:23, en:"expense", ph:"/ɪkˈspens/", cn:"n. 花费", ex:'，点了灯就是包下了这一晚所有人的<em>expense</em>，一盏灯的价格是一千两...立刻改口："'},
+                {id:24, en:"money", ph:"/ˈmʌni/", cn:"n. 钱", ex:'实不相瞒，我没有那么多<em>money</em>。'},
+                {id:25, en:"perform", ph:"/pərˈfɔːrm/", cn:"v. 开演", ex:'香老板倒也没有继续为难，带着藏海到了楼下，望向大堂中央即将<em>perform</em>的平影戏，提到可以收点小钱为藏...'},
+                {id:26, en:"explain", ph:"/ɪkˈspleɪn/", cn:"v. 讲解", ex:'...平影戏，提到可以收点小钱为藏海<em>explain</em>今日这出戏。'},
+                {id:27, en:"drum", ph:"/drʌm/", cn:"n. 鼓", ex:'二人并肩而立，平影戏的锣<em>drum</em>声响起，戏幕拉开，一场以皮影metaphor朝堂的大戏，正式上演。'},
+                {id:28, en:"metaphor", ph:"/ˈmetəfɔːr/", cn:"n. 隐喻", ex:'二人并肩而立，平影戏的锣drum声响起，戏幕拉开，一场以皮影<em>metaphor</em>朝堂的大戏，正式上演。'},
+                {id:29, en:"secret", ph:"/ˈsiːkrət/", cn:"n. 秘辛", ex:'戏词婉转，暗藏机锋，字字句句皆是京城最核心的<em>secret</em>。'},
+                {id:30, en:"stare", ph:"/ster/", cn:"v. 盯", ex:'藏海<em>stare</em>着戏幕，率先开口："'},
+                {id:31, en:"praise", ph:"/preɪz/", cn:"n. 赞许", ex:'香暗荼眼中掠过一丝<em>praise</em>："'},
+                {id:32, en:"emperor", ph:"/ˈempərər/", cn:"n. 帝", ex:'这凤凰，是三日前驾崩的太后；这条龙，是先<em>emperor</em>；而身侧的锦鲤，是先帝最adore的李贵太妃。'},
+                {id:33, en:"adore", ph:"/əˈdɔːr/", cn:"v. 宠爱", ex:'这凤凰，是三日前驾崩的太后；这条龙，是先emperor；而身侧的锦鲤，是先帝最<em>adore</em>的李贵太妃。'},
+                {id:34, en:"dispute", ph:"/dɪˈspjuːt/", cn:"n. 纠葛", ex:'戏词再起，道尽后宫与朝堂的<em>dispute</em>，香暗荼继续解释道，太后薨逝，依ancestor制应该与先帝合...'},
+                {id:35, en:"ancestor", ph:"/ˈænsestər/", cn:"n. 祖", ex:'...香暗荼继续解释道，太后薨逝，依<em>ancestor</em>制应该与先帝合葬。'},
+                {id:36, en:"tomb", ph:"/tuːm/", cn:"n. 陵寝", ex:'可先帝<em>tomb</em>之侧，早已有李贵太妃陪葬，这道puzzle，就抛给了皇上。'},
+                {id:37, en:"puzzle", ph:"/ˈpʌzl/", cn:"n. 难题", ex:'可先帝tomb之侧，早已有李贵太妃陪葬，这道<em>puzzle</em>，就抛给了皇上。'},
+                {id:38, en:"offspring", ph:"/ˈɔːfsprɪŋ/", cn:"n. 后代", ex:'皇上没有<em>offspring</em>，多年来被朝臣轮番force立嗣。'},
+                {id:39, en:"force", ph:"/fɔːrs/", cn:"v. 逼迫", ex:'皇上没有offspring，多年来被朝臣轮番<em>force</em>立嗣。'},
+                {id:40, en:"official", ph:"/əˈfɪʃl/", cn:"n. 官", ex:'太后驾崩后，文<em>official</em>更是变本加厉，或上书死谏，或宫门跪请，执意要按宗法迁出李贵太妃，成全太后...'},
+                {id:41, en:"divide", ph:"/dɪˈvaɪd/", cn:"v. 分", ex:'如今朝堂一<em>divide</em>为二，conflict不休。'},
+                {id:42, en:"conflict", ph:"/ˈkɑːnflɪkt/", cn:"n. 纷争", ex:'如今朝堂一divide为二，<em>conflict</em>不休。'},
+                {id:43, en:"cock", ph:"/kɑːk/", cn:"n. 雄鸡", ex:'戏里的蟾蜍便是暗指朝中文官，而被簇拥的<em>cock</em>便是临淄王。'},
+                {id:44, en:"hide", ph:"/haɪd/", cn:"v. 隐于", ex:'戏幕翻涌，金龙振翅冲天，<em>hide</em>云雾，再无踪迹。'},
+                {id:45, en:"eagerly", ph:"/ˈiːɡərli/", cn:"adv. 急切地", ex:'藏海<em>eagerly</em>追问："'},
+                {id:46, en:"calm", ph:"/kɑːm/", cn:"adj. 淡然", ex:'香暗荼语气<em>calm</em>："'},
+                {id:47, en:"tiger", ph:"/ˈtaɪɡər/", cn:"n. 虎", ex:'话音未落，白<em>tiger</em>皮影踏风而出，powerful。'},
+                {id:48, en:"powerful", ph:"/ˈpaʊərfl/", cn:"adj. 威势凛然", ex:'话音未落，白tiger皮影踏风而出，<em>powerful</em>。'},
+                {id:49, en:"dispose", ph:"/dɪˈspoʊz/", cn:"v. 处置", ex:'太后下葬事宜，本交由工部与钦天监全权<em>dispose</em>，而工部庄之甫是平津侯的儿子。'},
+                {id:50, en:"protect", ph:"/prəˈtekt/", cn:"v. 保护", ex:'为<em>protect</em>儿子，平津侯只能硬着头皮上了。'},
+                {id:51, en:"observation", ph:"/ˌɑːbzərˈveɪʃn/", cn:"n. 观察力", ex:'看戏之时，藏海敏锐的<em>observation</em>捕捉到了周遭暗藏的危险。'},
+                {id:52, en:"weapon", ph:"/ˈwepən/", cn:"n. 凶器", ex:'他余光扫过四周，看到藏着<em>weapon</em>的人，心头警铃大作，当即收敛神色，起身便要leave。'},
+                {id:53, en:"leave", ph:"/liːv/", cn:"v. 撤离", ex:'他余光扫过四周，看到藏着weapon的人，心头警铃大作，当即收敛神色，起身便要<em>leave</em>。'},
+                {id:54, en:"escape", ph:"/ɪˈskeɪp/", cn:"v. 逃跑", ex:'姑娘你也赶紧<em>escape</em>吧。'},
+                {id:55, en:"spy", ph:"/spaɪ/", cn:"n. 眼线", ex:'香暗荼听完倒很是镇定，告诉藏海那些是督卫司的人，曹公公麾下厂卫，京城内外，遍布他的<em>spy</em>。'},
+                {id:56, en:"discuss", ph:"/dɪˈskʌs/", cn:"v. 议论", ex:'藏海眉头紧锁，震惊于这样八公子还敢当众<em>discuss</em>宫闱、影射君王，岂不是自投罗网？'},
+                {id:57, en:"appearance", ph:"/əˈpɪrəns/", cn:"n. 长相", ex:'之前从未见过八公子的<em>appearance</em>，原来是这样一位handsome公子！'},
+                {id:58, en:"handsome", ph:"/ˈhænsəm/", cn:"adj. 俊俏的", ex:'之前从未见过八公子的appearance，原来是这样一位<em>handsome</em>公子！'},
+                {id:59, en:"personally", ph:"/ˈpɜːrsənəli/", cn:"adv. 亲自", ex:'没想到今日台上的竟不是您的真身，您<em>personally</em>和我们一同赏戏，真是好雅兴啊！'},
+                {id:60, en:"run", ph:"/rʌn/", cn:"v. 跑", ex:'没人见过八公子，现在你就是八公子，还不快<em>run</em>！'},
+                {id:61, en:"argue", ph:"/ˈɑːrɡjuː/", cn:"v. 辩驳", ex:'藏海又惊又悟，根本来不及<em>argue</em>，厂卫已闻声围拢而来。'},
+                {id:62, en:"chase", ph:"/tʃeɪs/", cn:"v. 追", ex:'身后厂卫紧<em>chase</em>不舍，脚步声、呵斥声交织，藏海穿梭在京城alley之中，几番辗转，竟被逼入死巷。'},
+                {id:63, en:"alley", ph:"/ˈæli/", cn:"n. 街巷", ex:'身后厂卫紧chase不舍，脚步声、呵斥声交织，藏海穿梭在京城<em>alley</em>之中，几番辗转，竟被逼入死巷。'},
+                {id:64, en:"await", ph:"/əˈweɪt/", cn:"v. 等候", ex:'危急关头，一道身影闪出，正是<em>await</em>多时的高明！'},
+                {id:65, en:"urge", ph:"/ɜːrdʒ/", cn:"v. 催促", ex:'他迅速拉住藏海，将一件普通文士长衫披在他身上，低声<em>urge</em>换装。'},
+                {id:66, en:"lie", ph:"/laɪ/", cn:"v. 谎称", ex:'就在厂卫追到眼前的时候，高明从容拱手，语气自然地<em>lie</em>："'},
+                {id:67, en:"drunk", ph:"/drʌŋk/", cn:"adj. 喝醉", ex:'王公子，你<em>drunk</em>了！'},
+                {id:68, en:"ordinary", ph:"/ˈɔːrdneri/", cn:"adj. 寻常", ex:'厂卫打量二人，见衣着<em>ordinary</em>、神色坦荡，并无可疑之处，转身离去。'},
+                {id:69, en:"remove", ph:"/rɪˈmuːv/", cn:"v. 解除", ex:'眼下的危机<em>remove</em>，师徒二人辗转至一处僻静inn。'},
+                {id:70, en:"inn", ph:"/ɪn/", cn:"n. 客栈", ex:'眼下的危机remove，师徒二人辗转至一处僻静<em>inn</em>。'},
+                {id:71, en:"deadlock", ph:"/ˈdedlɑːk/", cn:"n. 僵局", ex:'...dispute、当前太后合葬的<em>deadlock</em>，一五一十全盘告知，尤其提到了平津侯正在做的事，也...'},
+                {id:72, en:"seek", ph:"/siːk/", cn:"v. 寻找", ex:'...平津侯正在做的事，也就是满京城<em>seek</em>风水先生。'},
+                {id:73, en:"core", ph:"/kɔːr/", cn:"n. 核心", ex:'高明听罢，道破这件事<em>core</em>，这表面上看是新旧朝臣的礼仪之争，但实际上是皇上和朝廷的礼法之争。'},
+                {id:74, en:"edge", ph:"/edʒ/", cn:"n. 锋芒", ex:'藏海闻言，眼中骤然亮起<em>edge</em>，复仇的棋局，终于有了第一步的落子之处。'},
+                {id:75, en:"cunning", ph:"/ˈkʌnɪŋ/", cn:"adj. 狡黠", ex:'他挺直脊背，<em>cunning</em>一笑，问道："'},
+                {id:76, en:"thought", ph:"/θɔːt/", cn:"n. 心思", ex:'高明也看懂了他的<em>thought</em>，微微一笑："'},
+                {id:77, en:"mess", ph:"/mes/", cn:"n. 乱作一团", ex:'第二天，京城街头已然<em>mess</em>。'},
+                {id:78, en:"troop", ph:"/truːp/", cn:"n. 兵马", ex:'平津侯的<em>troop</em>遍布街巷，大肆arrest风水先生，但凡与丧葬、堪舆相关之人，无一幸免。'},
+                {id:79, en:"arrest", ph:"/əˈrest/", cn:"v. 抓捕", ex:'平津侯的troop遍布街巷，大肆<em>arrest</em>风水先生，但凡与丧葬、堪舆相关之人，无一幸免。'},
+                {id:80, en:"kidnap", ph:"/ˈkɪdnæp/", cn:"v. 掳走", ex:'官兵为了凑数，甚至当街<em>kidnap</em>一名懵懂幼童，孩童啼哭不止，路人敢怒不敢言。'},
+                {id:81, en:"hesitate", ph:"/ˈhezɪteɪt/", cn:"v. 犹豫", ex:'他不再<em>hesitate</em>，起身快步走出客栈，径直走towards带队官兵："'},
+                {id:82, en:"towards", ph:"/tɔːrdz/", cn:"prep. 向", ex:'他不再hesitate，起身快步走出客栈，径直走<em>towards</em>带队官兵："'},
+                {id:83, en:"willing", ph:"/ˈwɪlɪŋ/", cn:"adj. 愿意", ex:'草民对风水堪舆略同一二，<em>willing</em>前往。'},
+                {id:84, en:"release", ph:"/rɪˈliːs/", cn:"v. 释放", ex:'不知大人是否可以<em>release</em>这个孩子？'},
+                {id:85, en:"replace", ph:"/rɪˈpleɪs/", cn:"v. 顶替", ex:'官兵见竟然有人主动<em>replace</em>，就将藏海与一众被抓的术士一同押上carriage，疾驰而去。'},
+                {id:86, en:"carriage", ph:"/ˈkærɪdʒ/", cn:"n. 马车", ex:'官兵见竟然有人主动replace，就将藏海与一众被抓的术士一同押上<em>carriage</em>，疾驰而去。'},
+                {id:87, en:"anxious", ph:"/ˈæŋkʃəs/", cn:"adj. 焦虑惶恐", ex:'车内，其余被抓之人都很是<em>anxious</em>，哭嚎不止，人人都以为此去皇陵，必死undoubtedly。'},
+                {id:88, en:"undoubtedly", ph:"/ʌnˈdaʊtɪdli/", cn:"adv. 无疑", ex:'车内，其余被抓之人都很是anxious，哭嚎不止，人人都以为此去皇陵，必死<em>undoubtedly</em>。'},
+                {id:89, en:"rest", ph:"/rest/", cn:"v. 休息", ex:'唯有藏海神色平静，甚至开始闭目<em>rest</em>，看起来是心中早已盘算好一切。'},
+                {id:90, en:"lock", ph:"/lɑːk/", cn:"v. 锁", ex:'不多时，马车抵达皇陵外，众人被官兵押解下车，尽数<em>lock</em>进幽暗的皇陵墓道之中。'},
+                {id:91, en:"dense", ph:"/dens/", cn:"adj. 密布", ex:'墓道之内，阴气森森，机关<em>dense</em>，压抑的atmosphere让人窒息。'},
+                {id:92, en:"atmosphere", ph:"/ˈætməsfɪr/", cn:"n. 气氛", ex:'墓道之内，阴气森森，机关dense，压抑的<em>atmosphere</em>让人窒息。'},
+                {id:93, en:"explore", ph:"/ɪkˈsplɔːr/", cn:"v. 摸索", ex:'众人战战兢兢<em>explore</em>着前进，有个人慌乱中踩错了一块tile，瞬间trigger了机关，暗arro...'},
+                {id:94, en:"tile", ph:"/taɪl/", cn:"n. 砖", ex:'众人战战兢兢explore着前进，有个人慌乱中踩错了一块<em>tile</em>，瞬间trigger了机关，暗arro...'},
+                {id:95, en:"trigger", ph:"/ˈtrɪɡər/", cn:"v. 触发", ex:'...慌乱中踩错了一块tile，瞬间<em>trigger</em>了机关，暗arrow破空而出，那人当场殒命，惨叫声e...'},
+                {id:96, en:"arrow", ph:"/ˈæroʊ/", cn:"n. 箭", ex:'...，瞬间trigger了机关，暗<em>arrow</em>破空而出，那人当场殒命，惨叫声echo在墓道之中。'},
+                {id:97, en:"echo", ph:"/ˈekoʊ/", cn:"v. 回荡", ex:'...破空而出，那人当场殒命，惨叫声<em>echo</em>在墓道之中。'},
+                {id:98, en:"freeze", ph:"/friːz/", cn:"v. 吓呆", ex:'剩余众人吓得魂飞魄散，<em>freeze</em>在原地不敢动弹，彻底乱了方寸。'},
+                {id:99, en:"certain", ph:"/ˈsɜːrtn/", cn:"adj. 笃定", ex:'大家见藏海神色镇定、语气<em>certain</em>，便纷纷听从他的guidance，小心翼翼地跟着他往前走。'},
+                {id:100, en:"guidance", ph:"/ˈɡaɪdns/", cn:"n. 指挥", ex:'大家见藏海神色镇定、语气certain，便纷纷听从他的<em>guidance</em>，小心翼翼地跟着他往前走。'},
+                {id:101, en:"knowledge", ph:"/ˈnɑːlɪdʒ/", cn:"n. 知识", ex:'藏海凭借着多年所学的堪舆营造之术和机关<em>knowledge</em>，仔细observe着皇陵的layout，精准...'},
+                {id:102, en:"layout", ph:"/ˈleɪaʊt/", cn:"n. 布局", ex:'...e，仔细observe着皇陵的<em>layout</em>，精准judge出安全的地砖位置，一边走，一边叮嘱大家...'},
+                {id:103, en:"judge", ph:"/dʒʌdʒ/", cn:"v. 判断", ex:'...ve着皇陵的layout，精准<em>judge</em>出安全的地砖位置，一边走，一边叮嘱大家分别要踩哪块砖。'},
+                {id:104, en:"strict", ph:"/strɪkt/", cn:"adj. 严密", ex:'我还不能走，这是皇陵的墓道，比一般的墓室防范<em>strict</em>得多。'},
+                {id:105, en:"activate", ph:"/ˈæktɪveɪt/", cn:"v. 启动", ex:'我若是离开这块砖出去，你们脚下的砖就会受力偏移，断骨绦的机关就会<em>activate</em>。'},
+                {id:106, en:"slack", ph:"/slæk/", cn:"n. 懈怠", ex:'众人闻言，不敢有丝毫<em>slack</em>，严格按照藏海的指挥，一步步向出口靠近。'},
+                {id:107, en:"tear", ph:"/tɪr/", cn:"n. 泪水", ex:'藏海心痛又无奈地回头看着大家，强忍着<em>tear</em>。'},
+                {id:108, en:"swift", ph:"/swɪft/", cn:"adj. 凌厉", ex:'而另一边，平津侯庄芦隐正在军营中大展剑术，身姿<em>swift</em>，气势逼人。'},
+                {id:109, en:"undertake", ph:"/ˌʌndərˈteɪk/", cn:"v. 接手", ex:'他心中清楚，太后合葬一事，他本就是<em>undertake</em>了一个烫手山芋，抓捕风水先生，不过是他自保的一步棋...'}
+            ],
+            story: `<h2>🏯 藏海传 · 第 3 集</h2>
+<p>"到了京城，去枕楼，会有人<span class="vocab-highlight" data-word="support">support</span>（接应，帮助）你，"星斗大师对藏海说道，"走吧。"</p>
+<p>藏海就这样辞别了师父，背负着复仇的<span class="vocab-highlight" data-word="obsession">obsession</span>（执念），一路乘船搭车，孤身一人<span class="vocab-highlight" data-word="depart">depart</span>（奔赴）去京城。既对前路有一些<span class="vocab-highlight" data-word="expectation">expectation</span>（期许），也深知京城乃龙潭虎穴，步步皆需<span class="vocab-highlight" data-word="cautious">cautious</span>（谨慎）。</p>
+<p>遵照行前的<span class="vocab-highlight" data-word="instruction">instruction</span>（嘱托），他入京后的第一件事，便是前往约定的接应之地——枕楼。枕楼是京城首屈一指的风月雅楼，达官显贵<span class="vocab-highlight" data-word="gather">gather</span>（云集）在此，丝竹管弦不绝，歌舞升平，一派<span class="vocab-highlight" data-word="prosperous">prosperous</span>（繁华的）盛景。</p>
+<p>刚到了这儿，便听到楼中小二<span class="vocab-highlight" data-word="shout">shout</span>（吆喝）道："望月阁八公子的<span class="vocab-highlight" data-word="shadow">shadow</span>（影）戏，不可不看哪！" 藏海也就跟着<span class="vocab-highlight" data-word="audience">audience</span>（观众）上前，看到台前更是一片<span class="vocab-highlight" data-word="lively">lively</span>（热闹）景象。</p>
+<p>不懂这里<span class="vocab-highlight" data-word="rule">rule</span>（规矩）的藏海直接到了楼上，找了个<span class="vocab-highlight" data-word="view">view</span>（视野）好的位置就坐了下来。片刻后，有楼中小二上前<span class="vocab-highlight" data-word="observe">observe</span>（打量）他，语气有些<span class="vocab-highlight" data-word="hesitant">hesitant</span>（迟疑），按枕楼<span class="vocab-highlight" data-word="convention">convention</span>（惯例）问道："公子，您这是...？"藏海不明其意，直接说道："上壶茶，把灯点上！" 小二打量了一番藏海朴素的的<span class="vocab-highlight" data-word="clothing">clothing</span>（衣着），更是有点<span class="vocab-highlight" data-word="unbelievable">unbelievable</span>（不可置信），问："公子，您要点灯？？"</p>
+<p>就在藏海也陷入疑惑的时候，一位女子的<span class="vocab-highlight" data-word="figure">figure</span>（身影）缓步而来。来人正是香暗荼，她手持一盏<span class="vocab-highlight" data-word="exquisite">exquisite</span>（精致的）宫灯，一眼便看穿了藏海的<span class="vocab-highlight" data-word="immature">immature</span>（生涩），浅笑开口："你的灯。"一番调笑后藏海才知道，自己坐的这个位置叫"朱雀头"，点了灯就是包下了这一晚所有人的<span class="vocab-highlight" data-word="expense">expense</span>（花费），一盏灯的价格是一千两...立刻改口："这灯我不点了！这位置我也不坐了！实不相瞒，我没有那么多<span class="vocab-highlight" data-word="money">money</span>（钱）。"</p>
+<p>香老板倒也没有继续为难，带着藏海到了楼下，望向大堂中央即将<span class="vocab-highlight" data-word="perform">perform</span>（开演）的平影戏，提到可以收点小钱为藏海<span class="vocab-highlight" data-word="explain">explain</span>（讲解）今日这出戏。二人并肩而立，平影戏的锣<span class="vocab-highlight" data-word="drum">drum</span>（鼓）声响起，戏幕拉开，一场以皮影<span class="vocab-highlight" data-word="metaphor">metaphor</span>（隐喻）朝堂的大戏，正式上演。</p>
+<p>戏词婉转，暗藏机锋，字字句句皆是京城最核心的<span class="vocab-highlight" data-word="secret">secret</span>（秘辛）。藏海<span class="vocab-highlight" data-word="stare">stare</span>（盯）着戏幕，率先开口："这只凤凰，便是太后。"香暗荼眼中掠过一丝<span class="vocab-highlight" data-word="praise">praise</span>（赞许）："这凤凰，是三日前驾崩的太后；这条龙，是先<span class="vocab-highlight" data-word="emperor">emperor</span>（帝）；而身侧的锦鲤，是先帝最<span class="vocab-highlight" data-word="adore">adore</span>（宠爱）的李贵太妃。"</p>
+<p>戏词再起，道尽后宫与朝堂的<span class="vocab-highlight" data-word="dispute">dispute</span>（纠葛），香暗荼继续解释道，太后薨逝，依<span class="vocab-highlight" data-word="ancestor">ancestor</span>（祖）制应该与先帝合葬。可先帝<span class="vocab-highlight" data-word="tomb">tomb</span>（陵寝）之侧，早已有李贵太妃陪葬，这道<span class="vocab-highlight" data-word="puzzle">puzzle</span>（难题），就抛给了皇上。皇上没有<span class="vocab-highlight" data-word="offspring">offspring</span>（后代），多年来被朝臣轮番<span class="vocab-highlight" data-word="force">force</span>（逼迫）立嗣。太后驾崩后，文<span class="vocab-highlight" data-word="official">official</span>（官）更是变本加厉，或上书死谏，或宫门跪请，执意要按宗法迁出李贵太妃，成全太后合葬之礼。如今朝堂一<span class="vocab-highlight" data-word="divide">divide</span>（分）为二，<span class="vocab-highlight" data-word="conflict">conflict</span>（纷争）不休。戏里的蟾蜍便是暗指朝中文官，而被簇拥的<span class="vocab-highlight" data-word="cock">cock</span>（雄鸡）便是临淄王。</p>
+<p>戏幕翻涌，金龙振翅冲天，<span class="vocab-highlight" data-word="hide">hide</span>（隐于）云雾，再无踪迹。藏海<span class="vocab-highlight" data-word="eagerly">eagerly</span>（急切地）追问："皇上怎么说？"香暗荼语气<span class="vocab-highlight" data-word="calm">calm</span>（淡然）："这事，皇上不管了。"话音未落，白<span class="vocab-highlight" data-word="tiger">tiger</span>（虎）皮影踏风而出，<span class="vocab-highlight" data-word="powerful">powerful</span>（威势凛然）。这便是今天的主角——平津侯庄芦隐。太后下葬事宜，本交由工部与钦天监全权<span class="vocab-highlight" data-word="dispose">dispose</span>（处置），而工部庄之甫是平津侯的儿子。为<span class="vocab-highlight" data-word="protect">protect</span>（保护）儿子，平津侯只能硬着头皮上了。</p>
+<p>看戏之时，藏海敏锐的<span class="vocab-highlight" data-word="observation">observation</span>（观察力）捕捉到了周遭暗藏的危险。他余光扫过四周，看到藏着<span class="vocab-highlight" data-word="weapon">weapon</span>（凶器）的人，心头警铃大作，当即收敛神色，起身便要<span class="vocab-highlight" data-word="leave">leave</span>（撤离）。"今日这里，恐怕要有大事发生。姑娘你也赶紧<span class="vocab-highlight" data-word="escape">escape</span>（逃跑）吧。"香暗荼听完倒很是镇定，告诉藏海那些是督卫司的人，曹公公麾下厂卫，京城内外，遍布他的<span class="vocab-highlight" data-word="spy">spy</span>（眼线）。藏海眉头紧锁，震惊于这样八公子还敢当众<span class="vocab-highlight" data-word="discuss">discuss</span>（议论）宫闱、影射君王，岂不是自投罗网？</p>
+<p>香老板眸光一转，计上心来，对着藏海突然大声道："原来阁下就是八公子啊！之前从未见过八公子的<span class="vocab-highlight" data-word="appearance">appearance</span>（长相），原来是这样一位<span class="vocab-highlight" data-word="handsome">handsome</span>（俊俏的）公子！没想到今日台上的竟不是您的真身，您<span class="vocab-highlight" data-word="personally">personally</span>（亲自）和我们一同赏戏，真是好雅兴啊！"又凑近藏海耳畔低声说："没人见过八公子，现在你就是八公子，还不快<span class="vocab-highlight" data-word="run">run</span>（跑）！"</p>
+<p>藏海又惊又悟，根本来不及<span class="vocab-highlight" data-word="argue">argue</span>（辩驳），厂卫已闻声围拢而来。他当机立断，纵身奔逃。身后厂卫紧<span class="vocab-highlight" data-word="chase">chase</span>（追）不舍，脚步声、呵斥声交织，藏海穿梭在京城<span class="vocab-highlight" data-word="alley">alley</span>（街巷）之中，几番辗转，竟被逼入死巷。危急关头，一道身影闪出，正是<span class="vocab-highlight" data-word="await">await</span>（等候）多时的高明！他迅速拉住藏海，将一件普通文士长衫披在他身上，低声<span class="vocab-highlight" data-word="urge">urge</span>（催促）换装。</p>
+<p>就在厂卫追到眼前的时候，高明从容拱手，语气自然地<span class="vocab-highlight" data-word="lie">lie</span>（谎称）："王公子，你<span class="vocab-highlight" data-word="drunk">drunk</span>（喝醉）了！怎么这酒量不行了啊..." 厂卫打量二人，见衣着<span class="vocab-highlight" data-word="ordinary">ordinary</span>（寻常）、神色坦荡，并无可疑之处，转身离去。</p>
+<p>眼下的危机<span class="vocab-highlight" data-word="remove">remove</span>（解除），师徒二人辗转至一处僻静<span class="vocab-highlight" data-word="inn">inn</span>（客栈）。藏海气喘吁吁地说："师父，没想到来京城接我的人，是您啊！"随后，藏海将枕楼中所见所闻、皮影戏隐喻的朝堂<span class="vocab-highlight" data-word="dispute">dispute</span>（纷争）、当前太后合葬的<span class="vocab-highlight" data-word="deadlock">deadlock</span>（僵局），一五一十全盘告知，尤其提到了平津侯正在做的事，也就是满京城<span class="vocab-highlight" data-word="seek">seek</span>（寻找）风水先生。</p>
+<p>高明听罢，道破这件事<span class="vocab-highlight" data-word="core">core</span>（核心），这表面上看是新旧朝臣的礼仪之争，但实际上是皇上和朝廷的礼法之争。藏海闻言，眼中骤然亮起<span class="vocab-highlight" data-word="edge">edge</span>（锋芒），复仇的棋局，终于有了第一步的落子之处。他挺直脊背，<span class="vocab-highlight" data-word="cunning">cunning</span>（狡黠）一笑，问道："师父，您看我像风水先生吗？"高明也看懂了他的<span class="vocab-highlight" data-word="thought">thought</span>（心思），微微一笑："想好怎么入局了？"</p>
+<p>第二天，京城街头已然<span class="vocab-highlight" data-word="mess">mess</span>（乱作一团）。平津侯的<span class="vocab-highlight" data-word="troop">troop</span>（兵马）遍布街巷，大肆<span class="vocab-highlight" data-word="arrest">arrest</span>（抓捕）风水先生，但凡与丧葬、堪舆相关之人，无一幸免。官兵为了凑数，甚至当街<span class="vocab-highlight" data-word="kidnap">kidnap</span>（掳走）一名懵懂幼童，孩童啼哭不止，路人敢怒不敢言。</p>
+<p>客栈窗边，藏海将这一幕尽收眼底。他不再<span class="vocab-highlight" data-word="hesitate">hesitate</span>（犹豫），起身快步走出客栈，径直走<span class="vocab-highlight" data-word="towards">towards</span>（向）带队官兵："草民对风水堪舆略同一二，<span class="vocab-highlight" data-word="willing">willing</span>（愿意）前往。不知大人是否可以<span class="vocab-highlight" data-word="release">release</span>（释放）这个孩子？"官兵见竟然有人主动<span class="vocab-highlight" data-word="replace">replace</span>（顶替），就将藏海与一众被抓的术士一同押上<span class="vocab-highlight" data-word="carriage">carriage</span>（马车），疾驰而去。</p>
+<p>车内，其余被抓之人都很是<span class="vocab-highlight" data-word="anxious">anxious</span>（焦虑惶恐），哭嚎不止，人人都以为此去皇陵，必死<span class="vocab-highlight" data-word="undoubtedly">undoubtedly</span>（无疑）。唯有藏海神色平静，甚至开始闭目<span class="vocab-highlight" data-word="rest">rest</span>（休息），看起来是心中早已盘算好一切。</p>
+<p>不多时，马车抵达皇陵外，众人被官兵押解下车，尽数<span class="vocab-highlight" data-word="lock">lock</span>（锁）进幽暗的皇陵墓道之中。墓道之内，阴气森森，机关<span class="vocab-highlight" data-word="dense">dense</span>（密布），压抑的<span class="vocab-highlight" data-word="atmosphere">atmosphere</span>（气氛）让人窒息。</p>
+<p>众人战战兢兢<span class="vocab-highlight" data-word="explore">explore</span>（摸索）着前进，有个人慌乱中踩错了一块<span class="vocab-highlight" data-word="tile">tile</span>（砖），瞬间<span class="vocab-highlight" data-word="trigger">trigger</span>（触发）了机关，暗<span class="vocab-highlight" data-word="arrow">arrow</span>（箭）破空而出，那人当场殒命，惨叫声<span class="vocab-highlight" data-word="echo">echo</span>（回荡）在墓道之中。剩余众人吓得魂飞魄散，<span class="vocab-highlight" data-word="freeze">freeze</span>（吓呆）在原地不敢动弹，彻底乱了方寸。</p>
+<p>藏海沉声开口，让大家按着自己说的方位走。大家见藏海神色镇定、语气<span class="vocab-highlight" data-word="certain">certain</span>（笃定），便纷纷听从他的<span class="vocab-highlight" data-word="guidance">guidance</span>（指挥），小心翼翼地跟着他往前走。藏海凭借着多年所学的堪舆营造之术和机关<span class="vocab-highlight" data-word="knowledge">knowledge</span>（知识），仔细<span class="vocab-highlight" data-word="observe">observe</span>（观察）着皇陵的<span class="vocab-highlight" data-word="layout">layout</span>（布局），精准<span class="vocab-highlight" data-word="judge">judge</span>（判断）出安全的地砖位置，一边走，一边叮嘱大家分别要踩哪块砖。</p>
+<p>藏海率先走到出口处，回头对着剩下的人说道："我到头了。" 大家<span class="vocab-highlight" data-word="eagerly">eagerly</span>（急切地）说道："那你开门出去啊！"藏海却摇了摇头，<span class="vocab-highlight" data-word="explain">explain</span>（解释）道："我还不能走，这是皇陵的墓道，比一般的墓室防范<span class="vocab-highlight" data-word="strict">strict</span>（严密）得多。我若是离开这块砖出去，你们脚下的砖就会受力偏移，断骨绦的机关就会<span class="vocab-highlight" data-word="activate">activate</span>（启动）。先别急，你们继续按我说的走。"众人闻言，不敢有丝毫<span class="vocab-highlight" data-word="slack">slack</span>（懈怠），严格按照藏海的指挥，一步步向出口靠近。</p>
+<p>眼看就要抵达皇陵出口，可是，又有人<span class="vocab-highlight" data-word="trigger">trigger</span>（触发）了断骨绦，再次一片哀嚎。藏海心痛又无奈地回头看着大家，强忍着<span class="vocab-highlight" data-word="tear">tear</span>（泪水）。</p>
+<p>而另一边，平津侯庄芦隐正在军营中大展剑术，身姿<span class="vocab-highlight" data-word="swift">swift</span>（凌厉），气势逼人。他心中清楚，太后合葬一事，他本就是<span class="vocab-highlight" data-word="undertake">undertake</span>（接手）了一个烫手山芋，抓捕风水先生，不过是他自保的一步棋。</p>
+
+<p style="text-align:center;color:#c9a84c;margin-top:32px;font-weight:700">—— 第 3 集完 · 共 109 词 ——</p>`
+        },
+        {
+            id: 4,
+            title: '第 4 集',
+            banner: '',
+            wordCount: 155,
+            words: [
+                {id:1, en:"insist", ph:"/ɪnˈsɪst/", cn:"v. 坚守", ex:'皇陵之中，藏海<em>insist</em>在门前的地砖上，他真的很想lead大家都走出去。'},
+                {id:2, en:"lead", ph:"/liːd/", cn:"v. 带着", ex:'皇陵之中，藏海insist在门前的地砖上，他真的很想<em>lead</em>大家都走出去。'},
+                {id:3, en:"avoid", ph:"/əˈvɔɪd/", cn:"v. 躲过", ex:'可最终，大家还是没能<em>avoid</em>机关。'},
+                {id:4, en:"alone", ph:"/əˈloʊn/", cn:"adv. 只身一人", ex:'藏海<em>alone</em>推开墓道尽头heavy石门，出口处，早已站着一名身着官服的人，正是平津侯府的储怀明。'},
+                {id:5, en:"heavy", ph:"/ˈhevi/", cn:"adj. 沉重的", ex:'藏海alone推开墓道尽头<em>heavy</em>石门，出口处，早已站着一名身着官服的人，正是平津侯府的储怀明。'},
+                {id:6, en:"astonish", ph:"/əˈstɑːnɪʃ/", cn:"v. 诧异", ex:'他见藏海竟然走了出来，满脸<em>astonish</em>，语气中带着doubt，开口accuse道："'},
+                {id:7, en:"doubt", ph:"/daʊt/", cn:"n. 怀疑", ex:'他见藏海竟然走了出来，满脸astonish，语气中带着<em>doubt</em>，开口accuse道："'},
+                {id:8, en:"accuse", ph:"/əˈkjuːz/", cn:"v. 质问", ex:'他见藏海竟然走了出来，满脸astonish，语气中带着doubt，开口<em>accuse</em>道："'},
+                {id:9, en:"craftsman", ph:"/ˈkræftsmən/", cn:"n. 工匠", ex:'只有当年修建皇陵的<em>craftsman</em>才知道。'},
+                {id:10, en:"descendant", ph:"/dɪˈsendənt/", cn:"n. 后代", ex:'难不成，你是他们的<em>descendant</em>？'},
+                {id:11, en:"reply", ph:"/rɪˈplaɪ/", cn:"v. 回应", ex:'藏海低头拱手<em>reply</em>："'},
+                {id:12, en:"guess", ph:"/ɡes/", cn:"v. 猜中", ex:'草民只是破解了地宫中断骨绦的机关，性命攸关之际<em>guess</em>，幸得神佛bless罢了。'},
+                {id:13, en:"bless", ph:"/bles/", cn:"v. 庇佑", ex:'草民只是破解了地宫中断骨绦的机关，性命攸关之际guess，幸得神佛<em>bless</em>罢了。'},
+                {id:14, en:"confront", ph:"/kənˈfrʌnt/", cn:"v. 对峙", ex:'两人正<em>confront</em>的时候，门口传来一声："'},
+                {id:15, en:"unharmed", ph:"/ʌnˈhɑːrmd/", cn:"adj. 完好无损的", ex:'他听闻有人从皇陵机关中<em>unharmed</em>走出，特意前来inspect，他的目光scrutinize着藏海...'},
+                {id:16, en:"inspect", ph:"/ɪnˈspekt/", cn:"v. 查看", ex:'他听闻有人从皇陵机关中unharmed走出，特意前来<em>inspect</em>，他的目光scrutinize着藏海...'},
+                {id:17, en:"scrutinize", ph:"/ˈskruːtənaɪz/", cn:"v. 审视", ex:'...意前来inspect，他的目光<em>scrutinize</em>着藏海。'},
+                {id:18, en:"raise", ph:"/reɪz/", cn:"v. 抬", ex:'藏海<em>raise</em>眼望去，看着眼前这个，就是当年kill自己全家的enemy，指尖不自觉地clench，指...'},
+                {id:19, en:"kill", ph:"/kɪl/", cn:"v. 杀害", ex:'藏海raise眼望去，看着眼前这个，就是当年<em>kill</em>自己全家的enemy，指尖不自觉地clench，指...'},
+                {id:20, en:"enemy", ph:"/ˈenəmi/", cn:"n. 仇人", ex:'...个，就是当年kill自己全家的<em>enemy</em>，指尖不自觉地clench，指甲深深embed掌心，心中...'},
+                {id:21, en:"clench", ph:"/klentʃ/", cn:"v. 攥紧", ex:'...全家的enemy，指尖不自觉地<em>clench</em>，指甲深深embed掌心，心中恨意surge，却只能r...'},
+                {id:22, en:"embed", ph:"/ɪmˈbed/", cn:"v. 嵌入", ex:'...不自觉地clench，指甲深深<em>embed</em>掌心，心中恨意surge，却只能restrain着情绪，...'},
+                {id:23, en:"surge", ph:"/sɜːrdʒ/", cn:"v. 翻涌", ex:'...甲深深embed掌心，心中恨意<em>surge</em>，却只能restrain着情绪，bend行礼："'},
+                {id:24, en:"restrain", ph:"/rɪˈstreɪn/", cn:"v. 强压", ex:'...心，心中恨意surge，却只能<em>restrain</em>着情绪，bend行礼："'},
+                {id:25, en:"bend", ph:"/bend/", cn:"v. 俯身", ex:'...却只能restrain着情绪，<em>bend</em>行礼："'},
+                {id:26, en:"method", ph:"/ˈmeθəd/", cn:"n. 办法", ex:'你可有<em>method</em>，来solve太后下葬一事？'},
+                {id:27, en:"solve", ph:"/sɑːlv/", cn:"v. 解决", ex:'你可有method，来<em>solve</em>太后下葬一事？'},
+                {id:28, en:"certain", ph:"/ˈsɜːrtn/", cn:"adj. 笃定", ex:'片刻之后，藏海语气<em>certain</em>地答道："'},
+                {id:29, en:"ability", ph:"/əˈbɪləti/", cn:"n. 本事", ex:'平津侯觉得此人既然能从墓道出来，一定是有些真<em>ability</em>，也就continue听着。'},
+                {id:30, en:"continue", ph:"/kənˈtɪnjuː/", cn:"v. 继续", ex:'平津侯觉得此人既然能从墓道出来，一定是有些真ability，也就<em>continue</em>听着。'},
+                {id:31, en:"naturally", ph:"/ˈnætʃərəli/", cn:"adv. 自然", ex:'一场大雨之后，<em>naturally</em>能解。'},
+                {id:32, en:"approve", ph:"/əˈpruːv/", cn:"v. 认同", ex:'一旁储怀明并不<em>approve</em>藏海所断言的今日一定有雨，insist只有一半的possibility会下...'},
+                {id:33, en:"possibility", ph:"/ˌpɑːsəˈbɪləti/", cn:"n. 可能性", ex:'...定有雨，insist只有一半的<em>possibility</em>会下雨。'},
+                {id:34, en:"debate", ph:"/dɪˈbeɪt/", cn:"n. 争论", ex:'就在<em>debate</em>之时，远处传来footstep，是孙公公来了，浑身wet，还说着："'},
+                {id:35, en:"footstep", ph:"/ˈfʊtstep/", cn:"n. 脚步声", ex:'就在debate之时，远处传来<em>footstep</em>，是孙公公来了，浑身wet，还说着："'},
+                {id:36, en:"wet", ph:"/wet/", cn:"adj. 湿漉漉的", ex:'就在debate之时，远处传来footstep，是孙公公来了，浑身<em>wet</em>，还说着："'},
+                {id:37, en:"prove", ph:"/pruːv/", cn:"v. 应验", ex:'这不就刚好<em>prove</em>了藏海的judgment？'},
+                {id:38, en:"judgment", ph:"/ˈdʒʌdʒmənt/", cn:"n. 判断", ex:'这不就刚好prove了藏海的<em>judgment</em>？'},
+                {id:39, en:"wipe", ph:"/waɪp/", cn:"v. 擦", ex:'孙公公<em>wipe</em>脸上的雨水，说道："'},
+                {id:40, en:"crack", ph:"/kræk/", cn:"v. 破了", ex:'侯爷，听说有人<em>crack</em>皇陵机关，想必是有些办法了？'},
+                {id:41, en:"predict", ph:"/prɪˈdɪkt/", cn:"v. 料中", ex:'平津侯见这雨果然被藏海<em>predict</em>，心里又增添了几分trust，转身问藏海："'},
+                {id:42, en:"trust", ph:"/trʌst/", cn:"n. 信任", ex:'平津侯见这雨果然被藏海predict，心里又增添了几分<em>trust</em>，转身问藏海："'},
+                {id:43, en:"conclusion", ph:"/kənˈkluːʒn/", cn:"n. 定论", ex:'此难题，已有<em>conclusion</em>。'},
+                {id:44, en:"narrate", ph:"/nəˈreɪt/", cn:"v. 讲起", ex:'随后像模像样地<em>narrate</em>自己来的路上睡了一觉，得到了李贵太妃托梦，太妃愿fulfill太后与先帝的...'},
+                {id:45, en:"fulfill", ph:"/fʊlˈfɪl/", cn:"v. 成全", ex:'...觉，得到了李贵太妃托梦，太妃愿<em>fulfill</em>太后与先帝的合葬，只是需在大雍五方light长明灯，...'},
+                {id:46, en:"light", ph:"/laɪt/", cn:"v. 点燃", ex:'...与先帝的合葬，只是需在大雍五方<em>light</em>长明灯，由royal子孙守灯七七四十九日。'},
+                {id:47, en:"royal", ph:"/ˈrɔɪəl/", cn:"adj. 皇室", ex:'...在大雍五方light长明灯，由<em>royal</em>子孙守灯七七四十九日。'},
+                {id:48, en:"emphasize", ph:"/ˈemfəsaɪz/", cn:"v. 强调", ex:'又<em>emphasize</em>，镇守东方青龙位的，必须是临淄王。'},
+                {id:49, en:"affirm", ph:"/əˈfɜːrm/", cn:"v. 坚称", ex:'孙公公将信将疑，藏海继续<em>affirm</em>："'},
+                {id:50, en:"noon", ph:"/nuːn/", cn:"n. 午时", ex:'她明日<em>noon</em>前便会显灵。'},
+                {id:51, en:"pat", ph:"/pæt/", cn:"v. 拍着", ex:'待孙公公走后，庄芦隐重重<em>pat</em>藏海的shoulder，告诉藏海："'},
+                {id:52, en:"shoulder", ph:"/ˈʃoʊldər/", cn:"n. 肩头", ex:'待孙公公走后，庄芦隐重重pat藏海的<em>shoulder</em>，告诉藏海："'},
+                {id:53, en:"tremble", ph:"/ˈtrembl/", cn:"v. 颤抖", ex:'藏海声音变得有些<em>tremble</em>："'},
+                {id:54, en:"maybe", ph:"/ˈmeɪbi/", cn:"adv. 或许", ex:'<em>maybe</em>，是皇上心中，早已有了主意。'},
+                {id:55, en:"nod", ph:"/nɑːd/", cn:"v. 点头", ex:'庄芦隐微微<em>nod</em>。'},
+                {id:56, en:"request", ph:"/rɪˈkwest/", cn:"v. 要求", ex:'随即，藏海又趁势<em>request</em>，想要进内殿给李贵太妃reply，庄芦隐竟也答应了。'},
+                {id:57, en:"kneel", ph:"/niːl/", cn:"v. 跪下", ex:'藏海跟着储怀明进入内殿之后，装作<em>kneel</em>磕头、感谢贵太妃庇佑，但其实是顺势往棺下hide了什么东西。'},
+                {id:58, en:"hide", ph:"/haɪd/", cn:"v. 藏", ex:'藏海跟着储怀明进入内殿之后，装作kneel磕头、感谢贵太妃庇佑，但其实是顺势往棺下<em>hide</em>了什么东西。'},
+                {id:59, en:"order", ph:"/ˈɔːrdər/", cn:"v. 吩咐", ex:'外边，庄芦隐也对瞿蛟语气严肃地<em>order</em>道："'},
+                {id:60, en:"investigate", ph:"/ɪnˈvestɪɡeɪt/", cn:"v. 查查", ex:'<em>investigate</em>他的底细。'},
+                {id:61, en:"together", ph:"/təˈɡeðər/", cn:"adv. 一起", ex:'到了第二天，众人<em>together</em>等着藏海所说的"'},
+                {id:62, en:"approach", ph:"/əˈproʊtʃ/", cn:"v. 将至", ex:'眼看着午时<em>approach</em>，千钧一发之际突然内殿传来一阵异noise。'},
+                {id:63, en:"noise", ph:"/nɔɪz/", cn:"n. 响声", ex:'眼看着午时approach，千钧一发之际突然内殿传来一阵异<em>noise</em>。'},
+                {id:64, en:"report", ph:"/rɪˈpɔːrt/", cn:"v. 禀报", ex:'下人匆忙看后<em>report</em>："'},
+                {id:65, en:"collapse", ph:"/kəˈlæps/", cn:"v. 塌", ex:'侯爷，贵太妃的棺材往前<em>collapse</em>了！'},
+                {id:66, en:"congratulate", ph:"/kənˈɡrætʃuleɪt/", cn:"v. 恭喜", ex:'<em>congratulate</em>皇上！'},
+                {id:67, en:"cheer", ph:"/tʃɪr/", cn:"v. 高呼", ex:'众人竟也一起<em>cheer</em>："'},
+                {id:68, en:"simple", ph:"/ˈsɪmpl/", cn:"adj. 简单", ex:'但人群中的储怀明已经开始隐隐觉得，藏海这个人并不<em>simple</em>。'},
+                {id:69, en:"reward", ph:"/rɪˈwɔːrd/", cn:"n. 赏赐", ex:'出来之后，平津侯问藏海想要什么<em>reward</em>，藏海刚refuse了赏赐，平津侯立刻脸色一change："'},
+                {id:70, en:"refuse", ph:"/rɪˈfjuːz/", cn:"v. 拒绝", ex:'出来之后，平津侯问藏海想要什么reward，藏海刚<em>refuse</em>了赏赐，平津侯立刻脸色一change："'},
+                {id:71, en:"change", ph:"/tʃeɪndʒ/", cn:"v. 变", ex:'出来之后，平津侯问藏海想要什么reward，藏海刚refuse了赏赐，平津侯立刻脸色一<em>change</em>："'},
+                {id:72, en:"crime", ph:"/kraɪm/", cn:"n. 罪状", ex:'那我要细数一下你的<em>crime</em>了。'},
+                {id:73, en:"throw", ph:"/θroʊ/", cn:"v. 扔", ex:'接着，把藏海那日塞到棺下的小木块<em>throw</em>到了大家面前的空地上。'},
+                {id:74, en:"award", ph:"/əˈwɔːrd/", cn:"v. 赏", ex:'本侯先kill你，再<em>award</em>你一副上好的棺材和silver陪葬！'},
+                {id:75, en:"silver", ph:"/ˈsɪlvər/", cn:"n. 金银", ex:'本侯先kill你，再award你一副上好的棺材和<em>silver</em>陪葬！'},
+                {id:76, en:"volunteer", ph:"/ˌvɑːlənˈtɪr/", cn:"v. 自愿", ex:'侯爷可知，草民为何<em>volunteer</em>要来？'},
+                {id:77, en:"follow", ph:"/ˈfɑːloʊ/", cn:"v. 跟随", ex:'草民是想<em>follow</em>侯爷，serve侯爷！'},
+                {id:78, en:"serve", ph:"/sɜːrv/", cn:"v. 侍奉", ex:'草民是想follow侯爷，<em>serve</em>侯爷！'},
+                {id:79, en:"lifelong", ph:"/ˈlaɪflɔːŋ/", cn:"adj. 毕生", ex:'愿用<em>lifelong</em>所学的堪舆之术，为侯爷还有大公子肝脑涂地、鞠躬尽瘁啊！'},
+                {id:80, en:"state", ph:"/steɪt/", cn:"v. 陈述", ex:'这时瞿蛟也上前来，<em>state</em>自己查到的藏海的identity来路，自然是并未搜出稚奴的真实身份。'},
+                {id:81, en:"identity", ph:"/aɪˈdentəti/", cn:"n. 身份", ex:'这时瞿蛟也上前来，state自己查到的藏海的<em>identity</em>来路，自然是并未搜出稚奴的真实身份。'},
+                {id:82, en:"adviser", ph:"/ədˈvaɪzər/", cn:"n. 幕僚", ex:'就这样，藏海终于做到当年稚奴立下的复仇之志的第一步，approach平津侯，成为他的<em>adviser</em>。'},
+                {id:83, en:"register", ph:"/ˈredʒɪstər/", cn:"v. 报到", ex:'在去舍人府<em>register</em>前，藏海又出来见了高明师父，讲述自己这次的scheme，师父也称赞他的wis...'},
+                {id:84, en:"scheme", ph:"/skiːm/", cn:"n. 计谋", ex:'...来见了高明师父，讲述自己这次的<em>scheme</em>，师父也称赞他的wisdom和第一步的success。'},
+                {id:85, en:"wisdom", ph:"/ˈwɪzdəm/", cn:"n. 妙计", ex:'...的scheme，师父也称赞他的<em>wisdom</em>和第一步的success。'},
+                {id:86, en:"success", ph:"/səkˈses/", cn:"n. 成功", ex:'...称赞他的wisdom和第一步的<em>success</em>。'},
+                {id:87, en:"mention", ph:"/ˈmenʃn/", cn:"v. 说到", ex:'师徒二人打趣间<em>mention</em>了当朝的corruption之风，藏海突然又想起故去的父亲，"'},
+                {id:88, en:"corruption", ph:"/kəˈrʌpʃn/", cn:"n. 贪腐", ex:'师徒二人打趣间mention了当朝的<em>corruption</em>之风，藏海突然又想起故去的父亲，"'},
+                {id:89, en:"strengthen", ph:"/ˈstreŋθn/", cn:"v. 坚定", ex:'更是<em>strengthen</em>了自己复仇的will。'},
+                {id:90, en:"will", ph:"/wɪl/", cn:"n. 决心", ex:'更是strengthen了自己复仇的<em>will</em>。'},
+                {id:91, en:"power", ph:"/ˈpaʊər/", cn:"n. 权", ex:'次日，平津侯府，朱门高墙，青砖铺地，廊檐飞翘间尽是<em>power</em>倾朝野的威压。'},
+                {id:92, en:"servant", ph:"/ˈsɜːrvənt/", cn:"n. 仆从", ex:'府中<em>servant</em>步履匆匆，无一人敢高声言语，空气里都浸着森严与depress。'},
+                {id:93, en:"depress", ph:"/dɪˈpres/", cn:"v. 压抑", ex:'府中servant步履匆匆，无一人敢高声言语，空气里都浸着森严与<em>depress</em>。'},
+                {id:94, en:"courtyard", ph:"/ˈkɔːrtjɑːrd/", cn:"n. 庭院", ex:'藏海follow这里早两年来的幕僚慧剑穿行于<em>courtyard</em>之中，一路过雕梁画栋、曲径回廊，最终re...'},
+                {id:95, en:"reach", ph:"/riːtʃ/", cn:"v. 抵达", ex:'...一路过雕梁画栋、曲径回廊，最终<em>reach</em>舍人馆。'},
+                {id:96, en:"place", ph:"/pleɪs/", cn:"n. 地方", ex:'这里是侯府幕僚居住和理事的<em>place</em>，陈设简素，书卷堆叠，却处处皆是人心博弈的battlefield。'},
+                {id:97, en:"battlefield", ph:"/ˈbætlfiːld/", cn:"n. 战场", ex:'这里是侯府幕僚居住和理事的place，陈设简素，书卷堆叠，却处处皆是人心博弈的<em>battlefield</em>。'},
+                {id:98, en:"pace", ph:"/peɪs/", cn:"n. 步频", ex:'慧剑见藏海初来乍到，便放缓<em>pace</em>，为他细说府中的rule与duty，藏海边走边听。'},
+                {id:99, en:"rule", ph:"/ruːl/", cn:"n. 规矩", ex:'慧剑见藏海初来乍到，便放缓pace，为他细说府中的<em>rule</em>与duty，藏海边走边听。'},
+                {id:100, en:"duty", ph:"/ˈduːti/", cn:"n. 职分", ex:'慧剑见藏海初来乍到，便放缓pace，为他细说府中的rule与<em>duty</em>，藏海边走边听。'},
+                {id:101, en:"biography", ph:"/baɪˈɑːɡrəfi/", cn:"n. 传", ex:'来到了书院，幕僚们为侯爷著书立<em>biography</em>的地方，自然也就refer了这里的统领"'},
+                {id:102, en:"refer", ph:"/rɪˈfɜːr/", cn:"v. 提到", ex:'来到了书院，幕僚们为侯爷著书立biography的地方，自然也就<em>refer</em>了这里的统领"'},
+                {id:103, en:"discuss", ph:"/dɪˈskʌs/", cn:"v. 议论", ex:'而另一边，杨真正和储怀明、瞿蛟<em>discuss</em>着这个来路不明、却ambition不小的新幕僚。'},
+                {id:104, en:"ambition", ph:"/æmˈbɪʃn/", cn:"n. 野心", ex:'而另一边，杨真正和储怀明、瞿蛟discuss着这个来路不明、却<em>ambition</em>不小的新幕僚。'},
+                {id:105, en:"pick", ph:"/pɪk/", cn:"v. 拿起", ex:'藏海正<em>pick</em>一册《庄氏世家》翻看，就听到一道冷硬arrogant的声音便从门外传来。'},
+                {id:106, en:"arrogant", ph:"/ˈærəɡənt/", cn:"adj. 倨傲", ex:'藏海正pick一册《庄氏世家》翻看，就听到一道冷硬<em>arrogant</em>的声音便从门外传来。'},
+                {id:107, en:"mean", ph:"/miːn/", cn:"adj. 刻薄", ex:'来人正是杨真，眉眼很是<em>mean</em>，周身带着superior的傲气，问道："'},
+                {id:108, en:"superior", ph:"/suːˈpɪriər/", cn:"adj. 居高临下", ex:'来人正是杨真，眉眼很是mean，周身带着<em>superior</em>的傲气，问道："'},
+                {id:109, en:"warn", ph:"/wɔːrn/", cn:"v. 警告", ex:'随后看似关心、实则<em>warn</em>藏海，跟他讲这里的affair："'},
+                {id:110, en:"affair", ph:"/əˈfer/", cn:"n. 事务", ex:'随后看似关心、实则warn藏海，跟他讲这里的<em>affair</em>："'},
+                {id:111, en:"scholar", ph:"/ˈskɑːlər/", cn:"n. 读书人", ex:'你们这些<em>scholar</em>，知道怎么跟侯爷这种military将相处吗？'},
+                {id:112, en:"military", ph:"/ˈmɪləteri/", cn:"adj. 武", ex:'你们这些scholar，知道怎么跟侯爷这种<em>military</em>将相处吗？'},
+                {id:113, en:"hobby", ph:"/ˈhɑːbi/", cn:"n. 喜好", ex:'就是为了让他们多多了解侯爷，知道侯爷的<em>hobby</em>。'},
+                {id:114, en:"talent", ph:"/ˈtælənt/", cn:"n. 才", ex:'你有经天纬地之<em>talent</em>，之后在侯府，定能崭露头角。'},
+                {id:115, en:"inform", ph:"/ɪnˈfɔːrm/", cn:"v. 告知", ex:'正说着，有人前来<em>inform</em>，侯爷问今天有没有一位name藏海的幕僚报到、想要让他check内园的风水...'},
+                {id:116, en:"name", ph:"/neɪm/", cn:"v. 名叫", ex:'正说着，有人前来inform，侯爷问今天有没有一位<em>name</em>藏海的幕僚报到、想要让他check内园的风水...'},
+                {id:117, en:"check", ph:"/tʃek/", cn:"v. 看", ex:'...ame藏海的幕僚报到、想要让他<em>check</em>内园的风水。'},
+                {id:118, en:"generous", ph:"/ˈdʒenərəs/", cn:"adj. 大度", ex:'杨真听完，表面假装着<em>generous</em>地说："'},
+                {id:119, en:"plot", ph:"/plɑːt/", cn:"v. 暗算", ex:'其实已是咬牙切齿、心中<em>plot</em>。'},
+                {id:120, en:"vital", ph:"/ˈvaɪtl/", cn:"adj. 要紧的", ex:'有件<em>vital</em>事，差点忘了！'},
+                {id:121, en:"leak", ph:"/liːk/", cn:"v. 漏", ex:'昨日暴雨，祠堂<em>leak</em>水，要找人repair，但屋檐斗拱都是ancient法子，找了一圈都没找到会这门...'},
+                {id:122, en:"repair", ph:"/rɪˈper/", cn:"v. 修缮", ex:'昨日暴雨，祠堂leak水，要找人<em>repair</em>，但屋檐斗拱都是ancient法子，找了一圈都没找到会这门...'},
+                {id:123, en:"ancient", ph:"/ˈeɪnʃənt/", cn:"adj. 老式的", ex:'昨日暴雨，祠堂leak水，要找人repair，但屋檐斗拱都是<em>ancient</em>法子，找了一圈都没找到会这门...'},
+                {id:124, en:"workmanship", ph:"/ˈwɜːrkmənʃɪp/", cn:"n. 手艺", ex:'...t法子，找了一圈都没找到会这门<em>workmanship</em>的工匠！'},
+                {id:125, en:"triumph", ph:"/ˈtraɪʌmf/", cn:"n. 得逞", ex:'杨真的贼眉鼠眼间闪过一丝<em>triumph</em>的笑意。'},
+                {id:126, en:"sigh", ph:"/saɪ/", cn:"v. 感叹", ex:'...跟他讲自己还是没能见到平津侯，<em>sigh</em>侯府的森严，以及这其中的人心calculate。'},
+                {id:127, en:"calculate", ph:"/ˈkælkjuleɪt/", cn:"v. 算计", ex:'...h侯府的森严，以及这其中的人心<em>calculate</em>。'},
+                {id:128, en:"damage", ph:"/ˈdæmɪdʒ/", cn:"v. 受损", ex:'当晚确实可能下雨，一旦下雨祠堂必会<em>damage</em>，到时候他杨真再到平津侯面前slander几句，我的si...'},
+                {id:129, en:"slander", ph:"/ˈslændər/", cn:"v. 诋毁", ex:'...e，到时候他杨真再到平津侯面前<em>slander</em>几句，我的situation就堪忧了。'},
+                {id:130, en:"situation", ph:"/ˌsɪtʃuˈeɪʃn/", cn:"n. 处境", ex:'...侯面前slander几句，我的<em>situation</em>就堪忧了。'},
+                {id:131, en:"retreat", ph:"/rɪˈtriːt/", cn:"v. 退一步", ex:'所以我选择先<em>retreat</em>，但也错失了良机。'},
+                {id:132, en:"jealous", ph:"/ˈdʒeləs/", cn:"adj. 善妒的", ex:'这个<em>jealous</em>杨大人太了解平津侯，没grasp第一次机会，就很难再接近平津侯。'},
+                {id:133, en:"grasp", ph:"/ɡræsp/", cn:"v. 把握", ex:'这个jealous杨大人太了解平津侯，没<em>grasp</em>第一次机会，就很难再接近平津侯。'},
+                {id:134, en:"understand", ph:"/ˌʌndərˈstænd/", cn:"v. 明白", ex:'藏海也就<em>understand</em>了自己第一步要做的，便是eliminate杨真、replace他的posi...'},
+                {id:135, en:"eliminate", ph:"/ɪˈlɪmɪneɪt/", cn:"v. 除掉", ex:'藏海也就understand了自己第一步要做的，便是<em>eliminate</em>杨真、replace他的posi...'},
+                {id:136, en:"replace", ph:"/rɪˈpleɪs/", cn:"v. 取代", ex:'...，便是eliminate杨真、<em>replace</em>他的position。'},
+                {id:137, en:"position", ph:"/pəˈzɪʃn/", cn:"n. 位置", ex:'...ate杨真、replace他的<em>position</em>。'},
+                {id:138, en:"return", ph:"/rɪˈtɜːrn/", cn:"v. 回", ex:'带着这份计谋，藏海<em>return</em>了侯府。'},
+                {id:139, en:"rare", ph:"/rer/", cn:"adj. 名贵的", ex:'一天，有人送来了<em>rare</em>珍宝，杨真命令藏海在内的一众幕僚前去。'},
+                {id:140, en:"vase", ph:"/veɪs/", cn:"n. 瓶", ex:'从龟甲纹琵琶、牡丹纹梅<em>vase</em>、金镶jewel玉带、早春山水图...甚至还有那把长风剑。'},
+                {id:141, en:"jewel", ph:"/ˈdʒuːəl/", cn:"n. 宝石", ex:'从龟甲纹琵琶、牡丹纹梅vase、金镶<em>jewel</em>玉带、早春山水图...甚至还有那把长风剑。'},
+                {id:142, en:"show", ph:"/ʃoʊ/", cn:"v. 展示", ex:'藏海逐一<em>show</em>这些宝物。'},
+                {id:143, en:"record", ph:"/rɪˈkɔːrd/", cn:"v. 记录", ex:'随后又被安排到库房盘点<em>record</em>。'},
+                {id:144, en:"pretend", ph:"/prɪˈtend/", cn:"v. 假装", ex:'你就<em>pretend</em>什么都不知道。'},
+                {id:145, en:"dismiss", ph:"/dɪsˈmɪs/", cn:"v. 遣走", ex:'回到杨真面前，其他人都被<em>dismiss</em>，却keep藏海再去清点一遍，这杨大人又开始装模做样地对着说："'},
+                {id:146, en:"keep", ph:"/kiːp/", cn:"v. 留", ex:'回到杨真面前，其他人都被dismiss，却<em>keep</em>藏海再去清点一遍，这杨大人又开始装模做样地对着说："'},
+                {id:147, en:"choose", ph:"/tʃuːz/", cn:"v. 选", ex:'我<em>choose</em>你，是value你，这活儿繁重杂碎，但trick很多，其他人做事careless，你是个...'},
+                {id:148, en:"value", ph:"/ˈvæljuː/", cn:"v. 看重", ex:'我choose你，是<em>value</em>你，这活儿繁重杂碎，但trick很多，其他人做事careless，你是个...'},
+                {id:149, en:"trick", ph:"/trɪk/", cn:"n. 门道", ex:'我choose你，是value你，这活儿繁重杂碎，但<em>trick</em>很多，其他人做事careless，你是个...'},
+                {id:150, en:"careless", ph:"/ˈkerləs/", cn:"adj. 粗枝大叶", ex:'...，但trick很多，其他人做事<em>careless</em>，你是个careful人。'},
+                {id:151, en:"careful", ph:"/ˈkerfl/", cn:"adj. 细致的", ex:'...人做事careless，你是个<em>careful</em>人。'},
+                {id:152, en:"carefully", ph:"/ˈkerfəli/", cn:"adv. 仔细", ex:'这个藏海出来后，给我<em>carefully</em>严查搜身，如有夹带，立刻catch起来！'},
+                {id:153, en:"catch", ph:"/kætʃ/", cn:"v. 抓", ex:'这个藏海出来后，给我carefully严查搜身，如有夹带，立刻<em>catch</em>起来！'},
+                {id:154, en:"trap", ph:"/træp/", cn:"n. 圈套", ex:'杨真谋划着给藏海设<em>trap</em>，殊不知自己已经成为了藏海棋局之中的第一个target。'},
+                {id:155, en:"target", ph:"/ˈtɑːrɡɪt/", cn:"n. 目标", ex:'杨真谋划着给藏海设trap，殊不知自己已经成为了藏海棋局之中的第一个<em>target</em>。'}
+            ],
+            story: `<h2>🏯 藏海传 · 第 4 集</h2>
+<p>皇陵之中，藏海<span class="vocab-highlight" data-word="insist">insist</span>（坚守）在门前的地砖上，他真的很想<span class="vocab-highlight" data-word="lead">lead</span>（带着）大家都走出去。可最终，大家还是没能<span class="vocab-highlight" data-word="avoid">avoid</span>（躲过）机关。</p>
+<p>藏海<span class="vocab-highlight" data-word="alone">alone</span>（只身一人）推开墓道尽头<span class="vocab-highlight" data-word="heavy">heavy</span>（沉重的）石门，出口处，早已站着一名身着官服的人，正是平津侯府的储怀明。</p>
+<p>他见藏海竟然走了出来，满脸<span class="vocab-highlight" data-word="astonish">astonish</span>（诧异），语气中带着<span class="vocab-highlight" data-word="doubt">doubt</span>（怀疑），开口<span class="vocab-highlight" data-word="accuse">accuse</span>（质问）道："你怎么会知道皇陵机关的破解之术？只有当年修建皇陵的<span class="vocab-highlight" data-word="craftsman">craftsman</span>（工匠）才知道。难不成，你是他们的<span class="vocab-highlight" data-word="descendant">descendant</span>（后代）？"藏海低头拱手<span class="vocab-highlight" data-word="reply">reply</span>（回应）："草民只是破解了地宫中断骨绦的机关，性命攸关之际<span class="vocab-highlight" data-word="guess">guess</span>（猜中），幸得神佛<span class="vocab-highlight" data-word="bless">bless</span>（庇佑）罢了。"</p>
+<p>两人正<span class="vocab-highlight" data-word="confront">confront</span>（对峙）的时候，门口传来一声："侯爷到！"是平津侯庄芦隐。他听闻有人从皇陵机关中<span class="vocab-highlight" data-word="unharmed">unharmed</span>（完好无损的）走出，特意前来<span class="vocab-highlight" data-word="inspect">inspect</span>（查看），他的目光<span class="vocab-highlight" data-word="scrutinize">scrutinize</span>（审视）着藏海。</p>
+<p>藏海<span class="vocab-highlight" data-word="raise">raise</span>（抬）眼望去，看着眼前这个，就是当年<span class="vocab-highlight" data-word="kill">kill</span>（杀害）自己全家的<span class="vocab-highlight" data-word="enemy">enemy</span>（仇人），指尖不自觉地<span class="vocab-highlight" data-word="clench">clench</span>（攥紧），指甲深深<span class="vocab-highlight" data-word="embed">embed</span>（嵌入）掌心，心中恨意<span class="vocab-highlight" data-word="surge">surge</span>（翻涌），却只能<span class="vocab-highlight" data-word="restrain">restrain</span>（强压）着情绪，<span class="vocab-highlight" data-word="bend">bend</span>（俯身）行礼："草民藏海，拜见侯爷。"</p>
+<p>庄芦隐问道："你可有<span class="vocab-highlight" data-word="method">method</span>（办法），来<span class="vocab-highlight" data-word="solve">solve</span>（解决）太后下葬一事？"片刻之后，藏海语气<span class="vocab-highlight" data-word="certain">certain</span>（笃定）地答道："有。"</p>
+<p>平津侯觉得此人既然能从墓道出来，一定是有些真<span class="vocab-highlight" data-word="ability">ability</span>（本事），也就<span class="vocab-highlight" data-word="continue">continue</span>（继续）听着。</p>
+<p>藏海接着说："一场大雨之后，<span class="vocab-highlight" data-word="naturally">naturally</span>（自然）能解。"一旁储怀明并不<span class="vocab-highlight" data-word="approve">approve</span>（认同）藏海所断言的今日一定有雨，<span class="vocab-highlight" data-word="insist">insist</span>（坚称）只有一半的<span class="vocab-highlight" data-word="possibility">possibility</span>（可能性）会下雨。</p>
+<p>就在<span class="vocab-highlight" data-word="debate">debate</span>（争论）之时，远处传来<span class="vocab-highlight" data-word="footstep">footstep</span>（脚步声），是孙公公来了，浑身<span class="vocab-highlight" data-word="wet">wet</span>（湿漉漉的），还说着："眼见到门口了，却下起雨来了。"</p>
+<p>这不就刚好<span class="vocab-highlight" data-word="prove">prove</span>（应验）了藏海的<span class="vocab-highlight" data-word="judgment">judgment</span>（判断）？</p>
+<p>孙公公<span class="vocab-highlight" data-word="wipe">wipe</span>（擦）脸上的雨水，说道："侯爷，听说有人<span class="vocab-highlight" data-word="crack">crack</span>（破了）皇陵机关，想必是有些办法了？"</p>
+<p>平津侯见这雨果然被藏海<span class="vocab-highlight" data-word="predict">predict</span>（料中），心里又增添了几分<span class="vocab-highlight" data-word="trust">trust</span>（信任），转身问藏海："你有什么办法？"</p>
+<p>藏海开口："此难题，已有<span class="vocab-highlight" data-word="conclusion">conclusion</span>（定论）。" 随后像模像样地<span class="vocab-highlight" data-word="narrate">narrate</span>（讲起）自己来的路上睡了一觉，得到了李贵太妃托梦，太妃愿<span class="vocab-highlight" data-word="fulfill">fulfill</span>（成全）太后与先帝的合葬，只是需在大雍五方<span class="vocab-highlight" data-word="light">light</span>（点燃）长明灯，由<span class="vocab-highlight" data-word="royal">royal</span>（皇室）子孙守灯七七四十九日。又<span class="vocab-highlight" data-word="emphasize">emphasize</span>（强调），镇守东方青龙位的，必须是临淄王。</p>
+<p>孙公公将信将疑，藏海继续<span class="vocab-highlight" data-word="affirm">affirm</span>（坚称）："她明日<span class="vocab-highlight" data-word="noon">noon</span>（午时）前便会显灵。"</p>
+<p>待孙公公走后，庄芦隐重重<span class="vocab-highlight" data-word="pat">pat</span>（拍着）藏海的<span class="vocab-highlight" data-word="shoulder">shoulder</span>（肩头），告诉藏海："你说的话，他听进去了。知道为什么吗？"藏海声音变得有些<span class="vocab-highlight" data-word="tremble">tremble</span>（颤抖）："<span class="vocab-highlight" data-word="maybe">maybe</span>（或许），是皇上心中，早已有了主意。"庄芦隐微微<span class="vocab-highlight" data-word="nod">nod</span>（点头）。</p>
+<p>随即，藏海又趁势<span class="vocab-highlight" data-word="request">request</span>（要求），想要进内殿给李贵太妃<span class="vocab-highlight" data-word="reply">reply</span>（回个信），庄芦隐竟也答应了。</p>
+<p>藏海跟着储怀明进入内殿之后，装作<span class="vocab-highlight" data-word="kneel">kneel</span>（跪下）磕头、感谢贵太妃庇佑，但其实是顺势往棺下<span class="vocab-highlight" data-word="hide">hide</span>（藏）了什么东西。</p>
+<p>外边，庄芦隐也对瞿蛟语气严肃地<span class="vocab-highlight" data-word="order">order</span>（吩咐）道："<span class="vocab-highlight" data-word="investigate">investigate</span>（查查）他的底细。"</p>
+<p>到了第二天，众人<span class="vocab-highlight" data-word="together">together</span>（一起）等着藏海所说的"午时李贵太妃显灵"。眼看着午时<span class="vocab-highlight" data-word="approach">approach</span>（将至），千钧一发之际突然内殿传来一阵异<span class="vocab-highlight" data-word="noise">noise</span>（响声）。下人匆忙看后<span class="vocab-highlight" data-word="report">report</span>（禀报）："侯爷，贵太妃的棺材往前<span class="vocab-highlight" data-word="collapse">collapse</span>（塌）了！"</p>
+<p>藏海二话不说就又是往地上一<span class="vocab-highlight" data-word="kneel">kneel</span>（跪）："<span class="vocab-highlight" data-word="congratulate">congratulate</span>（恭喜）皇上！<span class="vocab-highlight" data-word="congratulate">congratulate</span>（恭喜）侯爷！李贵太妃这是在成全皇上与太后的一桩美事啊！"众人竟也一起<span class="vocab-highlight" data-word="cheer">cheer</span>（高呼）："谢贵太妃成全！"</p>
+<p>但人群中的储怀明已经开始隐隐觉得，藏海这个人并不<span class="vocab-highlight" data-word="simple">simple</span>（简单）。</p>
+<p>出来之后，平津侯问藏海想要什么<span class="vocab-highlight" data-word="reward">reward</span>（赏赐），藏海刚<span class="vocab-highlight" data-word="refuse">refuse</span>（拒绝）了赏赐，平津侯立刻脸色一<span class="vocab-highlight" data-word="change">change</span>（变）："那我要细数一下你的<span class="vocab-highlight" data-word="crime">crime</span>（罪状）了。"接着，把藏海那日塞到棺下的小木块<span class="vocab-highlight" data-word="throw">throw</span>（扔）到了大家面前的空地上。"本侯先<span class="vocab-highlight" data-word="kill">kill</span>（杀）你，再<span class="vocab-highlight" data-word="award">award</span>（赏）你一副上好的棺材和<span class="vocab-highlight" data-word="silver">silver</span>（金银）陪葬！"</p>
+<p>藏海扑通又一<span class="vocab-highlight" data-word="kneel">kneel</span>（跪），语气听起来很是诚恳："侯爷可知，草民为何<span class="vocab-highlight" data-word="volunteer">volunteer</span>（自愿）要来？草民是想<span class="vocab-highlight" data-word="follow">follow</span>（跟随）侯爷，<span class="vocab-highlight" data-word="serve">serve</span>（侍奉）侯爷！愿用<span class="vocab-highlight" data-word="lifelong">lifelong</span>（毕生）所学的堪舆之术，为侯爷还有大公子肝脑涂地、鞠躬尽瘁啊！"</p>
+<p>这时瞿蛟也上前来，<span class="vocab-highlight" data-word="state">state</span>（陈述）自己查到的藏海的<span class="vocab-highlight" data-word="identity">identity</span>（身份）来路，自然是并未搜出稚奴的真实身份。听罢，平津侯只说四个字，"此人留用。"</p>
+<p>就这样，藏海终于做到当年稚奴立下的复仇之志的第一步，<span class="vocab-highlight" data-word="approach">approach</span>（接近）平津侯，成为他的<span class="vocab-highlight" data-word="adviser">adviser</span>（幕僚）。</p>
+<p>在去舍人府<span class="vocab-highlight" data-word="register">register</span>（报到）前，藏海又出来见了高明师父，讲述自己这次的<span class="vocab-highlight" data-word="scheme">scheme</span>（计谋），师父也称赞他的<span class="vocab-highlight" data-word="wisdom">wisdom</span>（妙计）和第一步的<span class="vocab-highlight" data-word="success">success</span>（成功）。师徒二人打趣间<span class="vocab-highlight" data-word="mention">mention</span>（说到）了当朝的<span class="vocab-highlight" data-word="corruption">corruption</span>（贪腐）之风，藏海突然又想起故去的父亲，"要是父亲看到现在的钦天监，该有多难受啊。"更是<span class="vocab-highlight" data-word="strengthen">strengthen</span>（坚定）了自己复仇的<span class="vocab-highlight" data-word="will">will</span>（决心）。</p>
+<p>次日，平津侯府，朱门高墙，青砖铺地，廊檐飞翘间尽是<span class="vocab-highlight" data-word="power">power</span>（权）倾朝野的威压。府中<span class="vocab-highlight" data-word="servant">servant</span>（仆从）步履匆匆，无一人敢高声言语，空气里都浸着森严与<span class="vocab-highlight" data-word="depress">depress</span>（压抑）。</p>
+<p>藏海<span class="vocab-highlight" data-word="follow">follow</span>（随）这里早两年来的幕僚慧剑穿行于<span class="vocab-highlight" data-word="courtyard">courtyard</span>（庭院）之中，一路过雕梁画栋、曲径回廊，最终<span class="vocab-highlight" data-word="reach">reach</span>（抵达）舍人馆。这里是侯府幕僚居住和理事的<span class="vocab-highlight" data-word="place">place</span>（地方），陈设简素，书卷堆叠，却处处皆是人心博弈的<span class="vocab-highlight" data-word="battlefield">battlefield</span>（战场）。慧剑见藏海初来乍到，便放缓<span class="vocab-highlight" data-word="pace">pace</span>（步频），为他细说府中的<span class="vocab-highlight" data-word="rule">rule</span>（规矩）与<span class="vocab-highlight" data-word="duty">duty</span>（职分），藏海边走边听。来到了书院，幕僚们为侯爷著书立<span class="vocab-highlight" data-word="biography">biography</span>（传）的地方，自然也就<span class="vocab-highlight" data-word="refer">refer</span>（提到）了这里的统领"杨大人"，杨真。</p>
+<p>而另一边，杨真正和储怀明、瞿蛟<span class="vocab-highlight" data-word="discuss">discuss</span>（议论）着这个来路不明、却<span class="vocab-highlight" data-word="ambition">ambition</span>（野心）不小的新幕僚。说罢，这位杨大人便先走一步前去书院了。</p>
+<p>藏海正<span class="vocab-highlight" data-word="pick">pick</span>（拿起）一册《庄氏世家》翻看，就听到一道冷硬<span class="vocab-highlight" data-word="arrogant">arrogant</span>（倨傲）的声音便从门外传来。来人正是杨真，眉眼很是<span class="vocab-highlight" data-word="mean">mean</span>（刻薄），周身带着<span class="vocab-highlight" data-word="superior">superior</span>（居高临下）的傲气，问道："你就是那位风水先生？"随后看似关心、实则<span class="vocab-highlight" data-word="warn">warn</span>（警告）藏海，跟他讲这里的<span class="vocab-highlight" data-word="affair">affair</span>（事务）："你们这些<span class="vocab-highlight" data-word="scholar">scholar</span>（读书人），知道怎么跟侯爷这种<span class="vocab-highlight" data-word="military">military</span>（武）将相处吗？我为什么让他们编撰《庄氏世家》？就是为了让他们多多了解侯爷，知道侯爷的<span class="vocab-highlight" data-word="hobby">hobby</span>（喜好）。你有经天纬地之<span class="vocab-highlight" data-word="talent">talent</span>（才），之后在侯府，定能崭露头角。"</p>
+<p>正说着，有人前来<span class="vocab-highlight" data-word="inform">inform</span>（告知），侯爷问今天有没有一位<span class="vocab-highlight" data-word="name">name</span>（名叫）藏海的幕僚报到、想要让他<span class="vocab-highlight" data-word="check">check</span>（看）内园的风水。杨真听完，表面假装着<span class="vocab-highlight" data-word="generous">generous</span>（大度）地说："藏海在这儿，赶紧去！"其实已是咬牙切齿、心中<span class="vocab-highlight" data-word="plot">plot</span>（暗算）。装着是突然想起来的样子上前道："有件<span class="vocab-highlight" data-word="vital">vital</span>（要紧的）事，差点忘了！昨日暴雨，祠堂<span class="vocab-highlight" data-word="leak">leak</span>（漏）水，要找人<span class="vocab-highlight" data-word="repair">repair</span>（修缮），但屋檐斗拱都是<span class="vocab-highlight" data-word="ancient">ancient</span>（老式的）法子，找了一圈都没找到会这门<span class="vocab-highlight" data-word="workmanship">workmanship</span>（手艺）的工匠！听说你会堪舆之术，那<span class="vocab-highlight" data-word="repair">repair</span>（修缮）旧宅，会不会？"</p>
+<p>藏海其实已经看穿这位杨大人的心思，但自己初来乍到拿能直接<span class="vocab-highlight" data-word="refuse">refuse</span>（拒绝），便答应下来修旧宅，自然也就不能再帮侯爷看园子风水了。杨真的贼眉鼠眼间闪过一丝<span class="vocab-highlight" data-word="triumph">triumph</span>（得逞）的笑意。</p>
+<p>从那旧宅出来后，藏海又去见了高明师父，跟他讲自己还是没能见到平津侯，<span class="vocab-highlight" data-word="sigh">sigh</span>（感叹）侯府的森严，以及这其中的人心<span class="vocab-highlight" data-word="calculate">calculate</span>（算计）。"当晚确实可能下雨，一旦下雨祠堂必会<span class="vocab-highlight" data-word="damage">damage</span>（受损），到时候他杨真再到平津侯面前<span class="vocab-highlight" data-word="slander">slander</span>（诋毁）几句，我的<span class="vocab-highlight" data-word="situation">situation</span>（处境）就堪忧了。所以我选择先<span class="vocab-highlight" data-word="retreat">retreat</span>（退一步），但也错失了良机。之后这几日，平津侯就没再找过我了。"</p>
+<p>这个<span class="vocab-highlight" data-word="jealous">jealous</span>（善妒的）杨大人太了解平津侯，没<span class="vocab-highlight" data-word="grasp">grasp</span>（把握）第一次机会，就很难再接近平津侯。藏海也就<span class="vocab-highlight" data-word="understand">understand</span>（明白）了自己第一步要做的，便是<span class="vocab-highlight" data-word="eliminate">eliminate</span>（除掉）杨真、<span class="vocab-highlight" data-word="replace">replace</span>（取代）他的<span class="vocab-highlight" data-word="position">position</span>（位置）。带着这份计谋，藏海<span class="vocab-highlight" data-word="return">return</span>（回）了侯府。</p>
+<p>一天，有人送来了<span class="vocab-highlight" data-word="rare">rare</span>（名贵的）珍宝，杨真命令藏海在内的一众幕僚前去。从龟甲纹琵琶、牡丹纹梅<span class="vocab-highlight" data-word="vase">vase</span>（瓶）、金镶<span class="vocab-highlight" data-word="jewel">jewel</span>（宝石）玉带、早春山水图...甚至还有那把长风剑。藏海逐一<span class="vocab-highlight" data-word="show">show</span>（展示）这些宝物。</p>
+<p>随后又被安排到库房盘点<span class="vocab-highlight" data-word="record">record</span>（记录）。在博古架上清点的时候，藏海发现和田玉杯少了一只，刚升起疑惑，身旁另一位幕僚就很是熟练地记录下"家下取"三字，告诉藏海："你就<span class="vocab-highlight" data-word="pretend">pretend</span>（假装）什么都不知道。"</p>
+<p>回到杨真面前，其他人都被<span class="vocab-highlight" data-word="dismiss">dismiss</span>（遣走），却<span class="vocab-highlight" data-word="keep">keep</span>（留）藏海再去清点一遍，这杨大人又开始装模做样地对着说："我<span class="vocab-highlight" data-word="choose">choose</span>（选）你，是<span class="vocab-highlight" data-word="value">value</span>（看重）你，这活儿繁重杂碎，但<span class="vocab-highlight" data-word="trick">trick</span>（门道）很多，其他人做事<span class="vocab-highlight" data-word="careless">careless</span>（粗枝大叶），你是个<span class="vocab-highlight" data-word="careful">careful</span>（细致的）人。你刚来府中，就从这件事做起，慢慢了解！"这边刚关上门，就对身边人说："这个藏海出来后，给我<span class="vocab-highlight" data-word="carefully">carefully</span>（仔细）严查搜身，如有夹带，立刻<span class="vocab-highlight" data-word="catch">catch</span>（抓）起来！"</p>
+<p>杨真谋划着给藏海设<span class="vocab-highlight" data-word="trap">trap</span>（圈套），殊不知自己已经成为了藏海棋局之中的第一个<span class="vocab-highlight" data-word="target">target</span>（目标）。</p>
+
+<p style="text-align:center;color:#c9a84c;margin-top:32px;font-weight:700">—— 第 4 集完 · 共 155 词 ——</p>`
         }
     ]
 };
